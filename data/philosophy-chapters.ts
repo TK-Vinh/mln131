@@ -24,6 +24,8 @@ export const philosophyBlogs = {
   },
 } as const
 
+export type ChapterId = keyof typeof philosophyBlogs
+
 export const philosophySections = {
   // Chương I
   '4.1.1': {
