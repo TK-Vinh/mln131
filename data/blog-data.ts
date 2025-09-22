@@ -1147,6 +1147,704 @@ The socialist state is a new type of state whose essence differs from every expl
             japanese: [],
         },
     },
+    9: {
+        id: 9,
+        section: '4.3.1' as SectionId,
+        title: {
+            vietnamese: 'Dân chủ xã hội chủ nghĩa ở Việt Nam',
+            english: 'Socialist Democracy in Vietnam',
+            japanese: 'ベトナムの社会主義民主主義',
+        },
+        content: {
+            vietnamese: `
+# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
+
+## III. Dân chủ xã hội chủ nghĩa và Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam
+
+### 1. Dân chủ xã hội chủ nghĩa ở Việt Nam
+
+#### 1.1. Sự ra đời, phát triển của nền dân chủ xã hội chủ nghĩa ở Việt Nam
+Chế độ dân chủ nhân dân ở nước ta được xác lập sau Cách mạng Tháng Tám năm 1945. Đến năm 1976, tên nước được đổi thành **Cộng hòa xã hội chủ nghĩa Việt Nam**, nhưng trong các văn kiện Đảng lúc bấy giờ, cụm từ “dân chủ xã hội chủ nghĩa” chưa được sử dụng phổ biến mà thường đề cập nhiệm vụ “xây dựng chế độ làm chủ tập thể xã hội chủ nghĩa” gắn với yêu cầu “nắm vững chuyên chính vô sản”.
+
+Bản chất dân chủ xã hội chủ nghĩa, cũng như mối quan hệ giữa dân chủ xã hội chủ nghĩa và nhà nước pháp quyền xã hội chủ nghĩa, vẫn chưa được nhận thức thật rõ. Việc thực hiện dân chủ trong thời kỳ quá độ lên chủ nghĩa xã hội – sao cho phù hợp với điều kiện kinh tế, xã hội, văn hóa, đạo đức của Việt Nam và gắn với việc hoàn thiện hệ thống pháp luật, kỷ cương – chưa được xác định một cách cụ thể.
+
+Nhiều lĩnh vực gắn bó mật thiết với dân chủ xã hội chủ nghĩa như dân sinh, dân trí, dân quyền chưa được đặt đúng vị trí, khiến nền dân chủ xã hội chủ nghĩa chưa phát huy được toàn diện.
+
+Đại hội VI của Đảng (1986) đã khởi xướng đường lối đổi mới toàn diện, nhấn mạnh phát huy dân chủ để tạo động lực mạnh mẽ cho phát triển đất nước. Đại hội khẳng định: “Trong toàn bộ hoạt động của mình, Đảng phải quán triệt tư tưởng lấy dân làm gốc, xây dựng và phát huy quyền làm chủ của nhân dân lao động”; bài học “cách mạng là sự nghiệp của quần chúng” luôn giữ vai trò then chốt. Thực tiễn chứng minh: nơi nào nhân dân có ý thức làm chủ và được làm chủ thực sự, nơi đó phong trào cách mạng phát triển.
+
+Sau hơn 30 năm đổi mới, nhận thức về dân chủ xã hội chủ nghĩa ở nước ta đã có bước tiến quan trọng. Qua mỗi kỳ đại hội, dân chủ ngày càng được hiểu đúng và vận dụng phù hợp với điều kiện cụ thể của Việt Nam. Đảng xác định một trong những đặc trưng của chủ nghĩa xã hội Việt Nam là **do nhân dân làm chủ**, đưa dân chủ vào mục tiêu tổng quát “dân giàu, nước mạnh, dân chủ, công bằng, văn minh”. Đồng thời, Đảng khẳng định: “Dân chủ xã hội chủ nghĩa là bản chất của chế độ ta, vừa là mục tiêu, vừa là động lực phát triển đất nước. Xây dựng và từng bước hoàn thiện nền dân chủ xã hội chủ nghĩa, bảo đảm dân chủ được thực hiện trong thực tế cuộc sống ở mỗi cấp, trên tất cả các lĩnh vực. Dân chủ gắn liền với kỷ luật, kỷ cương và phải được thể chế hóa bằng pháp luật, được pháp luật bảo đảm…”.
+
+#### 1.2. Bản chất của nền dân chủ xã hội chủ nghĩa ở Việt Nam
+Cũng như nền dân chủ xã hội chủ nghĩa nói chung, bản chất dân chủ ở Việt Nam dựa trên **Nhà nước xã hội chủ nghĩa** và sự ủng hộ, tham gia của nhân dân. Đây là nền dân chủ lấy con người làm trung tâm trong tư cách công dân – chủ thể làm chủ xã hội, với quyền lực thuộc trọn vẹn về nhân dân.
+
+Hồ Chí Minh khẳng định: “Nước ta là nước dân chủ. Bao nhiêu lợi ích đều vì dân. Bao nhiêu quyền hạn đều là của dân… Nói tóm lại, quyền hành và lực lượng đều ở dân”. Đảng kế thừa tư tưởng ấy, xác định xây dựng nền dân chủ xã hội chủ nghĩa vừa là mục tiêu, vừa là động lực phát triển, đồng thời là bản chất của chế độ.
+
+Dân chủ phải gắn với kỷ luật, kỷ cương và được thể chế hóa bằng pháp luật. Nội dung này bao hàm:
+
+- **Dân chủ là mục tiêu** của chế độ xã hội chủ nghĩa (dân giàu, nước mạnh, dân chủ, công bằng, văn minh).
+- **Dân chủ là bản chất** của chế độ xã hội chủ nghĩa (do nhân dân làm chủ, quyền lực thuộc về nhân dân).
+- **Dân chủ là động lực** xây dựng chủ nghĩa xã hội (phát huy sức mạnh của nhân dân, của toàn dân tộc).
+- **Dân chủ gắn với pháp luật**, với kỷ luật, kỷ cương xã hội.
+- **Dân chủ phải được thực hiện** trên mọi lĩnh vực đời sống: kinh tế, chính trị, văn hóa, xã hội.
+
+Bản chất dân chủ xã hội chủ nghĩa được triển khai qua hai hình thức:
+
+- **Dân chủ gián tiếp (đại diện)**: Nhân dân ủy quyền cho các cơ quan do mình bầu ra. Quốc hội – cơ quan quyền lực cao nhất – hoạt động theo nhiệm kỳ 5 năm; quyền lực nhà nước thống nhất, có phân công, phối hợp và kiểm soát giữa lập pháp, hành pháp, tư pháp.
+- **Dân chủ trực tiếp**: Nhân dân trực tiếp thực hiện quyền làm chủ thông qua quyền được thông tin, bàn bạc, quyết định các vấn đề quan trọng ở cơ sở và giám sát hoạt động của bộ máy nhà nước từ Trung ương đến địa phương.
+
+Trong thực tiễn đổi mới, nền dân chủ xã hội chủ nghĩa ở Việt Nam không ngừng mở rộng:
+
+- Quyền làm chủ của nhân dân được bảo đảm và phát huy hiệu quả.
+- Ý thức công dân và trách nhiệm xã hội ngày càng được đề cao trong pháp luật và đời sống.
+- Mọi công dân có điều kiện tham gia quản lý xã hội tùy theo vị trí và nghĩa vụ của mình.
+- Dân chủ gắn với kỷ cương, được thể chế hóa bằng pháp luật của nhà nước pháp quyền.
+- Quy chế dân chủ từ cơ sở đến Trung ương và trong các tổ chức chính trị – xã hội đều thực hiện phương châm “dân biết, dân bàn, dân làm, dân kiểm tra”.
+
+Đảng khẳng định: “Mọi đường lối, chính sách của Đảng và pháp luật của Nhà nước đều vì lợi ích của nhân dân, có sự tham gia ý kiến của nhân dân”.
+
+Tuy nhiên, việc xây dựng dân chủ xã hội chủ nghĩa còn đối mặt với nhiều khó khăn: xuất phát điểm kinh tế thấp, hậu quả chiến tranh, tiêu cực xã hội, âm mưu “diễn biến hòa bình”, nguy cơ “tự diễn biến, tự chuyển hóa”. Dẫu vậy, bản chất ưu việt của nền dân chủ xã hội chủ nghĩa ngày càng thể hiện rõ giá trị “lấy dân làm gốc”: nhân dân trở thành chủ thể xây dựng, tổ chức và quản lý xã hội; quyền làm chủ được bảo đảm trên tất cả các lĩnh vực và khơi dậy sức sáng tạo trong sự nghiệp xây dựng, bảo vệ Tổ quốc xã hội chủ nghĩa.
+`,
+            english: `
+# Chapter 4: Socialist Democracy and the Socialist State
+
+## III. Socialist Democracy and the Socialist Rule-of-Law State in Vietnam
+
+### 1. Socialist Democracy in Vietnam
+
+#### 1.1. Emergence and Development
+People’s democracy in Vietnam was established after the August Revolution of 1945. When the nation adopted the name **Socialist Republic of Vietnam** in 1976, Party documents still seldom used the term “socialist democracy,” instead emphasizing the task of “building the socialist collective mastery regime” alongside “maintaining the proletarian dictatorship.”
+
+At that time the nature of socialist democracy and its relationship with the socialist rule-of-law state remained insufficiently defined. How to exercise democracy during the transition to socialism—tailored to Vietnam’s socio-economic, cultural, and ethical features and tied to strengthening the legal system and public discipline—was still an open question.
+
+Many areas closely linked to socialist democracy, such as livelihoods, education, and civic rights, had not been given proper priority, limiting democratic development.
+
+The Party’s 6th National Congress in 1986 launched comprehensive renovation, stressing democracy as a powerful driver of national progress. It affirmed: “In all its activities, the Party must thoroughly grasp the idea that the people are the root, and must build and promote the working people’s mastery”; the lesson that “revolution is the cause of the masses” remains fundamental. Practice proves that where people are conscious of their role and truly exercise mastery, revolutionary movements flourish.
+
+More than three decades of renovation have deepened Vietnam’s understanding of socialist democracy. Each Party congress has refined democratic thinking to suit the country’s realities. The Party identifies people’s mastery as a defining feature of Vietnamese socialism, embedding democracy in the overarching goal of “a prosperous people, a strong nation, democracy, justice, and civilization.” It also states: “Socialist democracy is the essence of our regime, both the goal and the driving force of national development. We must build and gradually perfect socialist democracy, ensuring it is practiced in real life at every level and across all fields. Democracy must be linked with discipline and order, institutionalized by law, and guaranteed by law….”
+
+#### 1.2. Nature of Socialist Democracy in Vietnam
+Like socialist democracy in general, Vietnam’s democracy rests on the **socialist state** and the people’s support and participation. It places citizens at the center as masters of society, with power belonging entirely to the people.
+
+Hồ Chí Minh declared: “Our country is democratic. All benefits are for the people. All power belongs to the people… In short, authority and strength are in the people.” The Party inherits that thought, viewing socialist democracy as both goal and driving force and as the very essence of the socialist regime.
+
+Democracy must be tied to discipline and order and institutionalized in law. This includes:
+
+- **Democracy as the goal** of socialism (a prosperous people, a strong nation, democracy, justice, civilization).
+- **Democracy as the essence** of the socialist regime (power belongs to the people).
+- **Democracy as the driving force** for building socialism (mobilizing the strength of the entire nation).
+- **Democracy linked with law**, discipline, and social order.
+- **Democracy practiced** across all spheres: economics, politics, culture, and society.
+
+This democratic nature is expressed in two forms:
+
+- **Indirect (representative) democracy:** the people entrust power to institutions they elect. The National Assembly—the highest organ of state power—serves five-year terms; state power is unified yet divided, coordinated, and supervised among the legislative, executive, and judicial bodies.
+- **Direct democracy:** citizens exercise mastery by accessing information, deliberating on public affairs, deciding key grassroots matters, and overseeing state agencies from central to local levels.
+
+In practice, Vietnam’s socialist democracy has continually expanded:
+
+- The people’s mastery is secured and effectively promoted.
+- Civic awareness and social responsibility are increasingly emphasized in law and daily life.
+- Citizens have opportunities to participate in governance appropriate to their roles and obligations.
+- Democracy is coupled with discipline and institutionalized by the socialist rule-of-law state.
+- Democratic regulations from grassroots to central levels and within socio-political organizations follow the motto “people know, people discuss, people do, people supervise.”
+
+The Party affirms: “All Party lines and State policies and laws serve the people’s interests and include people’s opinions.”
+
+Nevertheless, building socialist democracy still faces challenges: low economic starting points, war legacies, social problems, hostile schemes of “peaceful evolution,” and the risks of “self-evolution” and “self-transformation.” Even so, the superior nature of socialist democracy increasingly shines through the principle of “the people as the root,” enabling citizens to build, organize, and manage society, ensure their rights in all fields, and unleash creativity in building and defending the socialist Fatherland.
+`,
+            japanese: `# コンテンツ準備中
+
+このセクションの日本語版は現在更新中です。`,
+        },
+        excerpt: {
+            vietnamese:
+                'Trình bày tiến trình hình thành, bản chất và hình thức thực hiện dân chủ xã hội chủ nghĩa ở Việt Nam thời kỳ đổi mới.',
+            english:
+                'Outlines the emergence, nature, and implementation of socialist democracy in Vietnam during the renovation era.',
+            japanese: 'ベトナムにおける社会主義民主主義の形成と特質を概説します（日本語版準備中）。',
+        },
+        author: 'Admin',
+        date: '2024-05-25',
+        readTime: {
+            vietnamese: '28 phút',
+            english: '28 minutes',
+            japanese: '28分',
+        },
+        image: '/placeholder.svg?height=200&width=400',
+        originalLanguage: 'vietnamese' as const,
+        quiz: {
+            vietnamese: [
+                {
+                    question: 'Chế độ dân chủ nhân dân ở Việt Nam được xác lập vào thời điểm nào?',
+                    options: [
+                        'Sau Hiệp định Genève năm 1954',
+                        'Sau Cách mạng Tháng Tám năm 1945',
+                        'Sau Đại hội VI năm 1986',
+                        'Sau khi thống nhất đất nước năm 1975',
+                    ],
+                    correct: 1,
+                },
+                {
+                    question: 'Đại hội VI (1986) nêu vai trò của dân chủ như thế nào trong đổi mới?',
+                    options: [
+                        'Dân chủ chỉ là mục tiêu xa',
+                        'Dân chủ là thủ tục hành chính',
+                        'Phát huy dân chủ là một động lực mạnh mẽ cho phát triển',
+                        'Dân chủ chỉ áp dụng ở cấp cơ sở',
+                    ],
+                    correct: 2,
+                },
+                {
+                    question: 'Quan điểm của Đảng về dân chủ xã hội chủ nghĩa thời kỳ đổi mới là gì?',
+                    options: [
+                        'Chỉ là mục tiêu, không phải động lực',
+                        'Là bản chất của chế độ, vừa là mục tiêu, vừa là động lực; gắn với kỷ luật, kỷ cương và phải được thể chế hóa bằng pháp luật',
+                        'Chỉ cần thực hiện bằng phong trào',
+                        'Không cần đưa vào mục tiêu tổng quát',
+                    ],
+                    correct: 1,
+                },
+                {
+                    question: 'Ví dụ nào sau đây là biểu hiện của dân chủ trực tiếp?',
+                    options: [
+                        'Nhân dân bầu đại biểu Quốc hội theo nhiệm kỳ',
+                        'Nhân dân ủy quyền cho tổ chức đại diện thực hiện quyền lực',
+                        'Nhân dân kiểm tra, giám sát hoạt động của cơ quan nhà nước',
+                        'Quốc hội thực hiện quyền lập pháp',
+                    ],
+                    correct: 2,
+                },
+            ],
+            english: [
+                {
+                    question: 'When was people’s democracy established in Vietnam?',
+                    options: [
+                        'After the 1954 Geneva Accords',
+                        'After the August Revolution of 1945',
+                        'After the 6th Party Congress in 1986',
+                        'After national reunification in 1975',
+                    ],
+                    correct: 1,
+                },
+                {
+                    question: 'How did the 6th Party Congress (1986) highlight the role of democracy in renovation?',
+                    options: [
+                        'Democracy is only a distant goal',
+                        'Democracy is merely an administrative procedure',
+                        'Promoting democracy is a powerful driving force for development',
+                        'Democracy applies only at the grassroots level',
+                    ],
+                    correct: 2,
+                },
+                {
+                    question: 'What is the Party’s view of socialist democracy in the renovation period?',
+                    options: [
+                        'It is only a goal, not a driving force',
+                        'It is the regime’s essence—both goal and driver—linked to discipline and codified in law',
+                        'It only needs to be carried out as a movement',
+                        'It need not be part of the overarching goals',
+                    ],
+                    correct: 1,
+                },
+                {
+                    question: 'Which example illustrates direct democracy in Vietnam’s context?',
+                    options: [
+                        'The people elect National Assembly deputies for fixed terms',
+                        'Citizens delegate their power to representative institutions',
+                        'The people inspect and supervise state agencies’ activities',
+                        'The National Assembly exercises legislative power',
+                    ],
+                    correct: 2,
+                },
+            ],
+            japanese: [],
+        },
+    },
+    10: {
+        id: 10,
+        section: '4.3.2' as SectionId,
+        title: {
+            vietnamese: 'Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam',
+            english: 'The Socialist Rule-of-Law State in Vietnam',
+            japanese: 'ベトナムの社会主義法治国家',
+        },
+        content: {
+            vietnamese: `
+# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
+
+## III. Dân chủ xã hội chủ nghĩa và Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam
+
+### 2. Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam
+
+#### 2.1. Quan niệm về nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam
+Theo quan niệm chung, nhà nước pháp quyền là nhà nước thượng tôn pháp luật, chú trọng phúc lợi cho mọi người và tạo điều kiện để cá nhân tự do, bình đẳng phát huy năng lực. Bộ máy nhà nước vận hành trên nguyên tắc phân công, kiểm soát quyền lực và được xã hội chấp nhận.
+
+Trong bối cảnh hiện nay, vẫn có nhiều cách tiếp cận khác nhau về nhà nước pháp quyền. Tuy vậy, điểm thống nhất là: mọi công dân phải được giáo dục và tuân thủ pháp luật; pháp luật phải nghiêm minh; các cơ quan nhà nước phải kiểm soát lẫn nhau, hoạt động vì mục tiêu phục vụ nhân dân.
+
+Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội của Đảng Cộng sản Việt Nam nêu rõ các định hướng: đề cao vai trò tối thượng của Hiến pháp và pháp luật; bảo đảm quyền, nghĩa vụ công dân và quyền con người; tổ chức bộ máy vừa tập trung, thống nhất vừa phân công, phân cấp giữa các cấp chính quyền để tránh lạm quyền; duy trì mối quan hệ chặt chẽ giữa Nhà nước với nhân dân, chịu sự giám sát của nhân dân; thiết lập cơ chế kiểm soát, phòng ngừa tham nhũng, lộng quyền.
+
+Theo tiến trình đổi mới, nhận thức của Đảng về nhà nước pháp quyền ngày càng sáng tỏ. Chủ trương “xây dựng Nhà nước pháp quyền Việt Nam của dân, do dân, vì dân” nhấn mạnh Nhà nước quản lý xã hội bằng pháp luật; mọi cơ quan, tổ chức, cán bộ, công chức và công dân đều phải chấp hành Hiến pháp, pháp luật. Đại hội XII của Đảng khẳng định: “Quyền lực nhà nước là thống nhất, có sự phân công, phối hợp, kiểm soát giữa các cơ quan nhà nước trong việc thực hiện các quyền lập pháp, hành pháp, tư pháp”.
+
+#### 2.2. Đặc điểm của nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam
+Từ thực tiễn xây dựng trong thời kỳ đổi mới, nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam có những đặc điểm cơ bản:
+
+1. **Nhà nước của dân, do dân, vì dân**, bảo đảm quyền làm chủ của nhân dân lao động.
+2. **Tổ chức và hoạt động trên cơ sở Hiến pháp, pháp luật** – pháp luật giữ vị trí tối thượng trong điều chỉnh các quan hệ xã hội.
+3. **Quyền lực nhà nước thống nhất**, có phân công rõ ràng, phối hợp nhịp nhàng và kiểm soát giữa lập pháp, hành pháp, tư pháp.
+4. **Đặt dưới sự lãnh đạo của Đảng Cộng sản Việt Nam**, phù hợp điều 4 Hiến pháp 2013; hoạt động của Nhà nước chịu sự giám sát của nhân dân theo phương châm “dân biết, dân bàn, dân làm, dân kiểm tra”.
+5. **Tôn trọng quyền con người**, xem con người là chủ thể và trung tâm phát triển; nhân dân có quyền bầu, bãi miễn đại biểu không xứng đáng; pháp luật được thực thi nghiêm minh.
+6. **Tổ chức bộ máy theo nguyên tắc tập trung dân chủ**, có phân công, phân cấp, phối hợp và kiểm soát lẫn nhau, bảo đảm sự chỉ đạo thống nhất của Trung ương.
+
+Những đặc điểm này thể hiện đầy đủ tinh thần chung của nhà nước pháp quyền, đồng thời nhấn mạnh bản sắc của nhà nước pháp quyền xã hội chủ nghĩa Việt Nam: mang bản chất giai cấp công nhân, phục vụ nhân dân và là công cụ để Đảng lãnh đạo sự nghiệp xây dựng chủ nghĩa xã hội.
+`,
+            english: `
+# Chapter 4: Socialist Democracy and the Socialist State
+
+## III. Socialist Democracy and the Socialist Rule-of-Law State in Vietnam
+
+### 2. Vietnam’s Socialist Rule-of-Law State
+
+#### 2.1. Conceptual Foundations
+A rule-of-law state upholds the supremacy of law, prioritizes public welfare, and creates conditions for individuals to enjoy freedom, equality, and personal development. State institutions operate on the basis of delegated and mutually controlled powers accepted by society.
+
+Although contemporary approaches vary, they converge on several essentials: citizens must be educated about and comply with the law; the law must be stringent; and state bodies must check and balance one another in service of the people.
+
+The Communist Party of Vietnam’s Platform for national construction in the transition to socialism sets key directions: highlight the paramount role of the Constitution and laws; guarantee citizens’ rights and human rights; build an apparatus that remains centralized and unified while dividing and delegating authority across levels to prevent abuse of power; maintain close ties with the people under their supervision; and create mechanisms to prevent and sanction bureaucracy and corruption.
+
+As renovation progressed, the Party’s understanding of the rule-of-law state sharpened. The guideline of “building a socialist rule-of-law State of the people, by the people, for the people” emphasizes governing society by law; all agencies, organizations, cadres, civil servants, and citizens must observe the Constitution and the law. The 12th Party Congress affirmed: “State power is unified, with a division, coordination, and control among state agencies in exercising legislative, executive, and judicial powers.”
+
+#### 2.2. Key Characteristics
+Experience from the renovation era reveals several core traits of Vietnam’s socialist rule-of-law state:
+
+1. **A state of the people, by the people, for the people**, ensuring the working people’s mastery.
+2. **Organization and operation grounded in the Constitution and laws**, which hold supreme authority in regulating social relations.
+3. **Unified state power** with clear functional division, harmonious coordination, and mutual oversight among the legislature, executive, and judiciary.
+4. **Leadership of the Communist Party of Vietnam**, consistent with Article 4 of the 2013 Constitution; state activity is overseen by the populace under the motto “people know, people discuss, people do, people supervise.”
+5. **Respect for human rights**, placing human beings at the center of development; citizens can elect and recall unworthy representatives while the law is rigorously enforced.
+6. **Organization based on democratic centralism**, incorporating division, decentralization, coordination, and mutual control while safeguarding the unified leadership of the central government.
+
+These features embody the universal spirit of the rule-of-law state while underlining Vietnam’s specificity: a socialist rule-of-law state that carries the working-class nature, serves the people, and functions as the primary instrument for the Communist Party to steer the path toward socialism.
+`,
+            japanese: `# コンテンツ準備中
+
+このセクションの日本語版は現在更新中です。`,
+        },
+        excerpt: {
+            vietnamese:
+                'Làm rõ quan niệm và đặc điểm của Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam trong tiến trình đổi mới.',
+            english:
+                'Explains the concept and defining traits of Vietnam’s socialist rule-of-law state throughout the renovation period.',
+            japanese: 'ベトナムの社会主義法治国家の概念と特徴を整理します（日本語版準備中）。',
+        },
+        author: 'Admin',
+        date: '2024-05-25',
+        readTime: {
+            vietnamese: '20 phút',
+            english: '20 minutes',
+            japanese: '20分',
+        },
+        image: '/placeholder.svg?height=200&width=400',
+        originalLanguage: 'vietnamese' as const,
+        quiz: {
+            vietnamese: [
+                {
+                    question: 'Trong các đặc điểm sau, đâu là điểm KHÔNG thuộc Nhà nước pháp quyền XHCN ở Việt Nam?',
+                    options: [
+                        'Quyền lực nhà nước thống nhất, có phân công, phối hợp, kiểm soát giữa lập pháp – hành pháp – tư pháp',
+                        'Tổ chức và hoạt động dựa trên Hiến pháp và pháp luật ở vị trí tối thượng',
+                        'Do Đảng Cộng sản Việt Nam lãnh đạo theo Hiến pháp 2013',
+                        '“Tam quyền phân lập” tuyệt đối, tách rời không phối hợp',
+                    ],
+                    correct: 3,
+                },
+                {
+                    question: 'Nội dung “dân biết, dân bàn, dân làm, dân kiểm tra” gắn với ý nào sau đây?',
+                    options: [
+                        'Cơ chế thực hiện dân chủ ở cơ sở và giám sát của nhân dân',
+                        'Quy trình lập pháp của Quốc hội',
+                        'Cải cách tư pháp',
+                        'Phân cấp ngân sách nhà nước',
+                    ],
+                    correct: 0,
+                },
+            ],
+            english: [
+                {
+                    question: 'Which of the following is NOT a feature of Vietnam’s socialist rule-of-law state?',
+                    options: [
+                        'Unified state power with division, coordination, and oversight among the legislative, executive, and judicial branches',
+                        'Organization and operation based on the supremacy of the Constitution and laws',
+                        'Leadership by the Communist Party of Vietnam as stipulated in the 2013 Constitution',
+                        'Absolute separation of powers with no coordination among branches',
+                    ],
+                    correct: 3,
+                },
+                {
+                    question: 'The motto “people know, people discuss, people do, people supervise” is associated with which mechanism?',
+                    options: [
+                        'Implementing grassroots democracy and public oversight',
+                        'The National Assembly’s legislative procedure',
+                        'Judicial reform',
+                        'Fiscal decentralization',
+                    ],
+                    correct: 0,
+                },
+            ],
+            japanese: [],
+        },
+    },
+    11: {
+        id: 11,
+        section: '4.3.3' as SectionId,
+        title: {
+            vietnamese: 'Phát huy dân chủ, xây dựng Nhà nước pháp quyền XHCN hiện nay',
+            english: 'Promoting Democracy & Building Today’s Socialist Rule-of-Law State',
+            japanese: '現代の社会主義法治国家を構築するための民主主義の発揮',
+        },
+        content: {
+            vietnamese: `
+# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
+
+## III. Dân chủ xã hội chủ nghĩa và Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam
+
+### 3. Phát huy dân chủ xã hội chủ nghĩa, xây dựng Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam hiện nay
+
+#### 3.1. Phát huy dân chủ xã hội chủ nghĩa ở Việt Nam hiện nay
+1. **Xây dựng, hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa** nhằm tạo nền tảng kinh tế vững chắc cho dân chủ xã hội chủ nghĩa. Điều này bao gồm thể chế hóa quan điểm phát triển đa dạng sở hữu, thành phần kinh tế; bảo hộ quyền lợi hợp pháp của các chủ sở hữu; xây dựng luật pháp về các loại tài sản mới; hoàn thiện thể chế đồng bộ từ khâu ban hành, vận hành đến giám sát. Song song là cải cách mạnh mẽ thủ tục hành chính, phát triển đồng bộ các yếu tố thị trường và hoàn thiện khung pháp lý về kinh doanh.
+
+2. **Xây dựng Đảng Cộng sản Việt Nam trong sạch, vững mạnh** – điều kiện tiên quyết của dân chủ xã hội chủ nghĩa. Đảng phải vững về chính trị, tư tưởng, tổ chức; thường xuyên tự đổi mới, tự chỉnh đốn; nâng cao trí tuệ, bản lĩnh, đạo đức, năng lực lãnh đạo; phát huy dân chủ nội bộ gắn với nguyên tắc tập trung dân chủ, tự phê bình và phê bình.
+
+3. **Xây dựng Nhà nước pháp quyền xã hội chủ nghĩa vững mạnh** để thực thi dân chủ. Nhà nước dưới sự lãnh đạo của Đảng phải thể hiện quyền làm chủ của nhân dân trên mọi lĩnh vực; mọi chính sách, pháp luật phải xuất phát từ ý chí, nguyện vọng của nhân dân; bảo đảm quyền con người, quyền công dân trên thực tế.
+
+4. **Nâng cao vai trò của các tổ chức chính trị – xã hội**. Các tổ chức cần đổi mới phương thức hoạt động, tham gia giám sát, phản biện đường lối, chính sách; củng cố khối đại đoàn kết toàn dân; chăm lo đời sống nhân dân; tham gia xây dựng Đảng, chính quyền và bảo vệ quyền lợi chính đáng của nhân dân.
+
+5. **Hoàn thiện hệ thống giám sát, phản biện xã hội** nhằm phát huy quyền làm chủ của nhân dân. Cần công khai, minh bạch thông tin; cụ thể hóa cơ chế lắng nghe ý kiến nhân dân; nâng cao dân trí, văn hóa pháp luật; tạo điều kiện để nhân dân tham gia góp ý, giám sát đối với chủ trương, chính sách.
+
+#### 3.2. Tiếp tục xây dựng và hoàn thiện Nhà nước pháp quyền xã hội chủ nghĩa
+1. **Xây dựng Nhà nước pháp quyền dưới sự lãnh đạo của Đảng** với bản chất giai cấp công nhân, gắn bó với dân tộc và nhân dân; bảo đảm quyền lực nhà nước thống nhất, có phân công và phối hợp giữa lập pháp, hành pháp, tư pháp.
+
+2. **Cải cách thể chế và phương thức hoạt động của Nhà nước**: kiện toàn tổ chức và nâng cao hiệu quả của Quốc hội – cơ quan quyền lực cao nhất; xây dựng nền hành chính dân chủ, trong sạch, hiện đại; đẩy mạnh cải cách thủ tục; nâng cao năng lực thực thi chính sách; xã hội hóa dịch vụ công phù hợp định hướng xã hội chủ nghĩa.
+
+3. **Xây dựng đội ngũ cán bộ, công chức trong sạch, có năng lực**: nâng cao phẩm chất chính trị, đạo đức, năng lực quản lý; có chính sách đãi ngộ, khuyến khích hoàn thành nhiệm vụ; thiết lập cơ chế loại bỏ những người yếu kém, vi phạm kỷ luật.
+
+4. **Đấu tranh phòng, chống tham nhũng, lãng phí, thực hành tiết kiệm**: hoàn thiện thể chế, cải cách hành chính phục vụ phòng chống tham nhũng; khuyến khích, bảo vệ người đấu tranh; xử lý nghiêm tổ chức, cá nhân vi phạm; động viên toàn xã hội thực hành tiết kiệm.
+`,
+            english: `
+# Chapter 4: Socialist Democracy and the Socialist State
+
+## III. Socialist Democracy and the Socialist Rule-of-Law State in Vietnam
+
+### 3. Promoting Socialist Democracy and Building the Socialist Rule-of-Law State Today
+
+#### 3.1. Advancing Socialist Democracy in Contemporary Vietnam
+1. **Develop and perfect the socialist-oriented market economy** to provide a solid economic foundation for socialist democracy. This entails codifying policies on diverse ownership forms and economic sectors; protecting lawful property rights; establishing legal frameworks for new asset classes; and aligning institutional design from promulgation to implementation and oversight. Administrative procedures must be overhauled, market factors developed synchronously, and business regulations updated to fit Vietnam’s context.
+
+2. **Build a pure and strong Communist Party of Vietnam**, the prerequisite for socialist democracy. The Party must be firm in politics, ideology, and organization; continuously renew and rectify itself; enhance intellectual capacity, political bravery, ethics, and leadership; and democratize internal life through democratic centralism, self-criticism, and criticism.
+
+3. **Establish a strong socialist rule-of-law state** to realize democracy. Under Party leadership, the state must reflect the people’s mastery in every domain; all policies and laws must stem from the people’s will; human and citizen rights must be guaranteed in law and practice.
+
+4. **Elevate the role of socio-political organizations** by renewing operational methods, engaging in oversight and policy feedback, consolidating great national unity, caring for the people’s livelihoods, contributing to Party and state building, and defending legitimate interests.
+
+5. **Improve systems of social oversight and feedback** so the people can exercise mastery. Information and policies must be transparent; mechanisms for listening to citizens institutionalized; civic education and legal awareness enhanced; and favorable conditions created for public input on national development issues.
+
+#### 3.2. Continuing to Build and Perfect the Socialist Rule-of-Law State
+1. **Build the rule-of-law state under Party leadership**, maintaining its working-class nature, close ties to the nation and people, and unified state power with coordinated legislative, executive, and judicial functions.
+
+2. **Reform institutions and state operations**: streamline the National Assembly’s organization and effectiveness as the highest organ of power; develop a democratic, clean, modern public administration; accelerate administrative reform; improve policy execution; and appropriately socialize public services consistent with the socialist-oriented market economy.
+
+3. **Develop a clean, competent cadre and civil-service corps** by enhancing political qualities, ethics, and governance capacity; applying incentive policies; and creating mechanisms to remove officials who underperform or violate discipline.
+
+4. **Combat corruption and waste while promoting thrift** by perfecting institutions, advancing administrative reform, protecting whistle-blowers, enforcing strict sanctions, and mobilizing society-wide thrift practices.
+`,
+            japanese: `# コンテンツ準備中
+
+このセクションの日本語版は現在更新中です。`,
+        },
+        excerpt: {
+            vietnamese:
+                'Đề xuất các giải pháp phát huy dân chủ và hoàn thiện Nhà nước pháp quyền xã hội chủ nghĩa trong giai đoạn hiện nay.',
+            english:
+                'Presents measures to advance socialist democracy and perfect Vietnam’s socialist rule-of-law state today.',
+            japanese: '社会主義的民主主義を発揮し法治国家を強化する方策を示します（日本語版準備中）。',
+        },
+        author: 'Admin',
+        date: '2024-05-25',
+        readTime: {
+            vietnamese: '24 phút',
+            english: '24 minutes',
+            japanese: '24分',
+        },
+        image: '/placeholder.svg?height=200&width=400',
+        originalLanguage: 'vietnamese' as const,
+        quiz: {
+            vietnamese: [
+                {
+                    question: 'Theo nội dung văn bản, cải cách hành chính có tác động trực tiếp gì?',
+                    options: [
+                        'Giảm vai trò của pháp luật',
+                        'Nhanh chóng cải thiện môi trường kinh doanh',
+                        'Bãi bỏ giám sát xã hội',
+                        'Tăng hình thức thủ tục',
+                    ],
+                    correct: 1,
+                },
+            ],
+            english: [
+                {
+                    question: 'According to the text, what is a direct effect of administrative reform?',
+                    options: [
+                        'Reducing the role of law',
+                        'Rapidly improving the business environment',
+                        'Eliminating social oversight',
+                        'Increasing procedural formality',
+                    ],
+                    correct: 1,
+                },
+            ],
+            japanese: [],
+        },
+    },
+    12: {
+        id: 12,
+        section: '4.3.4' as SectionId,
+        title: {
+            vietnamese: 'Phòng, chống tham nhũng góp phần bảo vệ chế độ, xây dựng Nhà nước pháp quyền',
+            english: 'Anti-Corruption to Safeguard the Regime and Build the Rule-of-Law State',
+            japanese: '体制を守り法治国家を築くための腐敗防止',
+        },
+        content: {
+            vietnamese: `
+# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
+
+## III. Dân chủ xã hội chủ nghĩa và Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam
+
+### 4. Phòng, chống tham nhũng góp phần bảo vệ chế độ, xây dựng Nhà nước pháp quyền
+
+#### 4.1. Khái niệm về tham nhũng
+Tham nhũng là hành vi của người có chức vụ, quyền hạn lợi dụng vị trí đó để vụ lợi. Người có chức vụ, quyền hạn có thể do bổ nhiệm, bầu cử, tuyển dụng hoặc các hình thức khác. “Vụ lợi” bao gồm cả lợi ích vật chất và phi vật chất không chính đáng.
+
+#### 4.2. Đặc điểm của hành vi tham nhũng
+- **Chủ thể đặc thù**: chỉ người có chức vụ, quyền hạn mới có thể thực hiện hành vi tham nhũng.
+- **Lợi dụng chức vụ, quyền hạn**: sử dụng thẩm quyền được giao để làm trái pháp luật nhằm mưu lợi riêng – dấu hiệu phân biệt tham nhũng với các vi phạm khác.
+- **Động cơ vụ lợi**: mục đích là trục lợi cá nhân hoặc nhóm nhỏ; nếu vi phạm không vì vụ lợi thì không phải tham nhũng.
+
+#### 4.3. Các hành vi tham nhũng phổ biến
+Tham ô tài sản; nhận hối lộ; lạm dụng chức vụ chiếm đoạt tài sản; lợi dụng chức vụ khi thi hành nhiệm vụ vì vụ lợi; lạm quyền vì vụ lợi; lợi dụng chức vụ gây ảnh hưởng để trục lợi; giả mạo trong công tác; đưa, môi giới hối lộ; sử dụng trái phép tài sản công vì vụ lợi; nhũng nhiễu; không thực hiện hoặc thực hiện không đúng nhiệm vụ vì vụ lợi; bao che vi phạm hoặc cản trở giám sát, thanh tra, điều tra, truy tố, xét xử, thi hành án vì vụ lợi.
+
+#### 4.4. Nguyên nhân của tham nhũng
+Nguyên nhân chủ quan bao gồm: hạn chế trong tổ chức và hoạt động của hệ thống chính trị; cơ chế, chính sách, pháp luật chưa hoàn thiện; nhận thức của người đứng đầu còn yếu; nhiệm vụ của cơ quan phòng chống tham nhũng chưa phân định rõ; pháp luật chưa đủ mạnh; tuyên truyền còn hình thức. Ngoài ra còn có tác động của mặt trái kinh tế thị trường và toàn cầu hóa; hệ thống chính sách thiếu đồng bộ; quản lý nhà nước lỏng lẻo; quản lý cán bộ còn hạn chế; một số nơi chưa đề cao trách nhiệm người đứng đầu; sự suy thoái đạo đức, lối sống của một bộ phận cán bộ, đảng viên.
+
+#### 4.5. Tác hại của tham nhũng
+- **Chính trị**: vi phạm Hiến pháp, Điều lệ Đảng, gây tổn hại cho xã hội.
+- **Kinh tế**: cản trở quản lý, kìm hãm phát triển sản xuất, kinh doanh, dịch vụ.
+- **Xã hội**: làm gia tăng khoảng cách giàu – nghèo, gây rối trật tự, kỷ cương, cản trở mục tiêu công bằng, dân chủ, văn minh.
+- **Văn hóa**: làm suy đồi các giá trị văn hóa, cản trở cải cách tư pháp và xây dựng nhà nước pháp quyền.
+- **Đạo đức**: trái ngược đạo đức cách mạng, phản bội lý tưởng phục vụ nhân dân.
+`,
+            english: `
+# Chapter 4: Socialist Democracy and the Socialist State
+
+## III. Socialist Democracy and the Socialist Rule-of-Law State in Vietnam
+
+### 4. Combating Corruption to Safeguard the Regime and Build the Rule-of-Law State
+
+#### 4.1. Concept of Corruption
+Corruption is the act of a person holding a position or power who exploits that position for personal gain. Such individuals may be appointed, elected, recruited, or otherwise entrusted. “Personal gain” encompasses illegitimate material and non-material benefits.
+
+#### 4.2. Characteristics
+- **Specific subjects:** only those with official positions or powers can commit corruption.
+- **Abuse of position and power:** using delegated authority to violate the law for self-interest, distinguishing corruption from other offenses.
+- **Profit motive:** corruption aims at personal or small-group benefit; violations without such intent are not deemed corruption.
+
+#### 4.3. Common Corrupt Acts
+Embezzlement; taking bribes; abusing office to appropriate property; misusing authority while performing duties for profit; exceeding authority for profit; leveraging influence for private gain; falsifying official documents; giving or brokering bribes to resolve institutional matters; misappropriating public assets; extortion; neglecting or improperly performing duties for profit; covering up violations or obstructing oversight, inspection, investigation, prosecution, adjudication, and enforcement for profit.
+
+#### 4.4. Causes of Corruption
+Subjective causes include shortcomings in political institutions; incomplete mechanisms, policies, and laws; limited awareness among leaders; unclear mandates for anti-corruption agencies; insufficient legal deterrence; and superficial propaganda. Additional factors involve the adverse impacts of the market economy and globalization; inconsistent policies; weak state management; inadequate personnel oversight; insufficient accountability of some leaders; and moral degradation among a segment of officials and party members.
+
+#### 4.5. Consequences
+- **Political:** violates the Constitution and Party statutes, harming society.
+- **Economic:** hinders governance and suppresses development in economic sectors and services.
+- **Social:** widens wealth gaps, undermines order and security, and obstructs the goal of a fair, democratic, progressive, civilized society.
+- **Cultural:** erodes cultural values and hinders judicial reform and the building of the rule-of-law state.
+- **Ethical:** betrays revolutionary ethics by placing personal gain above service to the people.
+`,
+            japanese: `# コンテンツ準備中
+
+このセクションの日本語版は現在更新中です。`,
+        },
+        excerpt: {
+            vietnamese:
+                'Phân tích khái niệm, nguyên nhân và tác hại của tham nhũng, nhấn mạnh vai trò của phòng, chống tham nhũng.',
+            english:
+                'Analyzes the nature, causes, and harm of corruption while underscoring the importance of anti-corruption efforts.',
+            japanese: '腐敗の本質と原因、影響を整理し対策の重要性を指摘します（日本語版準備中）。',
+        },
+        author: 'Admin',
+        date: '2024-05-25',
+        readTime: {
+            vietnamese: '18 phút',
+            english: '18 minutes',
+            japanese: '18分',
+        },
+        image: '/placeholder.svg?height=200&width=400',
+        originalLanguage: 'vietnamese' as const,
+        quiz: {
+            vietnamese: [
+                {
+                    question: 'Dấu hiệu đặc trưng phân biệt hành vi tham nhũng với vi phạm pháp luật khác là gì?',
+                    options: [
+                        'Do bất kỳ công dân nào thực hiện',
+                        'Mang tính tập thể',
+                        'Lợi dụng chức vụ, quyền hạn được giao để vụ lợi',
+                        'Không nhằm mục đích tư lợi',
+                    ],
+                    correct: 2,
+                },
+                {
+                    question: 'Hành vi nào sau đây thuộc nhóm hành vi tham nhũng theo liệt kê trong văn bản?',
+                    options: [
+                        'Tố cáo hành vi vi phạm đến cơ quan có thẩm quyền',
+                        'Nhận hối lộ',
+                        'Tự phê bình và phê bình trong Đảng',
+                        'Tiết kiệm chi tiêu công',
+                    ],
+                    correct: 1,
+                },
+            ],
+            english: [
+                {
+                    question: 'What distinguishing feature sets corruption apart from other legal violations?',
+                    options: [
+                        'It can be committed by any citizen',
+                        'It is necessarily collective in nature',
+                        'It involves abusing assigned position or power for personal gain',
+                        'It has no profit motive',
+                    ],
+                    correct: 2,
+                },
+                {
+                    question: 'Which of the following is listed as a corrupt act in the text?',
+                    options: [
+                        'Reporting violations to a competent authority',
+                        'Accepting a bribe',
+                        'Practicing self-criticism within the Party',
+                        'Implementing public spending cuts',
+                    ],
+                    correct: 1,
+                },
+            ],
+            japanese: [],
+        },
+    },
+    13: {
+        id: 13,
+        section: '4.3.5' as SectionId,
+        title: {
+            vietnamese: 'Trách nhiệm của công dân trong phòng, chống tham nhũng',
+            english: 'Citizen Responsibilities in Combating Corruption',
+            japanese: '腐敗防止における市民の責任',
+        },
+        content: {
+            vietnamese: `
+# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
+
+## III. Dân chủ xã hội chủ nghĩa và Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam
+
+### 5. Trách nhiệm của công dân trong phòng, chống tham nhũng
+
+#### 5.1. Chấp hành nghiêm chỉnh pháp luật về phòng, chống tham nhũng
+Mỗi công dân – nhất là người có chức vụ, quyền hạn – phải “giữ mình”, không lợi dụng quyền lực để tham nhũng; đồng thời giáo dục, vận động người thân tuân thủ pháp luật. Ý thức chấp hành là nền tảng để lên án, tố giác, đấu tranh với tham nhũng.
+
+#### 5.2. Lên án, đấu tranh với hành vi tham nhũng
+Chủ động phê phán, nhắc nhở và lên án hành vi sai trái, tạo dư luận xã hội mạnh mẽ nhằm răn đe tham nhũng; thể hiện thái độ không dung thứ.
+
+#### 5.3. Phát hiện, tố cáo hành vi tham nhũng
+Theo Điều 64 Luật Phòng, chống tham nhũng, công dân có quyền và nghĩa vụ tố cáo hành vi tham nhũng thông qua hai hình thức: phản ánh với Ban thanh tra nhân dân hoặc tổ chức mà mình là thành viên; tố cáo trực tiếp đến cơ quan, cá nhân có thẩm quyền. Người tố cáo phải cung cấp thông tin khách quan, trung thực, chịu trách nhiệm về nội dung tố cáo và được bảo vệ bí mật.
+
+#### 5.4. Hợp tác với cơ quan có thẩm quyền
+Công dân có nghĩa vụ hỗ trợ, cung cấp thông tin, tài liệu khi được yêu cầu; việc không hợp tác, gây cản trở có thể bị xử lý theo quy định của Bộ luật Hình sự.
+
+#### 5.5. Kiến nghị hoàn thiện cơ chế, chính sách pháp luật
+Khi phát hiện “lỗ hổng pháp luật” dễ bị lợi dụng, công dân có quyền kiến nghị sửa đổi, bổ sung cơ chế, chính sách; yêu cầu cơ quan, đơn vị cung cấp thông tin để giám sát; góp phần làm cho pháp luật hoàn thiện hơn.
+
+#### 5.6. Góp ý xây dựng pháp luật về phòng, chống tham nhũng
+Công dân có thể tham gia thông qua hội nghị, diễn đàn, tổ chức chính trị – xã hội; phân tích, đánh giá quy định pháp luật, dự báo tình hình để góp ý; giúp pháp luật thiết thực, khả thi và hiệu quả.
+`,
+            english: `
+# Chapter 4: Socialist Democracy and the Socialist State
+
+## III. Socialist Democracy and the Socialist Rule-of-Law State in Vietnam
+
+### 5. Citizens’ Responsibilities in Combating Corruption
+
+#### 5.1. Comply Strictly with Anti-Corruption Laws
+Every citizen—especially those holding office—must remain upright, avoid abusing power for private gain, and encourage relatives to obey the law. Legal compliance forms the basis for denouncing and fighting corruption.
+
+#### 5.2. Denounce and Oppose Corrupt Acts
+Citizens should actively criticize, admonish, and condemn wrongdoing, thereby shaping strong public opinion against corruption and showing zero tolerance for it.
+
+#### 5.3. Detect and Report Corruption
+Under Article 64 of the Law on Anti-Corruption, citizens have both the right and duty to report corruption through two channels: informing the people’s inspection board or organizations of which they are members, and reporting directly to competent authorities or individuals. Whistle-blowers must provide objective, truthful information, take responsibility for their statements, and are entitled to confidentiality and protection.
+
+#### 5.4. Cooperate with Competent Agencies
+Citizens are obliged to assist and provide information and documents when requested; failure to cooperate or obstruct investigations can lead to sanctions under the Penal Code.
+
+#### 5.5. Recommend Improvements to Policies and Laws
+When legal loopholes that may be exploited for corruption are identified, citizens can propose amendments, request information for oversight, and contribute to improving the legal framework.
+
+#### 5.6. Contribute to Lawmaking on Anti-Corruption
+Participation can occur through conferences, forums, and socio-political organizations. Citizens analyze regulations, assess their practicality, and forecast trends to offer feedback that makes laws more realistic, feasible, and effective.
+`,
+            japanese: `# コンテンツ準備中
+
+このセクションの日本語版は現在更新中です。`,
+        },
+        excerpt: {
+            vietnamese:
+                'Nhấn mạnh vai trò, quyền và nghĩa vụ của công dân trong việc phát hiện, tố cáo và phòng, chống tham nhũng.',
+            english:
+                'Emphasizes citizens’ roles, rights, and duties in detecting, reporting, and preventing corruption.',
+            japanese: '腐敗防止における市民の役割と責務を解説します（日本語版準備中）。',
+        },
+        author: 'Admin',
+        date: '2024-05-25',
+        readTime: {
+            vietnamese: '12 phút',
+            english: '12 minutes',
+            japanese: '12分',
+        },
+        image: '/placeholder.svg?height=200&width=400',
+        originalLanguage: 'vietnamese' as const,
+        quiz: {
+            vietnamese: [
+                {
+                    question: 'Theo quy định nêu trong văn bản, công dân có thể thực hiện tố cáo hành vi tham nhũng bằng những hình thức nào?',
+                    options: [
+                        'Chỉ qua mạng xã hội',
+                        'Chỉ gửi Quốc hội',
+                        'Phản ánh với Ban thanh tra nhân dân/tổ chức mình là thành viên hoặc tố cáo trực tiếp đến cơ quan, cá nhân có thẩm quyền',
+                        'Chỉ thông qua tòa án',
+                    ],
+                    correct: 2,
+                },
+            ],
+            english: [
+                {
+                    question: 'According to the text, which channels may citizens use to report corruption?',
+                    options: [
+                        'Only via social media',
+                        'Only by petitioning the National Assembly',
+                        'By informing the people’s inspection board/organizations they belong to or reporting directly to competent authorities',
+                        'Only through the courts',
+                    ],
+                    correct: 2,
+                },
+            ],
+            japanese: [],
+        },
+    },
+
 }
 
 export type BlogData = typeof blogData
