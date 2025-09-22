@@ -1,1754 +1,558 @@
 import type { SectionId } from './philosophy-chapters'
 
-// Multilingual blog data with philosophy content
 export const blogData = {
     1: {
         id: 1,
-        section: '2.1.1' as SectionId,
+        section: '4.1.1' as SectionId,
         title: {
-            vietnamese: 'Sản xuất hàng hóa (theo C. Mác)',
-            english: 'Commodity Production (according to K. Marx)',
-            japanese: '商品生産（K.マルクスによる）',
+            vietnamese: 'Dân chủ và sự ra đời, phát triển của dân chủ',
+            english: 'Democracy: Emergence and Development',
+            japanese: '民主主義の成立と発展',
         },
         content: {
             vietnamese: `
-# Sản xuất hàng hóa (theo C. Mác)
+# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
 
-## Khái niệm
+## I. Dân chủ và dân chủ xã hội chủ nghĩa
 
-Sản xuất hàng hóa là hình thức tổ chức kinh tế mà trong đó, con người làm ra sản phẩm để trao đổi hoặc mua bán, chứ không phải để dùng trực tiếp.
+### 1. Dân chủ và sự ra đời, phát triển của dân chủ
 
-## Hai điều kiện ra đời của sản xuất hàng hóa
+#### 1.1. Quan niệm về dân chủ
 
-### 1. Phân công lao động xã hội
-Xã hội phân chia lao động thành các ngành nghề chuyên biệt. Mỗi người chỉ làm ra một số loại sản phẩm nhất định, nên để đáp ứng nhu cầu của mình, họ phải trao đổi sản phẩm với người khác.
+##### 1.1.1. Dân chủ trong lịch sử nhân loại
+Thuật ngữ dân chủ (demokratos) xuất hiện từ thế kỷ VII – VI TCN ở Hy Lạp cổ đại, trong đó *demos* nghĩa là nhân dân và *kratos* nghĩa là cai trị. Như vậy, dân chủ được hiểu là “nhân dân cai trị”, hay “quyền lực thuộc về nhân dân”. Tuy nhiên, giữa dân chủ cổ đại và dân chủ hiện đại có sự khác biệt căn bản: ở thời cổ đại, dân chủ mang tính trực tiếp, gắn với phạm vi hẹp và khái niệm “nhân dân” chỉ bao gồm một bộ phận giai cấp tự do, trong khi nô lệ – chiếm đa số – không có quyền làm chủ.
 
-### 2. Sự tách biệt về kinh tế giữa các chủ thể sản xuất
-Mỗi người sản xuất là một đơn vị độc lập, có lợi ích riêng. Họ không thể tự cung tự cấp mà phải trao đổi thông qua mua bán. Điều này chỉ xuất hiện khi có sự khác biệt về quyền sở hữu và lợi ích giữa các chủ thể.
+Từ góc nhìn lịch sử, dân chủ luôn gắn với sự hình thành, tồn tại và phát triển của nhà nước. Nó vừa là hình thức tổ chức quyền lực công cộng, vừa là giá trị xã hội phản ánh khát vọng tự do, bình đẳng của con người.
 
-## Kết luận
+##### 1.1.2. Quan niệm dân chủ trong triết học Mác – Lênin
+Các nhà sáng lập chủ nghĩa Mác – Lênin khẳng định:
 
-Khi hai điều kiện trên cùng tồn tại, sản xuất hàng hóa sẽ tự nhiên hình thành và phát triển. Con người không thể dùng ý chí để xóa bỏ nó. Sản xuất hàng hóa vì thế có ưu thế vượt trội so với sản xuất tự cấp, tự túc và là nền tảng thúc đẩy xã hội phát triển.
-      `,
+- Dân chủ là sản phẩm của đấu tranh giai cấp cho những giá trị tiến bộ.
+- Dân chủ là một hình thức tổ chức nhà nước của giai cấp cầm quyền.
+- Dân chủ cũng là nguyên tắc trong tổ chức và quản lý xã hội.
+
+Từ đó, dân chủ theo quan điểm Mác – Lênin có ba nội dung cơ bản:
+
+- **Về quyền lực**: dân chủ là quyền lực thuộc về nhân dân, nhân dân là chủ nhân của nhà nước, quyền lực nhà nước phải phục vụ nhân dân.
+- **Về chế độ chính trị**: dân chủ là một hình thái nhà nước, một chế độ xã hội cụ thể.
+- **Về nguyên tắc quản lý**: dân chủ là nguyên tắc cơ bản, kết hợp với nguyên tắc tập trung để hình thành nguyên tắc tập trung dân chủ.
+
+Chủ nghĩa Mác – Lênin coi dân chủ vừa là mục tiêu, vừa là phương tiện để đi đến tự do, giải phóng con người và giải phóng xã hội. Với tư cách là một hình thái chính trị – nhà nước, dân chủ mang tính lịch sử, ra đời cùng nhà nước và sẽ mất đi khi nhà nước tiêu vong. Nhưng với tư cách là một giá trị xã hội, dân chủ có tính vĩnh viễn, tồn tại cùng với sự phát triển của loài người.
+
+##### 1.1.3. Tư tưởng Hồ Chí Minh về dân chủ
+Trên nền tảng Mác – Lênin, Hồ Chí Minh phát triển tư tưởng dân chủ theo hướng:
+
+- Dân chủ là giá trị nhân loại chung: “Dân chủ là dân là chủ và dân làm chủ”.
+- Dân chủ là một thể chế chính trị: Nhà nước dân chủ là nhà nước “do dân làm chủ”, chính phủ chỉ là “người đầy tớ trung thành của nhân dân”.
+- Dân chủ phải bảo đảm mọi quyền lực thuộc về nhân dân, nhân dân làm chủ toàn diện: nhà nước, xã hội, kinh tế, văn hóa – tinh thần.
+
+Đảng Cộng sản Việt Nam, kế thừa và phát triển tư tưởng Hồ Chí Minh, xác định xây dựng chế độ dân chủ xã hội chủ nghĩa, phát huy quyền làm chủ của nhân dân, gắn dân chủ với công bằng xã hội, kỷ luật và pháp luật.
+
+#### 1.2. Sự ra đời và phát triển của dân chủ
+
+##### 1.2.1. Dân chủ nguyên thủy
+Trong xã hội cộng sản nguyên thủy, các hình thức dân chủ sơ khai xuất hiện dưới dạng “dân chủ quân sự”. Thông qua “Đại hội nhân dân”, cộng đồng bầu ra thủ lĩnh quân sự, mọi người có quyền phát biểu và biểu quyết. Tuy nhiên, dân chủ thời kỳ này gắn liền với trình độ sản xuất thấp và còn rất hạn chế.
+
+##### 1.2.2. Dân chủ chủ nô
+Khi chế độ chiếm hữu nô lệ hình thành, dân chủ nguyên thủy tan rã, nhường chỗ cho nền dân chủ chủ nô. Mặc dù có hình thức nhân dân tham gia bầu cử và quyết định công việc nhà nước, nhưng “nhân dân” chỉ bao gồm giai cấp chủ nô và một số công dân tự do. Đại đa số là nô lệ không có quyền. Bản chất của nền dân chủ này là dân chủ cho thiểu số.
+
+##### 1.2.3. Dân chủ tư sản
+Từ cuối thế kỷ XIV – XV, cùng với sự suy tàn của chế độ phong kiến và sự vươn lên của giai cấp tư sản, những mầm mống của dân chủ tư sản đã xuất hiện. Đến thế kỷ XVII – XVIII, thông qua các cuộc cách mạng tư sản, dân chủ tư sản chính thức hình thành và phát triển, mở ra bước tiến mới với những giá trị tiến bộ về tự do, bình đẳng và dân chủ. Tuy nhiên, do được xây dựng trên cơ sở chế độ tư hữu tư liệu sản xuất, dân chủ tư sản trên thực tế vẫn chỉ là dân chủ của giai cấp tư sản, nhằm bảo vệ lợi ích của những người sở hữu tư bản.
+
+##### 1.2.4. Dân chủ xã hội chủ nghĩa
+Cách mạng Tháng Mười Nga năm 1917 mở ra một thời đại mới: nhân dân lao động giành được quyền lực, xây dựng nhà nước công – nông, thiết lập nền dân chủ vô sản – tức dân chủ xã hội chủ nghĩa. Đây là nền dân chủ của đại đa số nhân dân, nhằm bảo vệ lợi ích của người lao động, thực hiện quyền làm chủ toàn diện của nhân dân.
+
+Đặc trưng của dân chủ xã hội chủ nghĩa bao gồm:
+
+- Quyền lực thuộc về nhân dân, nhân dân làm chủ nhà nước và xã hội.
+- Thực hiện dân chủ toàn diện trên tất cả các lĩnh vực: chính trị, kinh tế, văn hóa, xã hội.
+- Dân chủ gắn với kỷ luật, pháp luật và công bằng xã hội.
+
+#### 1.3. Bản chất và ý nghĩa của dân chủ xã hội chủ nghĩa
+
+##### 1.3.1. Bản chất
+- Là nền dân chủ của đại đa số nhân dân lao động.
+- Bảo đảm sự thống nhất giữa quyền con người, quyền công dân với lợi ích chung của xã hội.
+- Gắn liền với nguyên tắc tập trung dân chủ trong tổ chức và quản lý xã hội.
+
+##### 1.3.2. Ý nghĩa
+- Tạo ra cơ sở chính trị – xã hội để bảo đảm quyền lực thực sự thuộc về nhân dân.
+- Thúc đẩy sự phát triển toàn diện của xã hội gắn với tự do, công bằng, bình đẳng.
+- Là công cụ để bảo vệ quyền lợi nhân dân, đồng thời là mục tiêu để xây dựng xã hội xã hội chủ nghĩa.
+
+#### 1.4. Kết luận
+Dân chủ, xét từ góc độ triết học Mác – Lênin, là một phạm trù lịch sử – chính trị gắn liền với sự hình thành và phát triển của các nhà nước trong lịch sử nhân loại. Qua các giai đoạn, dân chủ biến đổi từ dân chủ nguyên thủy, dân chủ chủ nô, dân chủ tư sản cho đến dân chủ xã hội chủ nghĩa.
+
+Trong đó, dân chủ xã hội chủ nghĩa là hình thức dân chủ cao nhất, mang bản chất nhân dân sâu sắc, thể hiện quyền làm chủ toàn diện của đại đa số người lao động. Đó vừa là mục tiêu, vừa là động lực để xây dựng xã hội mới – xã hội công bằng, dân chủ, văn minh.
+`,
             english: `
-# Commodity Production (according to K. Marx)
+# Chapter 4: Socialist Democracy and the Socialist State
 
-## Concept
+## I. Democracy and Socialist Democracy
 
-Commodity production is an economic organizational form in which people produce products for exchange or sale, rather than for direct use.
+### 1. Democracy and Its Emergence and Development
 
-## Two Conditions for the Emergence of Commodity Production
+#### 1.1. Understanding Democracy
 
-### 1. Social Division of Labor
-Society divides labor into specialized industries and professions. Each person only produces certain types of products, so to meet their needs, they must exchange products with others.
+##### 1.1.1. Democracy in Human History
+The term democracy (*demokratos*) appeared in the 7th–6th centuries BCE in ancient Greece, where *demos* means the people and *kratos* means rule. Democracy therefore means “rule by the people” or “power belongs to the people.” Yet ancient democracy and modern democracy differ fundamentally: in antiquity it was direct, confined to a narrow scope, and the concept of “the people” only covered a portion of the free classes, while the enslaved majority had no political rights.
 
-### 2. Economic Separation Between Production Subjects
-Each producer is an independent unit with their own interests. They cannot be self-sufficient and must exchange through buying and selling. This only appears when there are differences in ownership rights and interests between subjects.
+From a historical perspective, democracy is inseparable from the formation, existence, and development of the state. It is both a form of organizing public power and a social value that reflects humanity’s aspiration for freedom and equality.
 
-## Conclusion
+##### 1.1.2. Democracy in Marxism–Leninism
+The founders of Marxism–Leninism affirmed that:
 
-When these two conditions coexist, commodity production will naturally form and develop. Humans cannot use will to eliminate it. Commodity production therefore has superior advantages over self-sufficient production and is the foundation driving social development.
-      `,
-            japanese: `
-# 商品生産（K.マルクスによる）
+- Democracy is the product of class struggle for progressive values.
+- Democracy is a form of state organization exercised by the ruling class.
+- Democracy is also a principle for organizing and governing society.
 
-## 概念
+Accordingly, Marxism–Leninism highlights three key aspects of democracy:
 
-商品生産とは、人々が直接使用するためではなく、交換や売買のために製品を作る経済組織形態です。
+- **On power:** democracy means power belongs to the people; the people are the owners of the state and state power must serve them.
+- **On the political system:** democracy is a concrete state form and a specific social regime.
+- **On governance principles:** democracy is a foundational principle that combines with centralization to form the principle of democratic centralism.
 
-## 商品生産の発生の二つの条件
+Marxism–Leninism treats democracy as both goal and means for achieving freedom and the liberation of human beings and society. As a political–state form, democracy is historical: it arose with the state and will disappear when the state withers away. As a social value, however, democracy has a lasting character that accompanies the development of humankind.
 
-### 1. 社会的分業
-社会は労働を専門的な産業や職業に分割します。各人は特定の種類の製品のみを生産するため、自分のニーズを満たすために他の人と製品を交換しなければなりません。
+##### 1.1.3. Hồ Chí Minh’s Conception of Democracy
+On the basis of Marxism–Leninism, Hồ Chí Minh developed the concept of democracy in the following directions:
 
-### 2. 生産主体間の経済的分離
-各生産者は独立した単位であり、独自の利益を持っています。彼らは自給自足できず、売買を通じて交換しなければなりません。これは主体間で所有権と利益に違いがある場合にのみ現れます。
+- Democracy is a universal human value: “Democracy means the people are the masters and the people exercise mastery.”
+- Democracy is a political institution: a democratic state is a state “of the people,” and the government is merely “the loyal servant of the people.”
+- Democracy must ensure that all power belongs to the people, who exercise comprehensive mastery over the state, society, economy, and cultural–spiritual life.
 
-## 結論
+The Communist Party of Vietnam inherits and advances Hồ Chí Minh’s thought by building socialist democracy, promoting the people’s mastery, and linking democracy with social justice, discipline, and the rule of law.
 
-これら二つの条件が共存するとき、商品生産は自然に形成され発展します。人間は意志によってそれを排除することはできません。したがって、商品生産は自給自足生産よりも優れた利点を持ち、社会発展を推進する基盤となります。
-      `,
+#### 1.2. The Emergence and Development of Democracy
+
+##### 1.2.1. Primitive Democracy
+In primitive communal society, rudimentary democratic forms appeared as “military democracy.” Through people’s assemblies, communities elected military leaders and everyone could speak and vote. Nonetheless, democracy in this period was limited by low productive forces and remained quite restricted.
+
+##### 1.2.2. Slave-Owning Democracy
+When the slave-owning system emerged, primitive democracy disintegrated and was replaced by slave-owning democracy. Although citizens could vote and decide on public affairs, “the people” referred only to slave owners and certain free citizens. The vast majority—slaves—had no rights, so this democracy was essentially for a minority.
+
+##### 1.2.3. Bourgeois Democracy
+From the late 14th–15th centuries, as feudalism declined and the bourgeoisie rose, the seeds of bourgeois democracy appeared. By the 17th–18th centuries, bourgeois revolutions established and developed bourgeois democracy, ushering in advances in freedom, equality, and democratic rights. Yet because it rests on private ownership of the means of production, bourgeois democracy in practice remains the democracy of the bourgeoisie, protecting the interests of capital owners.
+
+##### 1.2.4. Socialist Democracy
+The Russian October Revolution of 1917 opened a new era in which working people seized power, built a workers’ and peasants’ state, and established proletarian democracy—socialist democracy. This is democracy for the vast majority, safeguarding workers’ interests and enabling them to exercise comprehensive mastery.
+
+Key features of socialist democracy include:
+
+- Power belongs to the people, who master the state and society.
+- Democracy is practiced comprehensively in politics, economics, culture, and society.
+- Democracy goes hand in hand with discipline, law, and social justice.
+
+#### 1.3. Nature and Significance of Socialist Democracy
+
+##### 1.3.1. Nature
+- It is democracy for the overwhelming majority of working people.
+- It ensures unity between human rights, citizens’ rights, and the common interests of society.
+- It is bound to the principle of democratic centralism in social organization and management.
+
+##### 1.3.2. Significance
+- It creates the political and social foundation that guarantees power truly belongs to the people.
+- It drives comprehensive social development in conjunction with freedom, justice, and equality.
+- It is both an instrument for protecting the people’s interests and a goal in building a socialist society.
+
+#### 1.4. Conclusion
+From a Marxist–Leninist philosophical perspective, democracy is a historical-political category linked to the formation and development of states throughout human history. Democracy has evolved through the stages of primitive, slave-owning, bourgeois, and socialist democracy.
+
+Among them, socialist democracy represents the highest form of democracy, profoundly embodying the people’s nature and expressing the comprehensive mastery of the working majority. It is both the goal and the driving force for building a new society—one that is equitable, democratic, and civilized.
+`,
+            japanese: `# コンテンツ準備中
+
+この記事の日本語版は現在更新中です。`,
         },
         excerpt: {
             vietnamese:
-                'Tìm hiểu về khái niệm sản xuất hàng hóa và hai điều kiện cơ bản để hình thành sản xuất hàng hóa theo quan điểm của C. Mác...',
+                'Giải thích khái niệm, quá trình hình thành và ý nghĩa của dân chủ xã hội chủ nghĩa từ quan điểm Mác – Lênin và Hồ Chí Minh.',
             english:
-                "Learn about the concept of commodity production and the two basic conditions for forming commodity production according to K. Marx's perspective...",
-            japanese:
-                'K.マルクスの観点による商品生産の概念と商品生産形成の二つの基本条件について学ぶ...',
+                'Explains the concept, historical formation, and significance of socialist democracy from Marxist-Leninist and Hồ Chí Minh perspectives.',
+            japanese: '社会主義民主主義の概念と意義を解説する記事です（日本語版準備中）。',
         },
         author: 'Admin',
-        date: '2024-01-15',
+        date: '2024-05-15',
         readTime: {
-            vietnamese: '8 phút',
-            english: '8 minutes',
-            japanese: '8分',
+            vietnamese: '20 phút',
+            english: '20 minutes',
+            japanese: '20分',
         },
         image: '/placeholder.svg?height=200&width=400',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
                 {
-                    question: 'Sản xuất hàng hóa là gì?',
+                    question: 'Thuật ngữ “demokratos” (demos + kratos) được hiểu đúng nhất là gì?',
                     options: [
-                        'Sản xuất để dùng trực tiếp',
-                        'Sản xuất để trao đổi hoặc mua bán',
-                        'Sản xuất để tích trữ',
-                        'Sản xuất để xuất khẩu',
+                        'Thiểu số cai trị đa số',
+                        'Quyền lực thuộc về nhân dân (nhân dân cai trị)',
+                        'Quyền lực thuộc về quý tộc',
+                        'Quyền lực thuộc về tôn giáo',
                     ],
                     correct: 1,
                 },
                 {
-                    question:
-                        'Điều kiện nào KHÔNG phải là điều kiện ra đời của sản xuất hàng hóa?',
+                    question: 'Điểm khác biệt căn bản giữa dân chủ cổ đại và dân chủ hiện đại là gì?',
                     options: [
-                        'Phân công lao động xã hội',
-                        'Sự tách biệt về kinh tế giữa các chủ thể',
-                        'Có tiền tệ lưu thông',
-                        'Có quyền sở hữu riêng',
+                        'Cổ đại dùng bầu cử, hiện đại không',
+                        'Cổ đại mang tính trực tiếp, phạm vi hẹp, loại trừ nô lệ; hiện đại mở rộng quyền cho toàn dân',
+                        'Cổ đại có tam quyền, hiện đại không',
+                        'Cổ đại không có pháp luật, hiện đại mới có',
+                    ],
+                    correct: 1,
+                },
+                {
+                    question: 'Theo Mác – Lênin, nguyên tắc tổ chức gắn với dân chủ để hình thành cơ chế quản lý là gì?',
+                    options: [
+                        'Tập quyền tuyệt đối',
+                        'Pháp trị thuần túy',
+                        'Tập trung dân chủ',
+                        'Phân quyền cứng',
                     ],
                     correct: 2,
+                },
+                {
+                    question: 'Theo tư tưởng Hồ Chí Minh, chính phủ trong nhà nước dân chủ phải là gì?',
+                    options: [
+                        'Cơ quan cai trị tối cao, trên nhân dân',
+                        'Người đầy tớ trung thành của nhân dân',
+                        'Tổ chức độc lập với nhân dân',
+                        'Đại diện cho giới chủ tư bản',
+                    ],
+                    correct: 1,
+                },
+                {
+                    question: 'Thực tiễn nào đánh dấu việc nền dân chủ xã hội chủ nghĩa được xác lập ở tầm nhà nước?',
+                    options: [
+                        'Cách mạng Tư sản Anh (1688)',
+                        'Công xã Pari (1871)',
+                        'Cách mạng Tháng Mười Nga và sự ra đời Nhà nước Xô viết (1917)',
+                        'Cách mạng Tháng Tám Việt Nam (1945)',
+                    ],
+                    correct: 2,
+                },
+                {
+                    question: 'Đâu KHÔNG phải là đặc trưng của dân chủ xã hội chủ nghĩa?',
+                    options: [
+                        'Quyền lực thuộc về nhân dân, dân làm chủ nhà nước và xã hội',
+                        'Dân chủ toàn diện trên chính trị, kinh tế, văn hóa, xã hội',
+                        'Dân chủ gắn với kỷ luật, pháp luật và công bằng xã hội',
+                        'Đa đảng đối lập là điều kiện bắt buộc để thực hiện dân chủ',
+                    ],
+                    correct: 3,
                 },
             ],
             english: [
                 {
-                    question: 'What is commodity production?',
+                    question: 'What is the most accurate meaning of the term “demokratos” (demos + kratos)?',
                     options: [
-                        'Production for direct use',
-                        'Production for exchange or sale',
-                        'Production for storage',
-                        'Production for export',
+                        'A minority rules the majority',
+                        'Power belongs to the people (the people rule)',
+                        'Power belongs to the aristocracy',
+                        'Power belongs to religion',
                     ],
                     correct: 1,
                 },
                 {
-                    question:
-                        'Which is NOT a condition for the emergence of commodity production?',
+                    question: 'What is the fundamental difference between ancient and modern democracy?',
                     options: [
-                        'Social division of labor',
-                        'Economic separation between subjects',
-                        'Existence of currency circulation',
-                        'Private ownership rights',
-                    ],
-                    correct: 2,
-                },
-            ],
-            japanese: [
-                {
-                    question: '商品生産とは何ですか？',
-                    options: [
-                        '直接使用のための生産',
-                        '交換や売買のための生産',
-                        '貯蔵のための生産',
-                        '輸出のための生産',
+                        'Ancient societies used elections, modern ones do not',
+                        'Ancient democracy was direct, narrow in scope, and excluded slaves; modern democracy expands rights to the whole people',
+                        'Ancient democracy had separation of powers while modern democracy does not',
+                        'Ancient societies lacked law and only modern times created it',
                     ],
                     correct: 1,
                 },
                 {
-                    question: '商品生産の発生条件でないものはどれですか？',
+                    question: 'According to Marx and Lenin, which organizing principle combines with democracy to form the management mechanism?',
                     options: [
-                        '社会的分業',
-                        '主体間の経済的分離',
-                        '通貨流通の存在',
-                        '私有財産権',
+                        'Absolute centralization',
+                        'Pure rule of law',
+                        'Democratic centralism',
+                        'Rigid separation of powers',
                     ],
                     correct: 2,
                 },
+                {
+                    question: 'In Hồ Chí Minh’s thought, what must a government in a democratic state be?',
+                    options: [
+                        'The supreme ruling body above the people',
+                        'The loyal servant of the people',
+                        'An organization independent from the people',
+                        'A representative of the capitalist class',
+                    ],
+                    correct: 1,
+                },
+                {
+                    question: 'Which historical event marked the establishment of socialist democracy at the state level?',
+                    options: [
+                        'The English Glorious Revolution (1688)',
+                        'The Paris Commune (1871)',
+                        'The October Revolution and the birth of the Soviet state (1917)',
+                        'The August Revolution in Vietnam (1945)',
+                    ],
+                    correct: 2,
+                },
+                {
+                    question: 'Which of the following is NOT a characteristic of socialist democracy?',
+                    options: [
+                        'Power belongs to the people, who master the state and society',
+                        'Democracy is comprehensive across politics, economics, culture, and society',
+                        'Democracy is tied to discipline, law, and social justice',
+                        'An opposing multi-party system is an indispensable condition for democracy',
+                    ],
+                    correct: 3,
+                },
             ],
+            japanese: [],
         },
     },
     2: {
         id: 2,
-        section: '2.1.2' as SectionId,
+        section: '4.1.2' as SectionId,
         title: {
-            vietnamese: 'Hàng hóa và hai thuộc tính cơ bản',
-            english: 'Commodities and Two Basic Attributes',
-            japanese: '商品と二つの基本属性',
+            vietnamese: 'Dân chủ xã hội chủ nghĩa',
+            english: 'Socialist Democracy',
+            japanese: '社会主義民主主義',
         },
         content: {
             vietnamese: `
-# Hàng hóa (theo C. Mác)
+# Dân chủ xã hội chủ nghĩa
 
-## 1. Khái niệm hàng hóa
+## 2.1. Mô tả
+Dân chủ là một phạm trù vừa mang tính lịch sử, vừa là giá trị xã hội. Trên cơ sở nghiên cứu lịch sử các chế độ và tổng kết kinh nghiệm thực tiễn, chủ nghĩa Mác – Lênin khẳng định dân chủ là sản phẩm của đấu tranh giai cấp và biến đổi theo từng hình thái kinh tế – xã hội. Trong tiến trình đó, dân chủ xã hội chủ nghĩa xuất hiện như một hình thái dân chủ cao hơn về chất so với dân chủ tư sản, với mục tiêu thực hiện quyền làm chủ thực sự của đại đa số nhân dân lao động.
 
-Hàng hóa là sản phẩm của lao động có thể thoả mãn nhu cầu của con người thông qua trao đổi, mua bán.
+### 2.1.1. Kế thừa và vượt lên từ nền dân chủ trước đó
+Từ góc độ lịch sử, các nhà sáng lập Mác – Lênin nhận xét rằng đấu tranh cho dân chủ là một quá trình lâu dài, nhiều giai đoạn. Dân chủ tư sản đem lại nhiều giá trị tiến bộ (tự do, bình đẳng, pháp quyền), nhưng vì được xây dựng trên nền tảng sở hữu tư nhân về tư liệu sản xuất nên vẫn là “dân chủ của thiểu số”. Trên cơ sở phân tích này, chủ nghĩa Mác – Lênin dự đoán và chỉ ra tính tất yếu xuất hiện một nền dân chủ mới, cao hơn về chất: dân chủ vô sản (dân chủ xã hội chủ nghĩa).
 
-→ Hàng hóa chỉ thực sự là hàng hóa khi được đưa ra thị trường để trao đổi, có thể ở dạng vật chất (như quần áo, thực phẩm) hoặc phi vật chất (dịch vụ, bản quyền...).
+### 2.1.2. Tiền đề thực tiễn: từ Công xã Pari đến Cách mạng Tháng Mười
+Ý tưởng về dân chủ vô sản đã phôi thai từ các phong trào và thực tiễn đấu tranh giai cấp – tiêu biểu là Công xã Pari (1871). Song chỉ khi Cách mạng Tháng Mười (1917) thành công, với việc thành lập Nhà nước Xô viết – nhà nước xã hội chủ nghĩa đầu tiên – thì nền dân chủ xã hội chủ nghĩa mới chính thức được xác lập trên quy mô chính quyền và thể chế. Sự ra đời này đánh dấu bước chuyển đổi về chất trong lịch sử dân chủ: từ quyền lực của thiểu số sang quyền lực thực sự hướng tới đại đa số lao động.
 
-## 2. Hai thuộc tính cơ bản của hàng hóa
+### 2.1.3. Tiến trình phát triển
+Triết học Mác – Lênin nhấn mạnh rằng nền dân chủ xã hội chủ nghĩa phát triển từ thấp tới cao, từ chưa hoàn thiện tới hoàn thiện, đồng thời kế thừa có chọn lọc các giá trị tích cực của nền dân chủ trước đó. Quá trình hoàn thiện dân chủ xã hội chủ nghĩa bao gồm mở rộng quyền làm chủ của quần chúng, nâng cao tính tự giác và sự tham gia quản lý của nhân dân. Khi dân chủ được mở rộng đến mức rộng rãi và sâu sắc, tính “chính trị” của nhà nước (vốn là công cụ của giai cấp) dần mất đi – nghĩa là nhà nước với tư cách công cụ giai cấp sẽ “tiêu vong” trên đường tới xã hội cộng sản.
 
-### Giá trị sử dụng
-- Là công dụng của sản phẩm với con người (có thể là nhu cầu vật chất, tinh thần; tiêu dùng cá nhân hoặc cho sản xuất).
-- Chỉ thực hiện khi hàng hóa được sử dụng hoặc tiêu dùng.
-- Trong thị trường, giá trị sử dụng phải phù hợp với nhu cầu của người mua.
-- → Người sản xuất cần liên tục cải tiến sản phẩm để đáp ứng nhu cầu ngày càng cao.
+## 2.2. Bản chất của nền dân chủ xã hội chủ nghĩa
+Dân chủ xã hội chủ nghĩa có bản chất đa diện, được phân tích ở các bình diện chính trị, kinh tế, tư tưởng – văn hóa – xã hội và pháp quyền.
 
-### Giá trị
-- Là lao động xã hội của người sản xuất kết tinh trong hàng hóa.
-- Giá trị không nằm ở công dụng, mà nằm ở chỗ: hàng hóa được tạo ra bởi một lượng lao động nhất định, và lượng lao động đó có thể so sánh, đo lường được.
-- → Ví dụ: Nếu 1 cái áo mất 2 giờ làm ra và 1 đôi giày cũng mất 2 giờ, thì chúng có thể trao đổi với nhau theo tỉ lệ ngang bằng.
+### 2.2.1. Bản chất chính trị
+- Quyền lực thuộc về nhân dân lao động: dân chủ xã hội chủ nghĩa là dân chủ của đại đa số – những người lao động từng bị bóc lột – chứ không phải dân chủ cho mọi giai cấp theo nghĩa bình đẳng tuyệt đối giữa giai cấp thống trị và bị trị trong chế độ tư sản.
+- Vai trò lãnh đạo của Đảng Cộng sản: sự lãnh đạo chính trị duy nhất của một Đảng đại diện cho giai cấp công nhân là nhân tố quyết định để đảm bảo quyền lực thực sự thuộc về nhân dân. Theo quan điểm Mác – Lênin và Hồ Chí Minh, Đảng có chức năng tập hợp, giác ngộ và tổ chức quần chúng nhằm thực hiện quyền làm chủ; do đó dân chủ xã hội chủ nghĩa mang tính nhất nguyên về chính trị nhưng hướng tới lợi ích toàn dân.
+- Tập trung dân chủ: nguyên tắc kết hợp giữa tập trung và dân chủ (tập trung dân chủ) là phương thức tổ chức quản lý, đảm bảo thống nhất hành động đồng thời tạo không gian cho sự tham gia của quần chúng.
 
-## Kết luận
+### 2.2.2. Bản chất kinh tế
+- Sở hữu xã hội về tư liệu sản xuất chủ yếu: nền dân chủ xã hội chủ nghĩa dựa trên chế độ sở hữu xã hội đối với những tư liệu sản xuất chủ yếu; đây là điều kiện để bảo đảm quyền làm chủ thực sự của nhân dân đối với các nguồn lực kinh tế.
+- Phân phối theo lao động là chủ yếu: việc phân phối lợi ích đặt trọng tâm vào kết quả lao động, hướng tới giảm bất công và bảo đảm ngày càng cao đời sống vật chất cho toàn dân.
+- Quá trình lịch sử và điều kiện vật chất: bản chất kinh tế này chỉ bộc lộ đầy đủ qua một quá trình ổn định chính trị, phát triển sản xuất và nâng cao trình độ lực lượng sản xuất.
 
-Giá trị hàng hóa thể hiện mối quan hệ kinh tế giữa những người sản xuất và trao đổi hàng hóa, và là một phạm trù lịch sử (chỉ tồn tại khi có sản xuất hàng hóa).
+### 2.2.3. Bản chất tư tưởng – văn hóa – xã hội
+- Hệ tư tưởng Mác – Lênin giữ vai trò chủ đạo nhưng tiếp thu giá trị văn hóa dân tộc và tiến bộ nhân loại.
+- Phát triển con người toàn diện: dân chủ trong lĩnh vực văn hóa – tư tưởng tạo điều kiện nâng cao tri thức, nuôi dưỡng sáng tạo và phát triển nhân cách.
+- Hòa hợp lợi ích cá nhân – tập thể – xã hội thông qua hệ thống chính sách và tổ chức xã hội.
 
-Muốn hàng hóa được thị trường chấp nhận, người sản xuất vừa phải đảm bảo giá trị sử dụng (đúng nhu cầu), vừa cần tính đến giá trị (lao động bỏ ra) để đạt hiệu quả kinh tế.
-      `,
+### 2.2.4. Bản chất pháp quyền
+Nhà nước pháp quyền xã hội chủ nghĩa là hình thức thực hiện dân chủ; pháp luật vừa bảo đảm quyền làm chủ của nhân dân vừa điều chỉnh các quan hệ xã hội trong tiến trình xây dựng chủ nghĩa xã hội.
+
+## 2.3. So sánh cơ bản với dân chủ tư sản
+- **Cơ sở xã hội – giai cấp**: dân chủ tư sản mang bản chất giai cấp tư sản; dân chủ xã hội chủ nghĩa là dân chủ của đại đa số người lao động.
+- **Cơ chế chính trị**: dân chủ tư sản thường gắn với đa đảng, đa nguyên chính trị; dân chủ xã hội chủ nghĩa đề cao vai trò lãnh đạo duy nhất của Đảng như điều kiện thực hiện quyền làm chủ của nhân dân.
+- **Bản chất kinh tế**: dân chủ tư sản dựa trên sở hữu tư nhân; dân chủ xã hội chủ nghĩa dựa trên sở hữu xã hội các tư liệu sản xuất chủ yếu.
+- **Mục tiêu cuối cùng**: dân chủ tư sản hướng tới bảo vệ quyền tự do cá nhân trong khuôn khổ tư hữu; dân chủ xã hội chủ nghĩa hướng tới giải phóng đại đa số, bảo đảm công bằng xã hội và tiến tới xã hội không giai cấp.
+
+## 2.4. Điều kiện thực hiện, hạn chế và thách thức
+
+### 2.4.1. Điều kiện tiên quyết
+- Vai trò lãnh đạo của Đảng Cộng sản: Đảng phải gắn kết lý luận Mác – Lênin với thực tiễn, nâng cao năng lực lãnh đạo và khả năng tổ chức quần chúng.
+- Trình độ dân trí và xã hội công dân: cần nâng cao trình độ chính trị, pháp luật và năng lực tham gia quản lý xã hội để nhân dân thực sự làm chủ.
+- Cơ chế pháp luật bảo đảm: hệ thống pháp luật minh bạch, hiệu quả, bảo vệ quyền tự do cá nhân đồng thời bảo đảm lợi ích chung.
+- Điều kiện vật chất: phát triển lực lượng sản xuất, ổn định kinh tế là nền tảng để mở rộng dân chủ thực chất.
+
+### 2.4.2. Hạn chế thực tiễn
+- Xuất phát điểm kinh tế – xã hội thấp khiến mức độ dân chủ đạt được còn hạn chế.
+- Tác động ngoại cảnh (chiến tranh, can thiệp, cấm vận) làm suy yếu khả năng thực hiện dân chủ toàn diện.
+- Mâu thuẫn giữa yêu cầu duy trì vai trò lãnh đạo duy nhất của Đảng và mở rộng dân chủ trực tiếp đặt ra thách thức quản trị, đòi hỏi đổi mới thể chế để tăng minh bạch, trách nhiệm và sự tham gia xã hội.
+
+## 2.5. Hướng hoàn thiện và khuyến nghị
+- Nâng cao dân trí và năng lực xã hội công dân thông qua giáo dục chính trị – pháp luật, thúc đẩy văn hóa tham gia.
+- Hoàn thiện cơ chế pháp quyền bảo đảm minh bạch, trách nhiệm giải trình của bộ máy nhà nước; pháp luật phải bảo vệ quyền làm chủ của nhân dân.
+- Phát triển kinh tế – xã hội nhằm tạo nền tảng vật chất cho việc mở rộng dân chủ; cải thiện đời sống để nhân dân có điều kiện tham gia thực chất.
+- Đổi mới phương thức lãnh đạo của Đảng, tăng tính dân chủ trong nội bộ, tiếp thu ý kiến nhân dân và xây dựng cơ chế kiểm tra – giám sát nhằm hạn chế lạm quyền.
+- Xây dựng cơ chế tham gia rộng rãi từ cơ sở đến trung ương, khuyến khích các tổ chức quần chúng, hiệp hội nghề nghiệp và hình thức dân chủ trực tiếp phù hợp.
+
+## 2.6. Kết luận
+Dân chủ xã hội chủ nghĩa, theo triết học Mác – Lênin, là hình thái dân chủ cao hơn dân chủ tư sản vì hướng tới quyền làm chủ của đại đa số nhân dân lao động, gắn liền với sở hữu xã hội về tư liệu sản xuất và quản lý xã hội bằng nhà nước pháp quyền xã hội chủ nghĩa dưới sự lãnh đạo của Đảng Cộng sản. Quá trình xây dựng nền dân chủ này phụ thuộc vào điều kiện kinh tế, trình độ dân trí, thể chế pháp luật và bối cảnh quốc tế; tiếp tục hoàn thiện cơ chế pháp quyền, nâng cao năng lực tham gia của nhân dân và đổi mới phương thức lãnh đạo là những nhân tố then chốt để dân chủ xã hội chủ nghĩa trở nên sâu sắc, bền vững trong thực tiễn.
+`,
             english: `
-# Commodities (according to K. Marx)
+# Socialist Democracy
 
-## 1. Concept of Commodities
+## 2.1. Description
+Democracy is simultaneously a historical category and a social value. Based on historical research and practical experience, Marxism–Leninism asserts that democracy is a product of class struggle and changes with each socio-economic formation. Within that trajectory, socialist democracy emerges as a qualitatively higher form than bourgeois democracy, aiming to ensure real mastery for the overwhelming majority of working people.
 
-A commodity is a product of labor that can satisfy human needs through exchange and trade.
+### 2.1.1. Inheriting and Surpassing Earlier Democracies
+From a historical viewpoint, the founders of Marxism–Leninism emphasized that the struggle for democracy is a long, multi-stage process. Bourgeois democracy created many progressive values—freedom, equality, the rule of law—but because it rests on private ownership of the means of production, it remains “a democracy of the minority.” Marxism–Leninism therefore predicted and highlighted the inevitability of a new, qualitatively higher democracy: proletarian democracy, or socialist democracy.
 
-→ A commodity is truly a commodity only when it is brought to market for exchange, whether in material form (like clothing, food) or immaterial form (services, copyrights...).
+### 2.1.2. Practical Preconditions: From the Paris Commune to the October Revolution
+The idea of proletarian democracy germinated through class struggles, exemplified by the Paris Commune (1871). Only after the success of the October Revolution (1917) and the establishment of the Soviet state—the first socialist state—was socialist democracy institutionalized at the level of government. This milestone marked a qualitative leap in the history of democracy: power shifted from the minority to the real empowerment of the working majority.
 
-## 2. Two Basic Attributes of Commodities
+### 2.1.3. Developmental Trajectory
+Marxist–Leninist philosophy stresses that socialist democracy develops from lower to higher levels, from incomplete to more complete forms, while selectively inheriting the positive values of previous democracies. Perfecting socialist democracy involves expanding people’s mastery, enhancing civic consciousness, and broadening participation in governance. When democracy is extended widely and deeply, the “political” character of the state—as an instrument of class rule—gradually fades, foreshadowing the eventual withering away of the state on the path to communist society.
 
-### Use Value
-- The utility of a product to humans (can be material or spiritual needs; individual consumption or for production).
-- Only realized when the commodity is used or consumed.
-- In the market, use value must match the buyer's needs.
-- → Producers need to continuously improve products to meet increasingly high demands.
+## 2.2. The Nature of Socialist Democracy
+Socialist democracy has a multi-dimensional nature encompassing politics, economics, ideology, culture, society, and the rule of law.
 
-### Value
-- The social labor of producers crystallized in the commodity.
-- Value lies not in utility, but in the fact that commodities are created by a certain amount of labor, and that amount of labor can be compared and measured.
-- → Example: If 1 shirt takes 2 hours to make and 1 pair of shoes also takes 2 hours, they can be exchanged at an equal ratio.
+### 2.2.1. Political Nature
+- Power belongs to the working people: socialist democracy serves the majority who were once exploited, rather than all classes on an ostensibly equal footing as in bourgeois society.
+- The leadership of the Communist Party: the single political leadership of a party representing the working class is decisive for ensuring that power truly belongs to the people. In Marxist–Leninist and Hồ Chí Minh thought, the Party rallies, enlightens, and organizes the masses to exercise mastery; thus socialist democracy is politically monistic but oriented toward the interests of the entire people.
+- Democratic centralism: combining centralization and democracy is the organizational principle that guarantees unity of action while creating space for popular participation.
 
-## Conclusion
+### 2.2.2. Economic Nature
+- Social ownership of the principal means of production: socialist democracy rests on social ownership, which secures the people’s real mastery over economic resources.
+- Distribution mainly according to labor: allocating benefits based on labor outcomes reduces injustice and steadily improves material living standards for all.
+- Historical process and material conditions: this economic nature fully unfolds only through political stability, productive development, and advances in productive forces.
 
-Commodity value reflects the economic relationship between those who produce and exchange commodities, and is a historical category (only exists when there is commodity production).
+### 2.2.3. Ideological, Cultural, and Social Nature
+- Marxism–Leninism provides the guiding ideology while absorbing national cultural values and global progressive achievements.
+- Fostering well-rounded human development: democracy in the cultural–ideological realm facilitates intellectual growth, creativity, and personality development.
+- Harmonizing individual, collective, and societal interests through policies and social organization.
 
-For commodities to be accepted by the market, producers must ensure both use value (meeting needs) and consider value (labor invested) to achieve economic efficiency.
-      `,
-            japanese: `
-# 商品（K.マルクスによる）
+### 2.2.4. Rule-of-Law Nature
+The socialist rule-of-law state is the vehicle for practicing democracy; law both guarantees popular mastery and regulates social relations throughout socialist construction.
 
-## 1. 商品の概念
+## 2.3. Fundamental Comparison with Bourgeois Democracy
+- **Social-class foundation:** bourgeois democracy bears the class nature of the bourgeoisie, whereas socialist democracy belongs to the working majority.
+- **Political mechanism:** bourgeois democracy typically features multi-party pluralism; socialist democracy affirms the Communist Party’s single leadership as the condition for popular mastery.
+- **Economic nature:** bourgeois democracy is grounded in private ownership; socialist democracy is founded on social ownership of the essential means of production.
+- **Ultimate goal:** bourgeois democracy safeguards individual freedoms within private property relations; socialist democracy strives to liberate the majority, secure social justice, and advance toward a classless society.
 
-商品とは、交換や売買を通じて人間のニーズを満たすことができる労働の産物です。
+## 2.4. Conditions, Limitations, and Challenges
 
-→ 商品は市場に持ち込まれて交換される時に真に商品となり、物質的形態（衣服、食品など）または非物質的形態（サービス、著作権など）があります。
+### 2.4.1. Prerequisites
+- Leadership of the Communist Party: the Party must link Marxism–Leninism with reality, improving leadership capacity and mass organization.
+- Civic literacy and civil society: raising political and legal awareness and building capacity for public participation are vital for genuine popular mastery.
+- Legal safeguards: a transparent, effective legal system protects individual freedoms while ensuring the common good.
+- Material conditions: developing productive forces and stabilizing the economy provide the material foundation for substantive democracy.
 
-## 2. 商品の二つの基本属性
+### 2.4.2. Practical Limitations
+- Low socio-economic starting points in many socialist countries restrict the level of democracy achieved.
+- External pressures—wars, interventions, embargoes—undermine the ability to realize comprehensive democracy.
+- The tension between maintaining the Party’s singular leadership and expanding direct democracy poses governance challenges, demanding institutional renewal to enhance transparency, accountability, and social participation.
 
-### 使用価値
-- 人間に対する製品の効用（物質的または精神的ニーズ、個人消費または生産用）。
-- 商品が使用または消費される時にのみ実現される。
-- 市場では、使用価値は買い手のニーズに合致しなければならない。
-- → 生産者は高まるニーズに応えるため継続的に製品を改善する必要がある。
+## 2.5. Directions for Improvement and Practical Recommendations
+- Raise civic knowledge and capacity through political–legal education and by nurturing a culture of participation.
+- Perfect rule-of-law mechanisms to ensure transparency and accountability in state institutions; laws must truly protect the people’s mastery.
+- Promote socio-economic development to provide the material basis for expanding democracy and improving living standards so people can participate substantively.
+- Innovate the Party’s leadership methods by increasing internal democracy, absorbing public feedback, and strengthening oversight mechanisms to prevent abuse of power.
+- Build broad participation channels from grassroots to central levels, encouraging mass organizations, professional associations, and appropriate forms of direct democracy.
 
-### 価値
-- 商品に結晶化した生産者の社会的労働。
-- 価値は効用にあるのではなく、商品が一定量の労働によって作られ、その労働量が比較・測定可能であることにある。
-- → 例：1枚のシャツを作るのに2時間、1足の靴を作るのにも2時間かかる場合、等しい比率で交換できる。
+## 2.6. Conclusion
+According to Marxist–Leninist philosophy, socialist democracy is a higher form of democracy than its bourgeois counterpart because it aims at the mastery of the working majority, rests on social ownership of the means of production, and governs society through a socialist rule-of-law state under Communist Party leadership. Building this democracy depends on economic conditions, civic literacy, legal institutions, and the international environment. Further perfecting rule-of-law mechanisms, enhancing public participation, and renewing leadership methods are decisive factors for deepening and sustaining socialist democracy in practice.
+`,
+            japanese: `# コンテンツ準備中
 
-## 結論
-
-商品価値は商品を生産・交換する人々の経済関係を反映し、歴史的範疇である（商品生産がある時にのみ存在）。
-
-商品が市場に受け入れられるには、生産者は使用価値（ニーズに合致）を確保し、価値（投入労働）を考慮して経済効率を達成しなければならない。
-      `,
+このセクションの日本語版は現在更新中です。`,
         },
         excerpt: {
             vietnamese:
-                'Khám phá khái niệm hàng hóa và hai thuộc tính cơ bản: giá trị sử dụng và giá trị theo quan điểm của C. Mác...',
+                'Phân tích bản chất, điều kiện thực hiện và định hướng hoàn thiện dân chủ xã hội chủ nghĩa trên các phương diện chính trị, kinh tế và pháp quyền.',
             english:
-                "Explore the concept of commodities and two basic attributes: use value and value according to K. Marx's perspective...",
-            japanese:
-                'K.マルクスの観点による商品の概念と二つの基本属性：使用価値と価値を探る...',
+                'Analyzes the nature, implementation conditions, and improvement directions of socialist democracy across political, economic, and legal dimensions.',
+            japanese: '社会主義民主主義の特質と課題を概説します（日本語版準備中）。',
         },
         author: 'Admin',
-        date: '2024-01-12',
+        date: '2024-05-15',
         readTime: {
-            vietnamese: '10 phút',
-            english: '10 minutes',
-            japanese: '10分',
+            vietnamese: '25 phút',
+            english: '25 minutes',
+            japanese: '25分',
         },
         image: '/placeholder.svg?height=200&width=400',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
                 {
-                    question: 'Giá trị sử dụng của hàng hóa là gì?',
+                    question: 'So với dân chủ tư sản, cơ sở kinh tế của dân chủ xã hội chủ nghĩa được nêu là gì?',
                     options: [
-                        'Lao động kết tinh trong hàng hóa',
-                        'Công dụng của sản phẩm với con người',
-                        'Giá cả của hàng hóa trên thị trường',
-                        'Thời gian sản xuất hàng hóa',
+                        'Sở hữu tư nhân tư liệu sản xuất chủ yếu',
+                        'Sở hữu xã hội đối với tư liệu sản xuất chủ yếu',
+                        'Kinh tế tự cấp tự túc',
+                        'Tài chính do tư bản nước ngoài chi phối',
                     ],
                     correct: 1,
                 },
                 {
-                    question:
-                        'Theo ví dụ trong bài, nếu 1 áo mất 2 giờ và 1 đôi giày mất 2 giờ thì:',
+                    question: 'Phát biểu nào đúng về mối quan hệ giữa dân chủ và pháp quyền trong dân chủ xã hội chủ nghĩa?',
                     options: [
-                        'Áo có giá trị cao hơn giày',
-                        'Giày có giá trị cao hơn áo',
-                        'Chúng có thể trao đổi ngang bằng',
-                        'Không thể so sánh được',
-                    ],
-                    correct: 2,
-                },
-            ],
-            english: [
-                {
-                    question: 'What is the use value of a commodity?',
-                    options: [
-                        'Labor crystallized in the commodity',
-                        'The utility of the product to humans',
-                        'The price of the commodity in the market',
-                        'The production time of the commodity',
-                    ],
-                    correct: 1,
-                },
-                {
-                    question:
-                        'According to the example, if 1 shirt takes 2 hours and 1 pair of shoes takes 2 hours:',
-                    options: [
-                        'The shirt has higher value than shoes',
-                        'The shoes have higher value than shirt',
-                        'They can be exchanged equally',
-                        'They cannot be compared',
-                    ],
-                    correct: 2,
-                },
-            ],
-            japanese: [
-                {
-                    question: '商品の使用価値とは何ですか？',
-                    options: [
-                        '商品に結晶化した労働',
-                        '人間に対する製品の効用',
-                        '市場での商品の価格',
-                        '商品の生産時間',
-                    ],
-                    correct: 1,
-                },
-                {
-                    question:
-                        '例によると、シャツ1枚が2時間、靴1足が2時間かかる場合：',
-                    options: [
-                        'シャツの方が靴より価値が高い',
-                        '靴の方がシャツより価値が高い',
-                        '等しく交換できる',
-                        '比較できない',
-                    ],
-                    correct: 2,
-                },
-            ],
-        },
-    },
-    3: {
-        id: 3,
-        section: '2.1.3' as SectionId,
-        title: {
-            vietnamese: 'Tiền tệ - Nguồn gốc và bản chất',
-            english: 'Money - Origin and Nature',
-            japanese: '貨幣 - 起源と本質',
-        },
-        content: {
-            vietnamese: `
-# Tiền tệ
-
-## 2.1.3.1. Nguồn gốc và bản chất của tiền
-
-Tiền là kết quả của sự phát triển sản xuất và trao đổi hàng hóa. Giá trị hàng hóa vốn trừu tượng, không nhìn thấy được, chỉ bộc lộ ra thông qua quá trình trao đổi.
-
-## Các hình thái giá trị (tiền đề ra đời của tiền)
-
-### 1. Hình thái giá trị giản đơn (ngẫu nhiên)
-- Trao đổi trực tiếp giữa hai hàng hóa (ví dụ: 1A = 2B)
-- Hình thái vật ngang giá là hàng hóa B – tạm thời đại diện cho giá trị của A.
-
-### 2. Hình thái giá trị mở rộng (đầy đủ)
-- Hàng hóa A được so sánh với nhiều hàng hóa khác (A = 2B = 3C = 5D...)
-- Tuy nhiên, vẫn là trao đổi trực tiếp, chưa có vật ngang giá thống nhất.
-
-### 3. Hình thái giá trị chung
-- Một hàng hóa (ví dụ A) trở thành vật ngang giá chung cho nhiều hàng hóa khác (2B = 3C = 5D = 1A).
-- Nhưng ở các vùng khác nhau, vật ngang giá chung có thể khác nhau → gây bất tiện.
-
-### 4. Hình thái tiền
-- Một hàng hóa đặc biệt (ví dụ vàng) trở thành vật ngang giá chung thống nhất cho tất cả hàng hóa.
-- Ví dụ: 2B = 3C = 5D = 0.1gr vàng
-
-## Bản chất của tiền
-
-→ Tiền là một hàng hóa đặc biệt, ra đời từ quá trình phát triển của trao đổi – sản xuất – phân công lao động xã hội.
-
-→ Tiền thể hiện giá trị của hàng hóa, phản ánh lao động xã hội và quan hệ giữa người sản xuất, trao đổi.
-
-## Quan niệm về tiền trong kinh tế vi mô
-
-Theo kinh tế học vi mô: Tiền là bất kỳ phương tiện nào được xã hội chấp nhận để thanh toán hàng hóa hay nợ nần.
-
-Không quan trọng bản chất vật lý (vỏ sò, răng thú, vàng…), mà quan trọng là quy ước xã hội công nhận nó như là tiền.
-
-⇒ Tiền là phương tiện trao đổi có tính quy ước xã hội.
-      `,
-            english: `
-# Money
-
-## 2.1.3.1. Origin and Nature of Money
-
-Money is the result of the development of production and commodity exchange. Commodity value is inherently abstract and invisible, only revealed through the exchange process.
-
-## Forms of Value (Prerequisites for the Emergence of Money)
-
-### 1. Simple (Accidental) Form of Value
-- Direct exchange between two commodities (example: 1A = 2B)
-- The equivalent form is commodity B – temporarily representing the value of A.
-
-### 2. Expanded (Total) Form of Value
-- Commodity A is compared with many other commodities (A = 2B = 3C = 5D...)
-- However, it's still direct exchange, without a unified equivalent.
-
-### 3. General Form of Value
-- One commodity (example A) becomes the general equivalent for many other commodities (2B = 3C = 5D = 1A).
-- But in different regions, the general equivalent may differ → causing inconvenience.
-
-### 4. Money Form
-- A special commodity (example gold) becomes the unified general equivalent for all commodities.
-- Example: 2B = 3C = 5D = 0.1g gold
-
-## Nature of Money
-
-→ Money is a special commodity, emerging from the development process of exchange – production – social division of labor.
-
-→ Money expresses the value of commodities, reflecting social labor and relationships between producers and exchangers.
-
-## Concept of Money in Microeconomics
-
-According to microeconomics: Money is any medium accepted by society to pay for goods or debts.
-
-The physical nature (shells, animal teeth, gold...) is not important, but rather the social convention recognizing it as money.
-
-⇒ Money is an exchange medium with social conventional nature.
-      `,
-            japanese: `
-# 貨幣
-
-## 2.1.3.1. 貨幣の起源と本質
-
-貨幣は生産と商品交換の発展の結果です。商品価値は本来抽象的で目に見えず、交換過程を通じてのみ現れます。
-
-## 価値形態（貨幣発生の前提）
-
-### 1. 単純（偶然的）価値形態
-- 二つの商品間の直接交換（例：1A = 2B）
-- 等価形態は商品B - 一時的にAの価値を代表。
-
-### 2. 拡大（全体的）価値形態
-- 商品Aが多くの他の商品と比較される（A = 2B = 3C = 5D...）
-- しかし、まだ直接交換で、統一された等価物はない。
-
-### 3. 一般的価値形態
-- 一つの商品（例A）が多くの他の商品の一般等価物となる（2B = 3C = 5D = 1A）。
-- しかし異なる地域では一般等価物が異なる可能性がある → 不便を引き起こす。
-
-### 4. 貨幣形態
-- 特別な商品（例：金）がすべての商品の統一された一般等価物となる。
-- 例：2B = 3C = 5D = 0.1g金
-
-## 貨幣の本質
-
-→ 貨幣は特別な商品であり、交換 - 生産 - 社会的分業の発展過程から生まれる。
-
-→ 貨幣は商品の価値を表現し、社会的労働と生産者・交換者間の関係を反映する。
-
-## ミクロ経済学における貨幣の概念
-
-ミクロ経済学によると：貨幣は社会が商品や債務の支払いに受け入れる任意の媒体です。
-
-物理的性質（貝殻、動物の歯、金...）は重要ではなく、社会がそれを貨幣として認める慣習が重要です。
-
-⇒ 貨幣は社会的慣習性を持つ交換媒体です。
-      `,
-        },
-        excerpt: {
-            vietnamese:
-                'Tìm hiểu về nguồn gốc, bản chất của tiền tệ và quá trình phát triển từ các hình thái giá trị đến hình thái tiền...',
-            english:
-                'Learn about the origin and nature of money and the development process from value forms to money form...',
-            japanese:
-                '貨幣の起源と本質、価値形態から貨幣形態への発展過程について学ぶ...',
-        },
-        author: 'Admin',
-        date: '2024-01-10',
-        readTime: {
-            vietnamese: '12 phút',
-            english: '12 minutes',
-            japanese: '12分',
-        },
-        image: '/placeholder.svg?height=200&width=400',
-        originalLanguage: 'vietnamese' as const,
-        quiz: {
-            vietnamese: [
-                {
-                    question: 'Hình thái giá trị nào xuất hiện đầu tiên?',
-                    options: [
-                        'Hình thái tiền',
-                        'Hình thái giá trị chung',
-                        'Hình thái giá trị giản đơn',
-                        'Hình thái giá trị mở rộng',
+                        'Pháp luật đối lập với dân chủ',
+                        'Pháp luật chỉ phục vụ bộ máy nhà nước',
+                        'Pháp luật vừa bảo đảm quyền làm chủ của nhân dân, vừa điều chỉnh các quan hệ xã hội',
+                        'Dân chủ càng cao thì càng không cần pháp luật',
                     ],
                     correct: 2,
                 },
                 {
-                    question:
-                        'Theo quan niệm kinh tế vi mô, điều gì quan trọng nhất đối với tiền?',
+                    question: 'Mục tiêu cuối cùng của dân chủ xã hội chủ nghĩa là gì?',
                     options: [
-                        'Bản chất vật lý',
-                        'Giá trị vàng',
-                        'Quy ước xã hội công nhận',
-                        'Kích thước và hình dạng',
-                    ],
-                    correct: 2,
-                },
-            ],
-            english: [
-                {
-                    question: 'Which value form appeared first?',
-                    options: [
-                        'Money form',
-                        'General form of value',
-                        'Simple form of value',
-                        'Expanded form of value',
+                        'Bảo vệ tuyệt đối quyền tư hữu cá nhân',
+                        'Mở rộng thị trường tư bản',
+                        'Giải phóng đại đa số lao động, bảo đảm công bằng xã hội, hướng tới xã hội không giai cấp',
+                        'Tăng cường cạnh tranh đảng phái',
                     ],
                     correct: 2,
                 },
                 {
-                    question:
-                        'According to microeconomic concept, what is most important for money?',
+                    question: 'Điều kiện tiên quyết để thực hiện dân chủ xã hội chủ nghĩa được nêu là gì?',
                     options: [
-                        'Physical nature',
-                        'Gold value',
-                        'Social conventional recognition',
-                        'Size and shape',
-                    ],
-                    correct: 2,
-                },
-            ],
-            japanese: [
-                {
-                    question: '最初に現れた価値形態はどれですか？',
-                    options: [
-                        '貨幣形態',
-                        '一般的価値形態',
-                        '単純価値形態',
-                        '拡大価値形態',
-                    ],
-                    correct: 2,
-                },
-                {
-                    question:
-                        'ミクロ経済学の概念によると、貨幣にとって最も重要なことは何ですか？',
-                    options: [
-                        '物理的性質',
-                        '金の価値',
-                        '社会的慣習的認識',
-                        'サイズと形状',
-                    ],
-                    correct: 2,
-                },
-            ],
-        },
-    },
-    4: {
-        id: 4,
-        section: '2.2.1' as SectionId,
-        title: {
-            vietnamese: 'Thị trường - Khái niệm và vai trò',
-            english: 'Market - Concept and Role',
-            japanese: '市場 - 概念と役割',
-        },
-        content: {
-            vietnamese: `
-# Thị trường và nền kinh tế thị trường
-
-## 2.2.1.1. Khái niệm thị trường
-
-Thị trường là tập hợp các quan hệ kinh tế về mua – bán, trao đổi hàng hóa, dịch vụ với giá cả và số lượng xác định.
-
-### Thị trường tồn tại ở hai cấp độ:
-- **Cụ thể**: chợ, cửa hàng, siêu thị...
-- **Trừu tượng**: hệ thống quan hệ cung – cầu, giá cả, hàng – tiền...
-
-## Phân loại thị trường
-
-### Theo đối tượng:
-- Thị trường hàng hóa
-- Thị trường dịch vụ
-
-### Theo phạm vi:
-- Thị trường trong nước
-- Thị trường quốc tế
-
-### Theo yếu tố trao đổi:
-- Tư liệu tiêu dùng
-- Tư liệu sản xuất
-
-### Theo cơ chế vận hành:
-- Thị trường tự do
-- Thị trường có điều tiết
-- Cạnh tranh hoàn hảo/không hoàn hảo
-
-## 2.2.1.2. Vai trò của thị trường
-
-### 1. Thực hiện giá trị hàng hóa, thúc đẩy sản xuất
-- Thị trường giúp tiêu thụ hàng hóa ⇒ mở rộng thị trường ⇒ kích thích sản xuất.
-
-### 2. Kích thích sáng tạo, phân bổ nguồn lực hiệu quả
-- Ai sáng tạo, đáp ứng tốt nhu cầu thì sẽ có lợi ích ⇒ động lực cải tiến liên tục.
-- Thị trường tự điều tiết phân bổ tài nguyên về nơi sử dụng hiệu quả.
-
-### 3. Gắn kết nền kinh tế trong nước và với thế giới
-- Gắn các vùng miền, ngành nghề → một hệ thống kinh tế thống nhất.
-- Thị trường quốc tế giúp kinh tế trong nước mở rộng, hội nhập.
-
-## Kết luận
-
-Thị trường đóng vai trò quan trọng trong việc điều tiết nền kinh tế, thúc đẩy sản xuất và phân bổ nguồn lực một cách hiệu quả, đồng thời tạo động lực cho sự phát triển và đổi mới.
-      `,
-            english: `
-# Market and Market Economy
-
-## 2.2.1.1. Concept of Market
-
-Market is a collection of economic relationships regarding buying-selling, exchanging goods and services with determined prices and quantities.
-
-### Market exists at two levels:
-- **Concrete**: markets, stores, supermarkets...
-- **Abstract**: system of supply-demand relationships, prices, goods-money...
-
-## Market Classification
-
-### By object:
-- Goods market
-- Services market
-
-### By scope:
-- Domestic market
-- International market
-
-### By exchange factors:
-- Consumer goods
-- Production materials
-
-### By operating mechanism:
-- Free market
-- Regulated market
-- Perfect/imperfect competition
-
-## 2.2.1.2. Role of Market
-
-### 1. Realizing commodity value, promoting production
-- Market helps consume goods ⇒ expand market ⇒ stimulate production.
-
-### 2. Stimulating innovation, efficient resource allocation
-- Those who innovate and meet needs well will benefit ⇒ continuous improvement motivation.
-- Market self-regulates resource allocation to efficient use locations.
-
-### 3. Connecting domestic economy and with the world
-- Connecting regions and industries → a unified economic system.
-- International market helps domestic economy expand and integrate.
-
-## Conclusion
-
-Market plays an important role in regulating the economy, promoting production and allocating resources efficiently, while creating motivation for development and innovation.
-      `,
-            japanese: `
-# 市場と市場経済
-
-## 2.2.1.1. 市場の概念
-
-市場とは、決定された価格と数量で商品・サービスの売買・交換に関する経済関係の集合です。
-
-### 市場は二つのレベルで存在：
-- **具体的**: 市場、店舗、スーパーマーケット...
-- **抽象的**: 需給関係、価格、商品-貨幣のシステム...
-
-## 市場の分類
-
-### 対象による:
-- 商品市場
-- サービス市場
-
-### 範囲による:
-- 国内市場
-- 国際市場
-
-### 交換要素による:
-- 消費財
-- 生産財
-
-### 運営メカニズムによる:
-- 自由市場
-- 規制市場
-- 完全/不完全競争
-
-## 2.2.1.2. 市場の役割
-
-### 1. 商品価値の実現、生産の促進
-- 市場は商品消費を助ける ⇒ 市場拡大 ⇒ 生産刺激。
-
-### 2. 革新の刺激、効率的資源配分
-- 革新し、ニーズによく応える者は利益を得る ⇒ 継続的改善の動機。
-- 市場は効率的使用場所への資源配分を自己調整する。
-
-### 3. 国内経済と世界との結合
-- 地域・産業を結合 → 統一された経済システム。
-- 国際市場は国内経済の拡大・統合を助ける。
-
-## 結論
-
-市場は経済調整、生産促進、効率的資源配分において重要な役割を果たし、同時に発展と革新の動機を創出します。
-      `,
-        },
-        excerpt: {
-            vietnamese:
-                'Khám phá khái niệm thị trường, các phân loại và vai trò quan trọng của thị trường trong nền kinh tế...',
-            english:
-                'Explore the concept of market, classifications and important role of market in the economy...',
-            japanese: '市場の概念、分類、経済における市場の重要な役割を探る...',
-        },
-        author: 'Admin',
-        date: '2024-01-08',
-        readTime: {
-            vietnamese: '9 phút',
-            english: '9 minutes',
-            japanese: '9分',
-        },
-        image: '/placeholder.svg?height=200&width=400',
-        originalLanguage: 'vietnamese' as const,
-        quiz: {
-            vietnamese: [
-                {
-                    question: 'Thị trường tồn tại ở mấy cấp độ?',
-                    options: ['1 cấp độ', '2 cấp độ', '3 cấp độ', '4 cấp độ'],
-                    correct: 1,
-                },
-                {
-                    question: 'Vai trò nào KHÔNG phải của thị trường?',
-                    options: [
-                        'Thực hiện giá trị hàng hóa',
-                        'Kích thích sáng tạo',
-                        'Gắn kết nền kinh tế',
-                        'Tạo ra hàng hóa',
-                    ],
-                    correct: 3,
-                },
-            ],
-            english: [
-                {
-                    question: 'How many levels does the market exist at?',
-                    options: ['1 level', '2 levels', '3 levels', '4 levels'],
-                    correct: 1,
-                },
-                {
-                    question: 'Which is NOT a role of the market?',
-                    options: [
-                        'Realizing commodity value',
-                        'Stimulating innovation',
-                        'Connecting the economy',
-                        'Creating goods',
-                    ],
-                    correct: 3,
-                },
-            ],
-            japanese: [
-                {
-                    question: '市場はいくつのレベルで存在しますか？',
-                    options: ['1レベル', '2レベル', '3レベル', '4レベル'],
-                    correct: 1,
-                },
-                {
-                    question: '市場の役割でないものはどれですか？',
-                    options: [
-                        '商品価値の実現',
-                        '革新の刺激',
-                        '経済の結合',
-                        '商品の創造',
-                    ],
-                    correct: 3,
-                },
-            ],
-        },
-    },
-    5: {
-        id: 5,
-        section: '2.2.2' as SectionId,
-        title: {
-            vietnamese: 'Nền kinh tế thị trường và các quy luật',
-            english: 'Market Economy and Economic Laws',
-            japanese: '市場経済と経済法則',
-        },
-        content: {
-            vietnamese: `
-# Nền kinh tế thị trường và các quy luật chủ yếu
-
-## 2.2.2.1. Khái niệm
-
-Nền kinh tế thị trường là nền kinh tế vận hành theo cơ chế thị trường, trong đó:
-- Sản xuất – trao đổi hàng hóa diễn ra thông qua thị trường.
-- Chịu sự điều tiết của các quy luật kinh tế (cung – cầu, giá trị...).
-
-## Đặc trưng phổ biến
-
-- Đa dạng chủ thể kinh tế, sở hữu khác nhau nhưng bình đẳng trước pháp luật.
-- Thị trường quyết định phân bổ nguồn lực thông qua các thị trường bộ phận.
-- Giá cả theo nguyên tắc thị trường, cạnh tranh tạo động lực.
-- Nhà nước điều tiết, khắc phục thất bại thị trường, đảm bảo công bằng.
-- Kinh tế mở, gắn kết chặt chẽ thị trường nội địa và quốc tế.
-
-## Ưu thế của nền kinh tế thị trường
-
-- Tạo động lực sáng tạo, đổi mới cho các chủ thể kinh tế.
-- Khai thác tốt tiềm năng, lợi thế của vùng, địa phương, quốc gia.
-- Thỏa mãn tối đa nhu cầu của con người, thúc đẩy tiến bộ xã hội.
-
-## Khuyết tật của nền kinh tế thị trường
-
-- Tiềm ẩn rủi ro khủng hoảng kinh tế, khó dự đoán và khắc phục.
-- Không tự khắc phục suy thoái môi trường, cạn kiệt tài nguyên.
-- Gây phân hóa xã hội sâu sắc (giàu – nghèo, cơ hội…).
-
-⇒ Vì vậy, không có nền kinh tế thị trường thuần túy mà luôn cần vai trò điều tiết của Nhà nước (kinh tế hỗn hợp).
-
-## 2.2.2.2. Một số quy luật kinh tế chủ yếu
-
-### 1. Quy luật giá trị
-
-**Nội dung chính**: Sản xuất và trao đổi hàng hóa phải dựa trên hao phí lao động xã hội cần thiết. Giá cả thị trường xoay quanh giá trị hàng hóa.
-
-**Tác động**:
-- Điều tiết sản xuất – lưu thông
-- Kích thích cải tiến kỹ thuật
-- Phân hóa giàu nghèo
-
-### 2. Quy luật cung – cầu
-
-**Nội dung chính**: Giá cả chịu tác động bởi cung và cầu:
-- Cung > cầu → giá giảm
-- Cầu > cung → giá tăng
-- Cung = cầu → giá = giá trị hàng hóa
-
-### 3. Quy luật cạnh tranh
-
-**Nội dung chính**: Cạnh tranh là sự ganh đua giữa các chủ thể kinh tế nhằm đạt được lợi ích (thị phần, lợi nhuận…).
-
-**Vai trò của cạnh tranh**:
-- Thúc đẩy đổi mới, cải tiến công nghệ
-- Giảm giá thành, tăng chất lượng
-- Loại bỏ các doanh nghiệp yếu kém
-
-## Kết luận
-
-Nền kinh tế thị trường chịu sự chi phối của các quy luật khách quan, đồng thời không thể thiếu vai trò điều tiết của Nhà nước để đảm bảo phát triển bền vững và công bằng xã hội.
-      `,
-            english: `
-# Market Economy and Main Laws
-
-## 2.2.2.1. Concept
-
-Market economy is an economy operating according to market mechanisms, in which:
-- Production and commodity exchange occur through the market.
-- Subject to regulation by economic laws (supply-demand, value...).
-
-## Common Characteristics
-
-- Diverse economic subjects with different ownership but equal before the law.
-- Market determines resource allocation through sectoral markets.
-- Prices follow market principles, competition creates motivation.
-- State regulation, overcoming market failures, ensuring fairness.
-- Open economy, closely linking domestic and international markets.
-
-## Advantages of Market Economy
-
-- Creating motivation for innovation and renewal for economic subjects.
-- Well exploiting potential and advantages of regions, localities, countries.
-- Maximally satisfying human needs, promoting social progress.
-
-## Disadvantages of Market Economy
-
-- Hidden risks of economic crisis, difficult to predict and overcome.
-- Cannot self-correct environmental degradation, resource depletion.
-- Causing deep social stratification (rich-poor, opportunities...).
-
-⇒ Therefore, there is no pure market economy but always needs state regulation (mixed economy).
-
-## 2.2.2.2. Some Main Economic Laws
-
-### 1. Law of Value
-
-**Main content**: Production and commodity exchange must be based on necessary social labor expenditure. Market prices revolve around commodity value.
-
-**Impact**:
-- Regulating production-circulation
-- Stimulating technical innovation
-- Creating wealth differentiation
-
-### 2. Law of Supply and Demand
-
-**Main content**: Prices are affected by supply and demand:
-- Supply > demand → price decreases
-- Demand > supply → price increases
-- Supply = demand → price = commodity value
-
-### 3. Law of Competition
-
-**Main content**: Competition is rivalry between economic subjects to achieve benefits (market share, profit...).
-
-**Role of competition**:
-- Promoting innovation, technological improvement
-- Reducing costs, increasing quality
-- Eliminating weak enterprises
-
-## Conclusion
-
-Market economy is governed by objective laws, while state regulation is indispensable to ensure sustainable development and social equity.
-      `,
-            japanese: `
-# 市場経済と主要法則
-
-## 2.2.2.1. 概念
-
-市場経済とは市場メカニズムに従って運営される経済であり、その中で：
-- 生産と商品交換は市場を通じて行われる。
-- 経済法則（需給、価値...）の調整を受ける。
-
-## 一般的特徴
-
-- 異なる所有権を持つが法の前では平等な多様な経済主体。
-- 市場が部門別市場を通じて資源配分を決定。
-- 市場原則に従う価格、競争が動機を創出。
-- 国家調整、市場の失敗の克服、公平性の確保。
-- 開放経済、国内外市場の密接な結合。
-
-## 市場経済の利点
-
-- 経済主体の革新と刷新の動機創出。
-- 地域、地方、国の潜在力と利点の良好な活用。
-- 人間のニーズの最大満足、社会進歩の促進。
-
-## 市場経済の欠点
-
-- 経済危機の潜在リスク、予測・克服困難。
-- 環境悪化、資源枯渇の自己修正不可。
-- 深刻な社会分化（富裕-貧困、機会...）の原因。
-
-⇒ したがって、純粋な市場経済は存在せず、常に国家調整の役割が必要（混合経済）。
-
-## 2.2.2.2. 主要経済法則
-
-### 1. 価値法則
-
-**主要内容**: 生産と商品交換は必要社会労働支出に基づかなければならない。市場価格は商品価値を中心に回転。
-
-**影響**:
-- 生産-流通の調整
-- 技術革新の刺激
-- 富の分化創出
-
-### 2. 需給法則
-
-**主要内容**: 価格は需給に影響される：
-- 供給 > 需要 → 価格下落
-- 需要 > 供給 → 価格上昇
-- 供給 = 需要 → 価格 = 商品価値
-
-### 3. 競争法則
-
-**主要内容**: 競争は利益（市場シェア、利潤...）を達成するための経済主体間の競争。
-
-**競争の役割**:
-- 革新、技術改善の促進
-- コスト削減、品質向上
-- 弱い企業の淘汰
-
-## 結論
-
-市場経済は客観的法則に支配されると同時に、持続可能な発展と社会公平を確保するための国家調整が不可欠です。
-      `,
-        },
-        excerpt: {
-            vietnamese:
-                'Tìm hiểu về nền kinh tế thị trường, các đặc trưng, ưu khuyết điểm và các quy luật kinh tế chủ yếu...',
-            english:
-                'Learn about market economy, characteristics, advantages and disadvantages, and main economic laws...',
-            japanese: '市場経済、特徴、利点と欠点、主要経済法則について学ぶ...',
-        },
-        author: 'Admin',
-        date: '2024-01-05',
-        readTime: {
-            vietnamese: '15 phút',
-            english: '15 minutes',
-            japanese: '15分',
-        },
-        image: '/placeholder.svg?height=200&width=400',
-        originalLanguage: 'vietnamese' as const,
-        quiz: {
-            vietnamese: [
-                {
-                    question:
-                        'Theo quy luật cung - cầu, khi cung > cầu thì giá sẽ:',
-                    options: ['Tăng', 'Giảm', 'Không đổi', 'Dao động'],
-                    correct: 1,
-                },
-                {
-                    question:
-                        'Khuyết tật nào KHÔNG phải của nền kinh tế thị trường?',
-                    options: [
-                        'Phân hóa xã hội',
-                        'Khủng hoảng kinh tế',
-                        'Suy thoái môi trường',
-                        'Tăng trưởng chậm',
-                    ],
-                    correct: 3,
-                },
-            ],
-            english: [
-                {
-                    question:
-                        'According to supply-demand law, when supply > demand, price will:',
-                    options: [
-                        'Increase',
-                        'Decrease',
-                        'Stay unchanged',
-                        'Fluctuate',
-                    ],
-                    correct: 1,
-                },
-                {
-                    question: 'Which is NOT a disadvantage of market economy?',
-                    options: [
-                        'Social stratification',
-                        'Economic crisis',
-                        'Environmental degradation',
-                        'Slow growth',
-                    ],
-                    correct: 3,
-                },
-            ],
-            japanese: [
-                {
-                    question: '需給法則によると、供給 > 需要の時、価格は：',
-                    options: ['上昇', '下落', '変化なし', '変動'],
-                    correct: 1,
-                },
-                {
-                    question: '市場経済の欠点でないものはどれですか？',
-                    options: ['社会分化', '経済危機', '環境悪化', '成長鈍化'],
-                    correct: 3,
-                },
-            ],
-        },
-    },
-    6: {
-        id: 6,
-        section: '3.1.1',
-        title: {
-            vietnamese: 'Khái niệm tư bản',
-            english: 'Concept of Capital',
-            japanese: '資本の概念',
-        },
-        content: {
-            vietnamese: `
-# Tư bản là gì?
-
-Theo Mác, **tư bản** không chỉ là tiền hay tư liệu sản xuất; đó là **giá trị mang lại giá trị thặng dư** thông qua bóc lột lao động làm thuê. Tư bản gồm hai bộ phận:
-1. **Tư bản bất biến (c)** – máy móc, nguyên liệu; giá trị chuyển nguyên vẹn vào sản phẩm.
-2. **Tư bản khả biến (v)** – tiền lương; tạo ra giá trị mới lớn hơn bản thân nó.
-
-Khi kết hợp trong quá trình sản xuất, v → c + m (m là giá trị thặng dư).`,
-            english: `
-# What is Capital?
-
-For Marx, **capital** is value that reproduces itself with a surplus by exploiting wage labour. It splits into:
-1. **Constant capital (c)** – machinery, raw materials (transfer their value).
-2. **Variable capital (v)** – wages (creates new value > v).
-
-Thus after production: v → c + m (surplus value).`,
-            japanese: `
-# 資本とは？
-
-マルクスによれば、**資本**とは賃労働の搾取を通じて剰余価値を生む自己増殖する価値である。区分は:
-1. **不変資本 (c)** ― 機械・原材料（価値をそのまま移転）
-2. **可変資本 (v)** ― 賃金（vより大きい新価値を創出）
-
-生産結果: v → c + m（剰余価値 m）。`,
-        },
-        excerpt: {
-            vietnamese:
-                'Làm rõ khái niệm tư bản và hai bộ phận bất biến – khả biến theo Mác…',
-            english:
-                'Clarifies Marx’s concept of capital and its constant/variable parts…',
-            japanese: 'マルクスの資本概念と不変・可変資本を解説…',
-        },
-        author: 'Admin',
-        date: '2024-01-03',
-        readTime: {
-            vietnamese: '6 phút',
-            english: '6 minutes',
-            japanese: '6分',
-        },
-        image: '/placeholder.svg?height=200&width=400',
-        originalLanguage: 'vietnamese',
-        quiz: {
-            vietnamese: [
-                {
-                    question: 'Tư bản khả biến là gì?',
-                    options: ['Máy móc', 'Nguyên liệu', 'Tiền lương', 'Thuế'],
-                    correct: 2,
-                },
-            ],
-            english: [
-                {
-                    question: 'Variable capital refers to…',
-                    options: [
-                        'Machinery',
-                        'Raw materials',
-                        'Wages',
-                        'Land rent',
-                    ],
-                    correct: 2,
-                },
-            ],
-            japanese: [
-                {
-                    question: '可変資本とは何を指す？',
-                    options: ['機械', '原材料', '賃金', '地代'],
-                    correct: 2,
-                },
-            ],
-        },
-    },
-    7: {
-        id: 7,
-        section: '3.1.2' as SectionId,
-        title: {
-            vietnamese: 'Công thức chung của tư bản',
-            english: 'General Formula of Capital',
-            japanese: '資本の一般公式',
-        },
-        content: {
-            vietnamese: `
-# Công thức chung của tư bản
-
-Mác khái quát chu trình vận động của tư bản dưới dạng **M – H – M'**  
-(M = Tiền, H = Hàng, M' = Tiền tăng thêm).
-
-1. **M → H**  
-   Nhà tư bản dùng tiền mua **tư liệu sản xuất (TĐS)** và **sức lao động (SLĐ)**.
-
-2. **H (SX) … H'**  
-   Trong quá trình sản xuất, SLĐ tạo ra giá trị mới **v + m** (v = giá trị sức lao động, m = giá trị thặng dư).
-
-3. **H' → M'**  
-   H' bán đi thu về **M' = M + ΔM** (ΔM chính là giá trị thặng dư).
-
-Điều cốt lõi: mục đích không phải **hàng hóa** mà là **tiền nhiều hơn**. Vì vậy công thức này thể hiện bản chất **tự vận động tăng giá trị** của tư bản.
-`,
-            english: `
-# General Formula of Capital
-
-Marx summarizes the circuit of capital as **M – C – M'**  
-(M = Money, C = Commodity, M' = Money plus surplus).
-
-1. **M → C**  
-   Capitalist spends money to buy **means of production (MP)** and **labour-power (LP)**.
-
-2. **C (production) … C'**  
-   In production LP creates new value **v + m** (v = value of labour-power, m = surplus value).
-
-3. **C' → M'**  
-   Selling C' brings back **M' = M + ΔM** where ΔM is surplus value.
-
-Key point: the goal is not commodities but **more money**, revealing capital’s self-expanding nature.
-`,
-            japanese: `
-# 資本の一般公式
-
-マルクスは資本の循環を **Ｇ – Ｗ – Ｇ'** と要約する  
-(Ｇ = 貨幣, Ｗ = 商品, Ｇ' = 増殖した貨幣)。
-
-1. **Ｇ → Ｗ**  
-   資本家は貨幣で**生産手段**と**労働力**を購入。
-
-2. **Ｗ（生産） … Ｗ'**  
-   生産過程で労働力は **v + m** の新価値を生む（v = 労働力価値, m = 剰余価値）。
-
-3. **Ｗ' → Ｇ'**  
-   Ｗ' を売却して **Ｇ' = Ｇ + ΔＧ** を得る。ΔＧ が剰余価値。
-
-目的は商品ではなく**より多くの貨幣**—これが資本の自己増殖本質である。
-`,
-        },
-        excerpt: {
-            vietnamese:
-                "Giải thích chu trình M – H – M' và ý nghĩa tự tăng giá trị của tư bản theo Mác…",
-            english:
-                "Explains the M – C – M' circuit and the self-expanding nature of capital in Marxist theory…",
-            japanese: "Ｇ – Ｗ – Ｇ' の循環と資本の自己増殖本質を解説…",
-        },
-        author: 'Admin',
-        date: '2024-01-02',
-        readTime: {
-            vietnamese: '7 phút',
-            english: '7 minutes',
-            japanese: '7分',
-        },
-        image: '/placeholder.svg?height=200&width=400',
-        originalLanguage: 'vietnamese',
-        quiz: {
-            vietnamese: [
-                {
-                    question: "Trong công thức M – H – M', ΔM là gì?",
-                    options: [
-                        'Tư liệu sản xuất',
-                        'Sức lao động',
-                        'Giá trị thặng dư',
-                        'Tiền lương',
-                    ],
-                    correct: 2,
-                },
-                {
-                    question:
-                        'Mục đích cuối cùng của nhà tư bản trong chu trình là:',
-                    options: [
-                        'Sở hữu hàng hóa',
-                        'Gia tăng tiền tệ',
-                        'Mua sức lao động',
-                        'Tạo ra sản phẩm mới',
+                        'Duy trì độc quyền tư hữu',
+                        'Vai trò lãnh đạo của Đảng Cộng sản gắn với nâng cao dân trí và cơ chế pháp luật bảo đảm',
+                        'Giảm sự tham gia của quần chúng',
+                        'Tách rời dân chủ khỏi phát triển kinh tế – xã hội',
                     ],
                     correct: 1,
                 },
             ],
             english: [
                 {
-                    question: "In M – C – M', what does ΔM represent?",
+                    question: 'Compared with bourgeois democracy, what is cited as the economic foundation of socialist democracy?',
                     options: [
-                        'Means of production',
-                        'Surplus value',
-                        'Wages',
-                        'Commodity value',
+                        'Private ownership of the principal means of production',
+                        'Social ownership of the principal means of production',
+                        'A self-sufficient subsistence economy',
+                        'Finances controlled by foreign capital',
                     ],
                     correct: 1,
                 },
                 {
-                    question:
-                        'The ultimate aim of the capitalist circuit is to obtain:',
+                    question: 'Which statement correctly describes the relationship between democracy and the rule of law in socialist democracy?',
                     options: [
-                        'Commodities',
-                        'More money',
-                        'Raw materials',
-                        'Labour-power',
+                        'Law is opposed to democracy',
+                        'Law serves only the state apparatus',
+                        'Law both guarantees the people’s mastery and regulates social relations',
+                        'The higher the level of democracy, the less law is needed',
                     ],
-                    correct: 1,
-                },
-            ],
-            japanese: [
-                {
-                    question: "Ｇ – Ｗ – Ｇ' における ΔＧ は何か？",
-                    options: ['生産手段', '剰余価値', '賃金', '商品の価値'],
-                    correct: 1,
+                    correct: 2,
                 },
                 {
-                    question: '資本家の最終目的は？',
+                    question: 'What is the ultimate goal of socialist democracy?',
                     options: [
-                        '商品所有',
-                        '貨幣増殖',
-                        '労働力購入',
-                        '新製品創造',
+                        'Absolute protection of private ownership',
+                        'Expanding capitalist markets',
+                        'Liberating the working majority, ensuring social justice, and moving toward a classless society',
+                        'Intensifying party competition',
                     ],
-                    correct: 1,
-                },
-            ],
-        },
-    },
-    8: {
-        id: 8,
-        section: '3.1.3' as SectionId,
-        title: {
-            vietnamese: 'Quá trình sản xuất giá trị thặng dư',
-            english: 'Production of Surplus Value',
-            japanese: '剰余価値の生産過程',
-        },
-        content: {
-            vietnamese: `
-# Sản xuất giá trị thặng dư
-
-## 1. Giá trị thặng dư là gì?
-Phần giá trị mới mà công nhân tạo ra **vượt** giá trị sức lao động của họ (tiền lương) trong cùng thời gian lao động.
-
-## 2. Phương pháp tạo giá trị thặng dư
-### a. Thặng dư tuyệt đối
-- **Kéo dài ngày lao động** (8h → 10h).  
-- Thời gian lao động cần thiết giữ nguyên, thời gian lao động thặng dư tăng.
-
-### b. Thặng dư tương đối
-- **Rút ngắn thời gian lao động cần thiết** nhờ tăng năng suất.  
-- Ngày lao động vẫn 8h nhưng 4h cần thiết → 4h thặng dư → 5h thặng dư.
-
-## 3. Hệ quả
-- Thúc đẩy cách mạng công nghiệp, cải tiến kỹ thuật.
-- Tái diễn quá trình tích lũy và mở rộng tái sản xuất tư bản.
-`,
-            english: `
-# Production of Surplus Value
-
-## 1. Definition
-The part of new value created by workers that **exceeds** the value of their labour-power (wages) within the working day.
-
-## 2. Ways to create surplus value
-### a. Absolute surplus value
-- **Lengthen the working day** (8h → 10h).  
-- Necessary labour time unchanged; surplus labour time grows.
-
-### b. Relative surplus value
-- **Shorten necessary labour time** via higher productivity.  
-- Working day still 8h, but necessary time 3h → surplus 5h.
-
-## 3. Consequences
-- Drives industrial revolutions and technical innovation.
-- Fuels accumulation and expanded reproduction of capital.
-`,
-            japanese: `
-# 剰余価値の生産過程
-
-## 1. 定義
-労働者が一日で生み出す新価値のうち、**賃金を超える部分**。
-
-## 2. 剰余価値獲得の方法
-### a. 絶対的剰余価値
-- **労働日を延長**（8時間 → 10時間）。  
-- 必要労働時間は同じで、剰余労働時間が増える。
-
-### b. 相対的剰余価値
-- 生産性向上で**必要労働時間を短縮**。  
-- 労働日は8時間のまま、必要3時間 → 剰余5時間。
-
-## 3. 結果
-- 産業革命と技術革新を促進。
-- 資本の蓄積と拡大再生産を支える。
-`,
-        },
-        excerpt: {
-            vietnamese:
-                'Phân tích hai phương pháp tạo ra giá trị thặng dư: tuyệt đối và tương đối…',
-            english:
-                'Analyses the two methods of generating surplus value: absolute and relative…',
-            japanese: '絶対的・相対的剰余価値の獲得方法を解説…',
-        },
-        author: 'Admin',
-        date: '2024-01-01',
-        readTime: {
-            vietnamese: '8 phút',
-            english: '8 minutes',
-            japanese: '8分',
-        },
-        image: '/placeholder.svg?height=200&width=400',
-        originalLanguage: 'vietnamese',
-        quiz: {
-            vietnamese: [
-                {
-                    question: 'Thặng dư tuyệt đối đạt được bằng cách nào?',
-                    options: [
-                        'Tăng năng suất',
-                        'Kéo dài ngày lao động',
-                        'Giảm tiền lương',
-                        'Giảm giá nguyên liệu',
-                    ],
-                    correct: 1,
+                    correct: 2,
                 },
                 {
-                    question: 'Điều gì đặc trưng cho thặng dư tương đối?',
+                    question: 'What prerequisite is highlighted for realizing socialist democracy?',
                     options: [
-                        'Ngày lao động dài hơn',
-                        'Năng suất lao động cao hơn',
-                        'Tăng giờ nghỉ',
-                        'Giảm quy mô sản xuất',
+                        'Maintaining monopoly private ownership',
+                        'The Communist Party’s leadership linked with raising civic literacy and ensuring legal safeguards',
+                        'Reducing popular participation',
+                        'Separating democracy from socio-economic development',
                     ],
                     correct: 1,
                 },
             ],
-            english: [
-                {
-                    question: 'Absolute surplus value is obtained by:',
-                    options: [
-                        'Raising productivity',
-                        'Lengthening the working day',
-                        'Cutting wages',
-                        'Cheaper raw materials',
-                    ],
-                    correct: 1,
-                },
-                {
-                    question: 'Relative surplus value relies on:',
-                    options: [
-                        'Longer hours',
-                        'Higher productivity',
-                        'Overtime pay',
-                        'Less machinery',
-                    ],
-                    correct: 1,
-                },
-            ],
-            japanese: [
-                {
-                    question: '絶対的剰余価値を得る方法は？',
-                    options: [
-                        '生産性向上',
-                        '労働日の延長',
-                        '賃下げ',
-                        '原料価格低下',
-                    ],
-                    correct: 1,
-                },
-                {
-                    question: '相対的剰余価値の特徴は？',
-                    options: [
-                        '長時間労働',
-                        '生産性向上',
-                        '休憩増加',
-                        '生産縮小',
-                    ],
-                    correct: 1,
-                },
-            ],
-        },
-    },
-    9: {
-        id: 9,
-        section: '3.2.1' as SectionId,
-        title: {
-            vietnamese: 'Lợi nhuận và tỷ suất lợi nhuận',
-            english: 'Profit and Rate of Profit',
-            japanese: '利潤と利潤率',
-        },
-        content: {
-            vietnamese: `
-# Lợi nhuận và tỷ suất lợi nhuận
-
-- **Lợi nhuận (P)**: phần giá trị thặng dư (m) mà nhà tư bản **nhìn thấy** sau khi bán hàng hóa, vì giá trị thặng dư được “ẩn” dưới dạng chênh lệch giữa M' và M.
-
-- **Tỷ suất lợi nhuận (r)** = \\( \\dfrac{P}{c + v} \\times 100\\% \\)  
-  cho biết hiệu quả sử dụng toàn bộ tư bản.
-
-## Quy luật khuynh hướng giảm sút của tỷ suất lợi nhuận
-- Do sự gia tăng thành phần **c (tư bản bất biến)** nhanh hơn v.  
-- Bị bù trừ bởi tăng cường bóc lột, hạ giá trị TĐS, thương mại, xuất khẩu tư bản…
-
-→ Giải thích xu hướng khủng hoảng và cạnh tranh gay gắt trong CNTB.
-`,
-            english: `
-# Profit and Rate of Profit
-
-- **Profit (P)**: the **visible** form of surplus value (m) realized when the capitalist sells the commodity; m is disguised as the excess of M' over M.
-
-- **Rate of Profit (r)** = \\( \\dfrac{P}{c + v} \\times 100\\% \\)  
-  measures how efficiently total capital is employed.
-
-## Law of the Tendency of the Rate of Profit to Fall
-- Caused by faster growth in **c (constant capital)** relative to v.  
-- Counteracted by greater exploitation, cheaper MP, commerce, capital export…
-
-→ Explains crises and fierce competition in capitalism.
-`,
-            japanese: `
-# 利潤と利潤率
-
-- **利潤 (P)**: 剰余価値 (m) が Ｇ' と Ｇ の差として**可視化**されたもの。
-
-- **利潤率 (r)** = \\( \\dfrac{P}{c + v} \\times 100\\% \\)  
-  総資本利用効率を示す。
-
-## 利潤率低下傾向の法則
-- **不変資本 (c)** が可変資本より速く増大。  
-- 搾取強化、生産手段値下げ、商業利潤、資本輸出などが反作用。
-
-→ 資本主義の危機と競争激化を説明。
-`,
-        },
-        excerpt: {
-            vietnamese:
-                'Trình bày khái niệm lợi nhuận, công thức tính tỷ suất lợi nhuận và xu hướng giảm sút…',
-            english:
-                'Introduces profit, the rate-of-profit formula and its falling tendency…',
-            japanese: '利潤・利潤率とその低下傾向を概説…',
-        },
-        author: 'Admin',
-        date: '2023-12-30',
-        readTime: {
-            vietnamese: '6 phút',
-            english: '6 minutes',
-            japanese: '6分',
-        },
-        image: '/placeholder.svg?height=200&width=400',
-        originalLanguage: 'vietnamese',
-        quiz: {
-            vietnamese: [
-                {
-                    question: 'Tỷ suất lợi nhuận được tính trên cơ sở nào?',
-                    options: ['m/v', 'P/(c+v)', 'm/(c+v)', 'P/v'],
-                    correct: 1,
-                },
-                {
-                    question: 'Nguyên nhân chính làm r có xu hướng giảm?',
-                    options: [
-                        'Giảm thời gian lao động',
-                        'Tăng nhanh tư bản bất biến',
-                        'Giảm lương công nhân',
-                        'Khủng hoảng tài chính',
-                    ],
-                    correct: 1,
-                },
-            ],
-            english: [
-                {
-                    question: 'Rate of profit r equals:',
-                    options: ['m/v', 'P/(c+v)', 'm/(c+v)', 'P/v'],
-                    correct: 1,
-                },
-                {
-                    question: 'Why does r tend to fall?',
-                    options: [
-                        'Shorter working day',
-                        'Faster rise of constant capital',
-                        'Lower wages',
-                        'Stock crashes',
-                    ],
-                    correct: 1,
-                },
-            ],
-            japanese: [
-                {
-                    question: '利潤率 r の式は？',
-                    options: ['m/v', 'P/(c+v)', 'm/(c+v)', 'P/v'],
-                    correct: 1,
-                },
-                {
-                    question: '利潤率低下の主因は？',
-                    options: [
-                        '労働時間短縮',
-                        '不変資本の急増',
-                        '賃金引下げ',
-                        '金融恐慌',
-                    ],
-                    correct: 1,
-                },
-            ],
-        },
-    },
-    10: {
-        id: 10,
-        section: '3.2.2' as SectionId,
-        title: {
-            vietnamese: 'Tiền công và quỹ tiền lương',
-            english: 'Wages and Wage Fund',
-            japanese: '賃金と賃金基金',
-        },
-        content: {
-            vietnamese: `
-# Tiền công theo Mác
-
-## 1. Bản chất
-- **Tiền công** là **giá cả của sức lao động**, chứ không phải giá trị lao động.
-- Lao động sống tạo ra giá trị mới v + m, nhưng công nhân chỉ nhận **v**.
-
-## 2. Hình thức
-- **Tiền công danh nghĩa**: số tiền tuyệt đối (VND, USD…).
-- **Tiền công thực tế**: lượng hàng hóa, dịch vụ mua được.
-
-## 3. Quỹ tiền lương
-Phần **tư bản khả biến (v)** mà nhà tư bản ứng trước để mua sức lao động; biến động theo quy mô sản xuất và nhu cầu lao động.
-`,
-            english: `
-# Marxian Wages
-
-## 1. Essence
-- **Wage** is the **price of labour-power**, not of labour itself.
-- Living labour creates v + m; the worker receives only **v**.
-
-## 2. Forms
-- **Nominal wage**: money amount (USD, VND…).
-- **Real wage**: goods and services that money can buy.
-
-## 3. Wage Fund
-The **variable capital (v)** advanced to purchase labour-power; changes with production scale and labour demand.
-`,
-            japanese: `
-# マルクスの賃金論
-
-## 1. 本質
-- **賃金**は**労働力の価格**であり、労働そのものの価格ではない。
-- 生きた労働は v + m を生むが、労働者は **v** しか得ない。
-
-## 2. 形態
-- **名目賃金**: 貨幣額。
-- **実質賃金**: 購入可能な財・サービス量。
-
-## 3. 賃金基金
-労働力購入のため資本家が前貸しする**可変資本 (v)**；生産規模・労働需要で変動。
-`,
-        },
-        excerpt: {
-            vietnamese:
-                'Làm rõ bản chất tiền công, phân biệt danh nghĩa – thực tế và khái niệm quỹ tiền lương…',
-            english:
-                'Clarifies the nature of wages, nominal vs real, and the wage fund concept…',
-            japanese: '賃金の本質・名目と実質、賃金基金を解説…',
-        },
-        author: 'Admin',
-        date: '2023-12-28',
-        readTime: {
-            vietnamese: '5 phút',
-            english: '5 minutes',
-            japanese: '5分',
-        },
-        image: '/placeholder.svg?height=200&width=400',
-        originalLanguage: 'vietnamese',
-        quiz: {
-            vietnamese: [
-                {
-                    question: 'Tiền công thực tế phản ánh:',
-                    options: [
-                        'Giá vàng',
-                        'Sức mua hàng hóa',
-                        'Tỷ giá hối đoái',
-                        'Giờ làm việc',
-                    ],
-                    correct: 1,
-                },
-            ],
-            english: [
-                {
-                    question: 'Real wage measures:',
-                    options: [
-                        'Gold price',
-                        'Purchasing power',
-                        'Exchange rate',
-                        'Working hours',
-                    ],
-                    correct: 1,
-                },
-            ],
-            japanese: [
-                {
-                    question: '実質賃金は何を示す？',
-                    options: ['金価格', '購買力', '為替レート', '労働時間'],
-                    correct: 1,
-                },
-            ],
-        },
-    },
-    11: {
-        id: 11,
-        section: '3.2.3' as SectionId,
-        title: {
-            vietnamese: 'Địa tô và thuế đất',
-            english: 'Rent and Land Tax',
-            japanese: '地代と地租',
-        },
-        content: {
-            vietnamese: `
-# Địa tô trong chủ nghĩa tư bản
-
-## 1. Địa tô tuyệt đối
-- Phát sinh do **quyền sở hữu ruộng đất** độc quyền.
-- Tất cả tư bản nông nghiệp đều phải nộp, bất kể độ phì.
-
-## 2. Địa tô chênh lệch
-- Do **độ phì nhiêu và vị trí** khác nhau của đất.
-- Ruộng tốt, gần chợ → chi phí thấp → lợi nhuận cao hơn trung bình → tạo địa tô.
-
-## 3. Thuế đất
-Nhà nước thu một phần địa tô dưới dạng thuế nhằm tái phân phối và đầu tư công.
-`,
-            english: `
-# Ground Rent in Capitalism
-
-## 1. Absolute Rent
-- Arises from **monopoly of land ownership**.
-- All agricultural capital must pay it, regardless of fertility.
-
-## 2. Differential Rent
-- Comes from **differences in soil fertility and location**.
-- Better land yields surplus profit above average → rent.
-
-## 3. Land Tax
-State captures part of rent via taxation for redistribution and public investment.
-`,
-            japanese: `
-# 資本主義における地代
-
-## 1. 絶対地代
-- **土地所有独占**から生じる。
-- 肥沃度に関係なくすべての農業資本が支払う。
-
-## 2. 差額地代
-- **土地肥沃度・立地**の差による。
-- 良地は平均以上の超過利潤 → 地代。
-
-## 3. 地租
-国家は税として一部地代を回収し、再分配・公共投資に充当。
-`,
-        },
-        excerpt: {
-            vietnamese:
-                'Trình bày địa tô tuyệt đối, địa tô chênh lệch và vai trò thuế đất trong CNTB…',
-            english:
-                'Covers absolute and differential rent along with the role of land tax in capitalism…',
-            japanese: '絶対地代・差額地代と地租の役割を解説…',
-        },
-        author: 'Admin',
-        date: '2023-12-25',
-        readTime: {
-            vietnamese: '5 phút',
-            english: '5 minutes',
-            japanese: '5分',
-        },
-        image: '/placeholder.svg?height=200&width=400',
-        originalLanguage: 'vietnamese',
-        quiz: {
-            vietnamese: [
-                {
-                    question: 'Địa tô chênh lệch xuất phát từ yếu tố nào?',
-                    options: [
-                        'Độc quyền đất',
-                        'Khác biệt độ phì và vị trí',
-                        'Thuế đất cao',
-                        'Tiền lương thấp',
-                    ],
-                    correct: 1,
-                },
-            ],
-            english: [
-                {
-                    question: 'Differential rent arises from:',
-                    options: [
-                        'Land monopoly',
-                        'Differences in fertility and location',
-                        'High land tax',
-                        'Low wages',
-                    ],
-                    correct: 1,
-                },
-            ],
-            japanese: [
-                {
-                    question: '差額地代は何に起因？',
-                    options: [
-                        '土地独占',
-                        '肥沃度・立地の差',
-                        '高い地租',
-                        '低賃金',
-                    ],
-                    correct: 1,
-                },
-            ],
+            japanese: [],
         },
     },
 }
