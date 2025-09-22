@@ -1,10 +1,129 @@
 import axios from 'axios';
 
+import { blogData } from '@/data/blog-data';
+
 const API_KEY = process.env.NEXT_PUBLIC_GEMINI_API_KEY;
 console.log('GEMINI_API_KEY:', API_KEY);
 const GEMINI_API_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
 
 const MAX_CONVERSATION_PAIRS = 7;
+const MAX_CONTEXT_SECTIONS = 3;
+const MAX_CONTEXT_CHARS_PER_SECTION = 1800;
+const MIN_KEYWORD_LENGTH = 3;
+
+interface KnowledgeEntry {
+  id: number;
+  title: string;
+  snippet: string;
+  tokenSet: Set<string>;
+  tokenFrequency: Record<string, number>;
+}
+
+const normalizeText = (text: string) =>
+  text
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+
+const extractKeywords = (text: string) => {
+  const normalized = normalizeText(text);
+  const tokens = normalized.match(/[a-z0-9]+/g) ?? [];
+  const filtered = tokens.filter((token) => token.length >= MIN_KEYWORD_LENGTH);
+  return Array.from(new Set(filtered));
+};
+
+const buildSnippet = (vietnamese?: string, english?: string) => {
+  const segments = [] as string[];
+  const vn = vietnamese?.trim();
+  const en = english?.trim();
+
+  if (vn) {
+    segments.push(vn);
+  }
+
+  if (en) {
+    segments.push(`English Reference:\n${en}`);
+  }
+
+  const rawSnippet = segments.join('\n\n');
+  if (rawSnippet.length <= MAX_CONTEXT_CHARS_PER_SECTION) {
+    return rawSnippet;
+  }
+
+  return `${rawSnippet.slice(0, MAX_CONTEXT_CHARS_PER_SECTION)}…`;
+};
+
+const knowledgeBase: KnowledgeEntry[] = Object.values(blogData).map((entry) => {
+  const vietnameseContent = entry.content?.vietnamese ?? '';
+  const englishContent = entry.content?.english ?? '';
+  const combinedForTokens = [
+    entry.title?.vietnamese ?? '',
+    entry.title?.english ?? '',
+    entry.title?.japanese ?? '',
+    vietnameseContent,
+    englishContent,
+  ].join(' ');
+
+  const normalized = normalizeText(combinedForTokens);
+  const tokens = normalized.match(/[a-z0-9]+/g) ?? [];
+
+  const tokenFrequency = tokens.reduce<Record<string, number>>((acc, token) => {
+    acc[token] = (acc[token] ?? 0) + 1;
+    return acc;
+  }, {});
+
+  const snippet = buildSnippet(vietnameseContent, englishContent);
+
+  return {
+    id: entry.id,
+    title: entry.title?.vietnamese ?? entry.title?.english ?? `Mục ${entry.id}`,
+    snippet,
+    tokenSet: new Set(Object.keys(tokenFrequency)),
+    tokenFrequency,
+  };
+});
+
+const CONTEXT_PROMPT_PREFIX = [
+  'Bạn sẽ nhận được một số đoạn trích từ tài liệu nội bộ do người dùng cung cấp.',
+  'Hãy dựa hoàn toàn vào các đoạn trích đó khi trả lời câu hỏi. Nếu thông tin không có trong tài liệu, hãy nói rõ và đề xuất người dùng cung cấp thêm.',
+  'Luôn ưu tiên trả lời bằng cùng ngôn ngữ với câu hỏi của người dùng.',
+].join('\n');
+
+const NO_CONTEXT_PROMPT_PREFIX = [
+  'Không tìm thấy đoạn trích phù hợp trong kho tài liệu nội bộ cho câu hỏi sau.',
+  'Hãy giải thích rằng bạn không thể trả lời dựa trên tài liệu hiện có và đề nghị người dùng cung cấp thêm dữ liệu. Không được sử dụng kiến thức bên ngoài.',
+  'Luôn phản hồi bằng ngôn ngữ của câu hỏi.',
+].join('\n');
+
+const buildContextPrompt = (prompt: string) => {
+  const keywords = extractKeywords(prompt);
+  if (!keywords.length) {
+    return '';
+  }
+
+  const scored = knowledgeBase
+    .map((entry) => {
+      const score = keywords.reduce((acc, keyword) => {
+        if (!entry.tokenSet.has(keyword)) {
+          return acc;
+        }
+        return acc + (entry.tokenFrequency[keyword] ?? 0);
+      }, 0);
+
+      return { entry, score };
+    })
+    .filter(({ score }) => score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, MAX_CONTEXT_SECTIONS);
+
+  if (!scored.length) {
+    return '';
+  }
+
+  return scored
+    .map(({ entry }) => `### ${entry.title}\n${entry.snippet}`)
+    .join('\n\n');
+};
 
 interface ContentPart {
   text: string;
@@ -97,7 +216,13 @@ Quy tắc phản hồi của bạn:
    */
   async generateContent(prompt: string): Promise<string> {
     this.ensureInitialInstruction();
-    this.chatHistory.push({ role: 'user', parts: [{ text: prompt }] });
+
+    const context = buildContextPrompt(prompt);
+    const finalPrompt = context
+      ? `${CONTEXT_PROMPT_PREFIX}\n\n${context}\n\nCâu hỏi: ${prompt}`
+      : `${NO_CONTEXT_PROMPT_PREFIX}\n\nCâu hỏi: ${prompt}`;
+
+    this.chatHistory.push({ role: 'user', parts: [{ text: finalPrompt }] });
     this.trimChatHistory();
 
     const requestBody: GeminiApiRequestBody = {
