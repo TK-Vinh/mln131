@@ -1074,6 +1074,38 @@ export const translations = {
     interactiveQuiz: { vietnamese: 'Quiz tương tác', english: 'Interactive Quiz' },
   },
 
+  // Quiz related
+  quiz: {
+    quiz: { vietnamese: 'Quiz', english: 'Quiz' },
+    selectBlogPrompt: {
+      vietnamese: 'Vui lòng chọn một chương để bắt đầu Quiz',
+      english: 'Please select a chapter to start the quiz',
+    },
+    quizResult: { vietnamese: 'Kết quả Quiz', english: 'Quiz Results' },
+    score: {
+      vietnamese: 'Bạn đã trả lời đúng {score} trên {total} câu hỏi',
+      english: 'You answered {score} out of {total} questions correctly',
+    },
+    correctAnswer: { vietnamese: 'Đáp án đúng:', english: 'Correct answer:' },
+    retakeQuiz: { vietnamese: 'Làm lại Quiz', english: 'Retake Quiz' },
+    question: { vietnamese: 'Câu', english: 'Question' },
+    nextQuestion: { vietnamese: 'Câu tiếp theo', english: 'Next Question' },
+    complete: { vietnamese: 'Hoàn thành', english: 'Complete' },
+    noQuizAvailable: { vietnamese: 'Không có Quiz khả dụng', english: 'No Quiz Available' },
+    noQuizQuestionsMessage: {
+      vietnamese: 'Hiện chưa có câu hỏi quiz nào cho chương này.',
+      english: 'There are no quiz questions available for this chapter yet.',
+    },
+    backToQuizOverview: {
+      vietnamese: 'Quay lại trang Quiz chính',
+      english: 'Back to Quiz Overview',
+    },
+    quizForChapter: {
+      vietnamese: 'Quiz cho Chương',
+      english: 'Quiz for Chapter',
+    },
+  },
+
   // Chat bubble
   chat: {
     title: { vietnamese: 'AI Philosophy Assistant', english: 'AI Philosophy Assistant' },
