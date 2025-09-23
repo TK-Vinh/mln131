@@ -21,7 +21,7 @@ export const blogData = {
 
 ##### 1.1.1. Dân chủ trong lịch sử nhân loại
 Thuật ngữ dân chủ (demokratos) xuất hiện từ thế kỷ VII – VI TCN ở Hy Lạp cổ đại, trong đó *demos* nghĩa là nhân dân và *kratos* nghĩa là cai trị. Như vậy, dân chủ được hiểu là “nhân dân cai trị”, hay “quyền lực thuộc về nhân dân”. Tuy nhiên, giữa dân chủ cổ đại và dân chủ hiện đại có sự khác biệt căn bản: ở thời cổ đại, dân chủ mang tính trực tiếp, gắn với phạm vi hẹp và khái niệm “nhân dân” chỉ bao gồm một bộ phận giai cấp tự do, trong khi nô lệ – chiếm đa số – không có quyền làm chủ.
-
+![Dân chủ Hy Lạp](/assets/blog-images/blog-image/dan-chu-va-su-ra-doi.webp)
 Từ góc nhìn lịch sử, dân chủ luôn gắn với sự hình thành, tồn tại và phát triển của nhà nước. Nó vừa là hình thức tổ chức quyền lực công cộng, vừa là giá trị xã hội phản ánh khát vọng tự do, bình đẳng của con người.
 
 ##### 1.1.2. Quan niệm dân chủ trong triết học Mác – Lênin
@@ -173,12 +173,13 @@ Among them, socialist democracy represents the highest form of democracy, profou
         },
         author: 'Admin',
         date: '2024-05-15',
+        image: '/assets/blog-images/blog-image/dan-chu-va-su-ra-doi.webp',
         readTime: {
             vietnamese: '20 phút',
             english: '20 minutes',
             japanese: '20分',
         },
-        image: '/placeholder.svg?height=200&width=400',
+
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -328,7 +329,7 @@ Từ góc độ lịch sử, các nhà sáng lập Mác – Lênin nhận xét r
 
 ### 2.1.2. Tiền đề thực tiễn: từ Công xã Pari đến Cách mạng Tháng Mười
 Ý tưởng về dân chủ vô sản đã phôi thai từ các phong trào và thực tiễn đấu tranh giai cấp – tiêu biểu là Công xã Pari (1871). Song chỉ khi Cách mạng Tháng Mười (1917) thành công, với việc thành lập Nhà nước Xô viết – nhà nước xã hội chủ nghĩa đầu tiên – thì nền dân chủ xã hội chủ nghĩa mới chính thức được xác lập trên quy mô chính quyền và thể chế. Sự ra đời này đánh dấu bước chuyển đổi về chất trong lịch sử dân chủ: từ quyền lực của thiểu số sang quyền lực thực sự hướng tới đại đa số lao động.
-
+![Công xã Pari](/assets/blog-images/blog-image/cong-xa-paris.jpg)
 ### 2.1.3. Tiến trình phát triển
 Triết học Mác – Lênin nhấn mạnh rằng nền dân chủ xã hội chủ nghĩa phát triển từ thấp tới cao, từ chưa hoàn thiện tới hoàn thiện, đồng thời kế thừa có chọn lọc các giá trị tích cực của nền dân chủ trước đó. Quá trình hoàn thiện dân chủ xã hội chủ nghĩa bao gồm mở rộng quyền làm chủ của quần chúng, nâng cao tính tự giác và sự tham gia quản lý của nhân dân. Khi dân chủ được mở rộng đến mức rộng rãi và sâu sắc, tính “chính trị” của nhà nước (vốn là công cụ của giai cấp) dần mất đi – nghĩa là nhà nước với tư cách công cụ giai cấp sẽ “tiêu vong” trên đường tới xã hội cộng sản.
 
@@ -465,7 +466,7 @@ According to Marxist–Leninist philosophy, socialist democracy is a higher form
             english: '25 minutes',
             japanese: '25分',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/blog-image/cong-xa-paris.jpg',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -598,7 +599,7 @@ Throughout human history, the state has been a socio-political phenomenon rooted
             english: '8 minutes',
             japanese: '8分',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/blog-image/nha-nuoc.webp',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -693,7 +694,7 @@ The socialist state emerges as the inevitable result of revolutions carried out 
             english: '12 minutes',
             japanese: '12分',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/blog-image/su-ra-doi-nha-nuoc-xhcn.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -802,7 +803,7 @@ The socialist state is built upon Marxism–Leninism while inheriting progressiv
             english: '15 minutes',
             japanese: '15分',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/blog-image/su-ra-doi-nha-nuoc-xhcn.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -943,7 +944,7 @@ The socialist state is built upon Marxism–Leninism while inheriting progressiv
             english: '14 minutes',
             japanese: '14分',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/blog-image/su-ra-doi-nha-nuoc-xhcn.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1031,9 +1032,10 @@ The socialist state is built upon Marxism–Leninism while inheriting progressiv
 
 #### 5.1. Dân chủ xã hội chủ nghĩa là nền tảng của nhà nước xã hội chủ nghĩa
 Chỉ trong nền dân chủ xã hội chủ nghĩa, nhân dân mới có đủ điều kiện để thực hiện ý chí và quyền làm chủ của mình thông qua bầu cử, tham gia quản lý nhà nước và giám sát quyền lực. Nếu các nguyên tắc dân chủ xã hội chủ nghĩa bị vi phạm, nhà nước sẽ tha hóa thành công cụ của một nhóm người, đánh mất bản chất.
-
+![Đại biểu Khóa XV](/assets/blog-images/blog-image/dai-bieu.webp)
 #### 5.2. Nhà nước xã hội chủ nghĩa là công cụ hiện thực hóa dân chủ
 Nhà nước xã hội chủ nghĩa thể chế hóa ý chí nhân dân thành pháp luật, bảo đảm công bằng, phân định quyền và nghĩa vụ của công dân. Đồng thời, nhà nước là công cụ bạo lực để bảo vệ nền dân chủ, ngăn chặn mọi hành vi xâm phạm quyền lợi nhân dân. Theo Lênin, sự phát triển của nhà nước xã hội chủ nghĩa gắn liền với việc hoàn thiện hình thức dân chủ và mở rộng sự tham gia của nhân dân vào quản lý xã hội.
+![Hiến pháp](/assets/blog-images/blog-image/Hien-phap.jpg)
 `,
             english: `
 # Chapter 4: Socialist Democracy and the Socialist State
@@ -1066,7 +1068,7 @@ The socialist state institutionalizes the people’s will into law, ensures just
             english: '10 minutes',
             japanese: '10分',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/blog-image/su-ra-doi-nha-nuoc-xhcn.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1112,6 +1114,7 @@ The socialist state institutionalizes the people’s will into law, ensures just
 
 ### 6. Kết luận
 Nhà nước xã hội chủ nghĩa là kiểu nhà nước mới, khác biệt về bản chất so với các nhà nước bóc lột trong lịch sử. Nó ra đời từ thắng lợi của cách mạng vô sản, mang bản chất giai cấp công nhân và đại biểu cho lợi ích của đại đa số nhân dân lao động. Nhà nước xã hội chủ nghĩa vừa thực hiện chức năng trấn áp thiểu số bóc lột, vừa quan trọng hơn là tổ chức quản lý, xây dựng xã hội mới. Mối quan hệ giữa dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa mang tính biện chứng: dân chủ là nền tảng, còn nhà nước là công cụ tổ chức, bảo vệ và hiện thực hóa dân chủ. Giữ vững bản chất, hoàn thiện chức năng và không ngừng mở rộng dân chủ là điều kiện quyết định để nhà nước xã hội chủ nghĩa phát huy vai trò trụ cột trong sự nghiệp xây dựng và bảo vệ Tổ quốc.
+![Sách Lenin](/assets/blog-images/blog-image/sach-lenin.webp)
 `,
             english: `
 # Chapter 4: Socialist Democracy and the Socialist State
@@ -1139,7 +1142,7 @@ The socialist state is a new type of state whose essence differs from every expl
             english: '9 minutes',
             japanese: '9分',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/blog-image/su-ra-doi-nha-nuoc-xhcn.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [],
@@ -1186,7 +1189,7 @@ Dân chủ phải gắn với kỷ luật, kỷ cương và được thể chế
 - **Dân chủ là động lực** xây dựng chủ nghĩa xã hội (phát huy sức mạnh của nhân dân, của toàn dân tộc).
 - **Dân chủ gắn với pháp luật**, với kỷ luật, kỷ cương xã hội.
 - **Dân chủ phải được thực hiện** trên mọi lĩnh vực đời sống: kinh tế, chính trị, văn hóa, xã hội.
-
+![Đại biểu](/assets/blog-images/blog-image/dai-bieu-phan-III.jpg)
 Bản chất dân chủ xã hội chủ nghĩa được triển khai qua hai hình thức:
 
 - **Dân chủ gián tiếp (đại diện)**: Nhân dân ủy quyền cho các cơ quan do mình bầu ra. Quốc hội – cơ quan quyền lực cao nhất – hoạt động theo nhiệm kỳ 5 năm; quyền lực nhà nước thống nhất, có phân công, phối hợp và kiểm soát giữa lập pháp, hành pháp, tư pháp.
@@ -1270,7 +1273,7 @@ Nevertheless, building socialist democracy still faces challenges: low economic 
             english: '28 minutes',
             japanese: '28分',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/blog-image/dan-chu-xhcn.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1384,7 +1387,7 @@ Trong bối cảnh hiện nay, vẫn có nhiều cách tiếp cận khác nhau v
 Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội của Đảng Cộng sản Việt Nam nêu rõ các định hướng: đề cao vai trò tối thượng của Hiến pháp và pháp luật; bảo đảm quyền, nghĩa vụ công dân và quyền con người; tổ chức bộ máy vừa tập trung, thống nhất vừa phân công, phân cấp giữa các cấp chính quyền để tránh lạm quyền; duy trì mối quan hệ chặt chẽ giữa Nhà nước với nhân dân, chịu sự giám sát của nhân dân; thiết lập cơ chế kiểm soát, phòng ngừa tham nhũng, lộng quyền.
 
 Theo tiến trình đổi mới, nhận thức của Đảng về nhà nước pháp quyền ngày càng sáng tỏ. Chủ trương “xây dựng Nhà nước pháp quyền Việt Nam của dân, do dân, vì dân” nhấn mạnh Nhà nước quản lý xã hội bằng pháp luật; mọi cơ quan, tổ chức, cán bộ, công chức và công dân đều phải chấp hành Hiến pháp, pháp luật. Đại hội XII của Đảng khẳng định: “Quyền lực nhà nước là thống nhất, có sự phân công, phối hợp, kiểm soát giữa các cơ quan nhà nước trong việc thực hiện các quyền lập pháp, hành pháp, tư pháp”.
-
+![Pháp luật](/assets/blog-images/blog-image/Hien-phap-2013.jpg)
 #### 2.2. Đặc điểm của nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam
 Từ thực tiễn xây dựng trong thời kỳ đổi mới, nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam có những đặc điểm cơ bản:
 
@@ -1443,7 +1446,7 @@ These features embody the universal spirit of the rule-of-law state while underl
             english: '20 minutes',
             japanese: '20分',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/blog-image/dan-chu-xhcn.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1519,7 +1522,7 @@ These features embody the universal spirit of the rule-of-law state while underl
 4. **Nâng cao vai trò của các tổ chức chính trị – xã hội**. Các tổ chức cần đổi mới phương thức hoạt động, tham gia giám sát, phản biện đường lối, chính sách; củng cố khối đại đoàn kết toàn dân; chăm lo đời sống nhân dân; tham gia xây dựng Đảng, chính quyền và bảo vệ quyền lợi chính đáng của nhân dân.
 
 5. **Hoàn thiện hệ thống giám sát, phản biện xã hội** nhằm phát huy quyền làm chủ của nhân dân. Cần công khai, minh bạch thông tin; cụ thể hóa cơ chế lắng nghe ý kiến nhân dân; nâng cao dân trí, văn hóa pháp luật; tạo điều kiện để nhân dân tham gia góp ý, giám sát đối với chủ trương, chính sách.
-
+![Pháp luật](/assets/blog-images/blog-image/bau-cu.jpg)
 #### 3.2. Tiếp tục xây dựng và hoàn thiện Nhà nước pháp quyền xã hội chủ nghĩa
 1. **Xây dựng Nhà nước pháp quyền dưới sự lãnh đạo của Đảng** với bản chất giai cấp công nhân, gắn bó với dân tộc và nhân dân; bảo đảm quyền lực nhà nước thống nhất, có phân công và phối hợp giữa lập pháp, hành pháp, tư pháp.
 
@@ -1574,7 +1577,7 @@ These features embody the universal spirit of the rule-of-law state while underl
             english: '24 minutes',
             japanese: '24分',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/blog-image/dan-chu-xhcn.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1630,7 +1633,7 @@ Tham nhũng là hành vi của người có chức vụ, quyền hạn lợi d�
 
 #### 4.3. Các hành vi tham nhũng phổ biến
 Tham ô tài sản; nhận hối lộ; lạm dụng chức vụ chiếm đoạt tài sản; lợi dụng chức vụ khi thi hành nhiệm vụ vì vụ lợi; lạm quyền vì vụ lợi; lợi dụng chức vụ gây ảnh hưởng để trục lợi; giả mạo trong công tác; đưa, môi giới hối lộ; sử dụng trái phép tài sản công vì vụ lợi; nhũng nhiễu; không thực hiện hoặc thực hiện không đúng nhiệm vụ vì vụ lợi; bao che vi phạm hoặc cản trở giám sát, thanh tra, điều tra, truy tố, xét xử, thi hành án vì vụ lợi.
-
+![Tham nhũng](/assets/blog-images/blog-image/chong-thamnhung.jpg)
 #### 4.4. Nguyên nhân của tham nhũng
 Nguyên nhân chủ quan bao gồm: hạn chế trong tổ chức và hoạt động của hệ thống chính trị; cơ chế, chính sách, pháp luật chưa hoàn thiện; nhận thức của người đứng đầu còn yếu; nhiệm vụ của cơ quan phòng chống tham nhũng chưa phân định rõ; pháp luật chưa đủ mạnh; tuyên truyền còn hình thức. Ngoài ra còn có tác động của mặt trái kinh tế thị trường và toàn cầu hóa; hệ thống chính sách thiếu đồng bộ; quản lý nhà nước lỏng lẻo; quản lý cán bộ còn hạn chế; một số nơi chưa đề cao trách nhiệm người đứng đầu; sự suy thoái đạo đức, lối sống của một bộ phận cán bộ, đảng viên.
 
@@ -1687,7 +1690,7 @@ Subjective causes include shortcomings in political institutions; incomplete mec
             english: '18 minutes',
             japanese: '18分',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/blog-image/dan-chu-xhcn.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1770,6 +1773,7 @@ Khi phát hiện “lỗ hổng pháp luật” dễ bị lợi dụng, công d�
 
 #### 5.6. Góp ý xây dựng pháp luật về phòng, chống tham nhũng
 Công dân có thể tham gia thông qua hội nghị, diễn đàn, tổ chức chính trị – xã hội; phân tích, đánh giá quy định pháp luật, dự báo tình hình để góp ý; giúp pháp luật thiết thực, khả thi và hiệu quả.
+![Tham nhũng](/assets/blog-images/blog-image/phong-chong-tham-nhung-2.webp)
 `,
             english: `
 # Chapter 4: Socialist Democracy and the Socialist State
@@ -1814,7 +1818,7 @@ Participation can occur through conferences, forums, and socio-political organiz
             english: '12 minutes',
             japanese: '12分',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/blog-image/dan-chu-xhcn.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
