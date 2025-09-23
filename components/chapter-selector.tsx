@@ -39,8 +39,6 @@ export function BlogSelector({
     switch (currentLanguage) {
       case "english":
         return "All blogs"
-      case "japanese":
-        return "全ての章"
       default:
         return "Tất cả chương"
     }
@@ -50,8 +48,6 @@ export function BlogSelector({
     switch (currentLanguage) {
       case "english":
         return "All sections"
-      case "japanese":
-        return "全ての節"
       default:
         return "Tất cả mục"
     }
@@ -65,11 +61,7 @@ export function BlogSelector({
           <SelectTrigger className="w-full">
             <SelectValue
               placeholder={
-                currentLanguage === "english"
-                  ? "Select blog"
-                  : currentLanguage === "japanese"
-                    ? "章を選択"
-                    : "Chọn chương"
+                currentLanguage === "english" ? "Select blog" : "Chọn chương"
               }
             />
           </SelectTrigger>
@@ -90,11 +82,7 @@ export function BlogSelector({
             <SelectTrigger className="w-full">
               <SelectValue
                 placeholder={
-                  currentLanguage === "english"
-                    ? "Select section"
-                    : currentLanguage === "japanese"
-                      ? "節を選択"
-                      : "Chọn mục"
+                  currentLanguage === "english" ? "Select section" : "Chọn mục"
                 }
               />
             </SelectTrigger>

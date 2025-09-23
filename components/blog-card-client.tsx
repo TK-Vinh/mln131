@@ -38,10 +38,6 @@ export function BlogCardClient({ blog }: BlogCardClientProps) {
                 label: t('language.english'),
                 variant: 'secondary' as const,
             },
-            japanese: {
-                label: t('language.japanese'),
-                variant: 'outline' as const,
-            },
         }
         return badges[language as keyof typeof badges] || badges.vietnamese
     }
