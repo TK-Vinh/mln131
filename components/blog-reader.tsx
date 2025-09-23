@@ -152,7 +152,6 @@ export function BlogReader({ blog }: BlogReaderProps) {
                         const languageMap = {
                             vietnamese: 'vi-VN',
                             english: 'en-US',
-                            japanese: 'ja-JP',
                         }
 
                         utterance.lang = languageMap[audioLanguage]
@@ -227,10 +226,6 @@ export function BlogReader({ blog }: BlogReaderProps) {
             english: {
                 label: t('language.english'),
                 variant: 'secondary' as const,
-            },
-            japanese: {
-                label: t('language.japanese'),
-                variant: 'outline' as const,
             },
         }
         return badges[language as keyof typeof badges] || badges.vietnamese
@@ -339,9 +334,6 @@ export function BlogReader({ blog }: BlogReaderProps) {
                                             </SelectItem>
                                             <SelectItem value="english">
                                                 {t('language.englishWithFlag')}
-                                            </SelectItem>
-                                            <SelectItem value="japanese">
-                                                {t('language.japaneseWithFlag')}
                                             </SelectItem>
                                         </SelectContent>
                                     </Select>

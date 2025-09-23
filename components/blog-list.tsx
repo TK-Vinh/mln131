@@ -24,8 +24,8 @@ const adminblogs = [
   },
   {
     id: 3,
-    title: "禅の哲学と現代生活",
-    language: "japanese",
+    title: "Dialectics and Social Change",
+    language: "english",
     status: "draft",
     date: "2024-01-05",
     views: 0,
@@ -39,7 +39,6 @@ export function BlogList() {
     const badges = {
       vietnamese: { label: t('language.vietnamese'), variant: "default" as const },
       english: { label: t('language.english'), variant: "secondary" as const },
-      japanese: { label: t('language.japanese'), variant: "outline" as const },
     }
     return badges[language as keyof typeof badges] || badges.vietnamese
   }

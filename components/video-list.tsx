@@ -26,7 +26,7 @@ const adminVideos = [
     },
     {
         id: 3,
-        title: '禅の心と現代ストレス',
+        title: 'Zen Mind and Modern Stress',
         type: 'local',
         duration: '18:20',
         views: 2100,
