@@ -1,5 +1,7 @@
 import type { SectionId } from './philosophy-chapters'
 
+export type Language = 'vietnamese' | 'english'
+
 export const blogData = {
     1: {
         id: 1,
@@ -179,6 +181,10 @@ Among them, socialist democracy represents the highest form of democracy, profou
                 alt: {
                     vietnamese: 'Minh họa nội dung mục 4.1.1',
                     english: 'Illustration for section 4.1.1',
+                },
+                insertAfterHeading: {
+                    vietnamese: '1.2.4. Dân chủ xã hội chủ nghĩa',
+                    english: '1.2.4. Socialist Democracy',
                 },
             },
         ],
@@ -1622,4 +1628,3 @@ Participation can occur through conferences, forums, and socio-political organiz
 
 export type BlogData = typeof blogData
 export type BlogId = keyof BlogData
-export type Language = 'vietnamese' | 'english'
