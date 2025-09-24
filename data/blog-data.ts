@@ -10,7 +10,7 @@ export const blogData = {
         },
         content: {
             vietnamese: `
-# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
+
 
 ## I. Dân chủ và dân chủ xã hội chủ nghĩa
 
@@ -85,7 +85,7 @@ Dân chủ, xét từ góc độ triết học Mác – Lênin, là một phạm
 Trong đó, dân chủ xã hội chủ nghĩa là hình thức dân chủ cao nhất, mang bản chất nhân dân sâu sắc, thể hiện quyền làm chủ toàn diện của đại đa số người lao động. Đó vừa là mục tiêu, vừa là động lực để xây dựng xã hội mới – xã hội công bằng, dân chủ, văn minh.
 `,
             english: `
-# Chapter 4: Socialist Democracy and the Socialist State
+
 
 ## I. Democracy and Socialist Democracy
 
@@ -543,40 +543,134 @@ According to Marxist–Leninist philosophy, socialist democracy is a higher form
     },
     3: {
         id: 3,
-        section: '4.2.1' as SectionId,
+        section: '4.2' as SectionId,
         title: {
-            vietnamese: 'Mở đầu',
-            english: 'Introduction',
+            vietnamese: 'Nhà nước xã hội chủ nghĩa',
+            english: 'The Socialist State',
         },
         content: {
             vietnamese: `
-# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
 
-## II. Nhà nước xã hội chủ nghĩa
+
 
 ### 1. Mở đầu
 Trong lịch sử nhân loại, nhà nước là một hiện tượng xã hội – chính trị có tính tất yếu khách quan, gắn liền với sự phân hóa giai cấp. Tuy nhiên, các kiểu nhà nước bóc lột (chủ nô, phong kiến, tư sản) đều phản ánh quyền lực chính trị của thiểu số áp đặt lên đại đa số lao động. Chỉ đến khi cách mạng vô sản thắng lợi, nhà nước mới xuất hiện dưới một hình thức hoàn toàn mới – nhà nước xã hội chủ nghĩa. Đây là công cụ để giai cấp công nhân và nhân dân lao động tổ chức quản lý xã hội, xây dựng nền dân chủ mới, hướng tới xóa bỏ mọi hình thức áp bức, bất công và tiến tới xã hội cộng sản.
+
+### 2. Sự ra đời của nhà nước xã hội chủ nghĩa
+#### 2.1. Tiền đề lý luận và lịch sử
+Khát vọng về công bằng, bình đẳng và tự do vốn đã xuất hiện từ lâu trong lịch sử, nhưng chỉ đến khi chủ nghĩa tư bản phát triển, mâu thuẫn giữa lực lượng sản xuất mang tính xã hội hóa cao với quan hệ sản xuất dựa trên chế độ tư hữu ngày càng gay gắt thì giai cấp vô sản mới trở thành lực lượng xã hội có khả năng lãnh đạo cách mạng. Được trang bị vũ khí lý luận là chủ nghĩa Mác – Lênin, giai cấp công nhân thành lập Đảng Cộng sản để tổ chức và lãnh đạo phong trào cách mạng.
+
+#### 2.2. Kết quả của cách mạng vô sản
+Nhà nước xã hội chủ nghĩa ra đời là kết quả tất yếu của cuộc cách mạng do giai cấp vô sản và nhân dân lao động tiến hành dưới sự lãnh đạo của Đảng Cộng sản. Tùy vào điều kiện lịch sử, kinh tế, văn hóa và đặc điểm dân tộc, hình thức chính quyền sau cách mạng có thể khác nhau, nhưng bản chất chung là:
+
+- Tổ chức thực hiện quyền lực nhân dân;
+- Đại diện cho ý chí của nhân dân lao động;
+- Công cụ để quản lý kinh tế, văn hóa, xã hội;
+- Đặt dưới sự lãnh đạo của Đảng Cộng sản.
+
+### 3. Bản chất của nhà nước xã hội chủ nghĩa
+#### 3.1. Bản chất chính trị
+Nhà nước xã hội chủ nghĩa mang bản chất giai cấp công nhân – giai cấp có lợi ích thống nhất với lợi ích cơ bản của quần chúng lao động. Khác với sự thống trị chính trị của giai cấp bóc lột vốn là sự áp đặt của thiểu số lên đa số, sự thống trị của giai cấp công nhân là sự thống trị của đa số đối với thiểu số, nhằm giải phóng chính mình và toàn thể nhân loại bị áp bức. Vì vậy, nhà nước xã hội chủ nghĩa thực chất là nhà nước của nhân dân, do nhân dân, vì nhân dân.
+
+#### 3.2. Bản chất kinh tế
+Cơ sở kinh tế của nhà nước xã hội chủ nghĩa là chế độ công hữu về tư liệu sản xuất chủ yếu. Trên nền tảng đó, quan hệ sản xuất bóc lột bị thủ tiêu, lợi ích kinh tế của nhân dân được bảo đảm. Nhà nước không còn là công cụ thuần túy của giai cấp thống trị để đàn áp mà vừa thực hiện chức năng quản lý kinh tế – xã hội, vừa đóng vai trò “nửa nhà nước” trên con đường tiến tới tiêu vong.
+
+#### 3.3. Bản chất văn hóa – xã hội
+Nhà nước xã hội chủ nghĩa được xây dựng trên nền tảng lý luận của chủ nghĩa Mác – Lênin, đồng thời kế thừa giá trị văn hóa tiến bộ của nhân loại và bản sắc dân tộc. Nhà nước hướng tới thu hẹp dần khoảng cách giai cấp, bảo đảm công bằng xã hội, tạo điều kiện cho mọi công dân phát triển toàn diện.
+
+### 4. Chức năng của nhà nước xã hội chủ nghĩa
+#### 4.1. Theo phạm vi tác động
+- Đối nội: tổ chức quản lý xã hội, phát triển kinh tế, giữ gìn trật tự, bảo đảm an ninh chính trị, bảo vệ quyền và lợi ích nhân dân.
+- Đối ngoại: mở rộng quan hệ hợp tác, bảo vệ độc lập dân tộc, chống lại mọi sự xâm lược và can thiệp từ bên ngoài.
+
+#### 4.2. Theo lĩnh vực tác động
+- Chính trị: duy trì sự lãnh đạo của giai cấp công nhân thông qua Đảng Cộng sản, bảo vệ thành quả cách mạng.
+- Kinh tế: tổ chức sản xuất, phân phối, quản lý kinh tế quốc dân theo định hướng xã hội chủ nghĩa.
+- Văn hóa – xã hội: chăm lo đời sống vật chất và tinh thần của nhân dân, xây dựng nền văn hóa tiên tiến, đậm đà bản sắc dân tộc.
+
+#### 4.3. Theo tính chất quyền lực
+- Chức năng giai cấp (trấn áp): trấn áp giai cấp bóc lột đã bị lật đổ và các phần tử chống phá cách mạng.
+- Chức năng xã hội (xây dựng): quản lý và tổ chức xã hội, cải tạo xã hội cũ, xây dựng xã hội mới.
+
+> V.I. Lênin nhấn mạnh: “Nhà nước XHCN không phải chỉ là bạo lực đối với bọn bóc lột, mà cái quan trọng hơn là nó tạo ra năng suất lao động cao hơn chế độ cũ”.
+
+### 5. Mối quan hệ giữa dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
+#### 5.1. Dân chủ xã hội chủ nghĩa là nền tảng của nhà nước xã hội chủ nghĩa
+Chỉ trong nền dân chủ xã hội chủ nghĩa, nhân dân mới có đủ điều kiện để thực hiện ý chí và quyền làm chủ của mình thông qua bầu cử, tham gia quản lý nhà nước và giám sát quyền lực. Nếu các nguyên tắc dân chủ xã hội chủ nghĩa bị vi phạm, nhà nước sẽ tha hóa thành công cụ của một nhóm người, đánh mất bản chất.
+
+#### 5.2. Nhà nước xã hội chủ nghĩa là công cụ hiện thực hóa dân chủ
+Nhà nước xã hội chủ nghĩa thể chế hóa ý chí nhân dân thành pháp luật, bảo đảm công bằng, phân định quyền và nghĩa vụ của công dân. Đồng thời, nhà nước là công cụ bạo lực để bảo vệ nền dân chủ, ngăn chặn mọi hành vi xâm phạm quyền lợi nhân dân. Theo Lênin, sự phát triển của nhà nước xã hội chủ nghĩa gắn liền với việc hoàn thiện hình thức dân chủ và mở rộng sự tham gia của nhân dân vào quản lý xã hội.
+
+### 6. Kết luận
+Nhà nước xã hội chủ nghĩa là kiểu nhà nước mới, khác biệt về bản chất so với các nhà nước bóc lột trong lịch sử. Nó ra đời từ thắng lợi của cách mạng vô sản, mang bản chất giai cấp công nhân và đại biểu cho lợi ích của đại đa số nhân dân lao động. Nhà nước xã hội chủ nghĩa vừa thực hiện chức năng trấn áp thiểu số bóc lột, vừa quan trọng hơn là tổ chức quản lý, xây dựng xã hội mới. Mối quan hệ giữa dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa mang tính biện chứng: dân chủ là nền tảng, còn nhà nước là công cụ tổ chức, bảo vệ và hiện thực hóa dân chủ. Giữ vững bản chất, hoàn thiện chức năng và không ngừng mở rộng dân chủ là điều kiện quyết định để nhà nước xã hội chủ nghĩa phát huy vai trò trụ cột trong sự nghiệp xây dựng và bảo vệ Tổ quốc.
 `,
             english: `
-# Chapter 4: Socialist Democracy and the Socialist State
 
-## II. The Socialist State
+
 
 ### 1. Introduction
 Throughout human history, the state has been a socio-political phenomenon rooted in the objective necessity that accompanied class stratification. Yet every exploitative state—slave-owning, feudal, and bourgeois—expressed the political power of a minority imposed upon the laboring majority. Only when the proletarian revolution triumphed did the state emerge in an entirely new form: the socialist state. It is the instrument through which the working class and working people organize and manage society, build a new democracy, strive to abolish all oppression and injustice, and advance toward a communist society.
+
+### 2. The Emergence of the Socialist State
+#### 2.1. Theoretical and Historical Preconditions
+Yearnings for justice, equality, and freedom have existed throughout history, but only when capitalism matured—and the contradiction between highly socialized productive forces and private-property relations intensified—did the proletariat become a social force capable of leading revolution. Armed with the theoretical weapon of Marxism–Leninism, the working class founded the Communist Party to organize and guide the revolutionary movement.
+
+#### 2.2. Outcome of the Proletarian Revolution
+The socialist state emerges as the inevitable result of revolutions carried out by the proletariat and working people under the leadership of the Communist Party. Depending on historical, economic, cultural, and national conditions, the post-revolutionary form of government may differ, but its common essence is:
+
+- Organizing and exercising the people’s power;
+- Representing the will of the working masses;
+- Serving as the instrument for managing the economy, culture, and society;
+- Operating under the leadership of the Communist Party.
+
+### 3. Essence of the Socialist State
+#### 3.1. Political Essence
+The socialist state bears the class nature of the working class, whose interests align with those of the laboring masses. Unlike exploitative rule—where a minority dominates the majority—the leadership of the working class represents the majority over the minority in order to liberate itself and all oppressed humanity. Consequently, the socialist state is genuinely a state of the people, by the people, and for the people.
+
+#### 3.2. Economic Essence
+Its economic foundation is public ownership of the principal means of production. On this basis, exploitative relations of production are abolished and the people’s economic interests are secured. The state is no longer merely an instrument of class repression; it both manages socio-economic life and functions as a “semi-state” on the path toward its eventual withering away.
+
+#### 3.3. Cultural and Social Essence
+The socialist state is built upon Marxism–Leninism while inheriting progressive human values and national cultural identity. It strives to narrow class divisions, ensure social justice, and create conditions for every citizen to develop comprehensively.
+
+### 4. Functions of the Socialist State
+#### 4.1. By Scope of Impact
+- Domestic: organize social management, develop the economy, maintain order, safeguard political security, and protect the people’s rights and interests.
+- External: expand cooperative relations, defend national independence, and resist aggression or interference from abroad.
+
+#### 4.2. By Fields of Activity
+- Political: uphold the leadership of the working class through the Communist Party and defend revolutionary achievements.
+- Economic: organize production, distribution, and national economic management along socialist lines.
+- Cultural and social: care for the material and spiritual life of the people and build an advanced culture imbued with national identity.
+
+#### 4.3. By Nature of Power
+- Class function (suppression): suppress the overthrown exploiting classes and counter-revolutionary elements.
+- Social function (construction): manage and organize society, transform the old order, and build the new one.
+
+> V.I. Lenin emphasized: “The socialist state is not only violence against the exploiters; what matters even more is that it creates a higher labor productivity than the old regime.”
+
+### 5. The Relationship Between Socialist Democracy and the Socialist State
+#### 5.1. Socialist Democracy as the Foundation of the Socialist State
+Only under socialist democracy do the people possess the conditions to realize their will and exercise mastery through elections, participation in state management, and oversight of power. If socialist-democratic principles are violated, the state degenerates into the tool of a clique and loses its essence.
+
+#### 5.2. The Socialist State as the Instrument for Realizing Democracy
+The socialist state institutionalizes the people’s will into law, ensures justice, and delineates citizens’ rights and obligations. At the same time, it wields coercive power to defend democracy and prevent violations of the people’s interests. Lenin argued that the development of the socialist state goes hand in hand with perfecting democratic forms and expanding popular participation in governance.
+
+### 6. Conclusion
+The socialist state is a new type of state whose essence differs from every exploitative state in history. Born from the triumph of the proletarian revolution, it embodies the working class and represents the interests of the laboring majority. The socialist state not only suppresses the remnants of exploiters but, more importantly, organizes and builds the new society. The relationship between socialist democracy and the socialist state is dialectical: democracy is the foundation, while the state is the instrument that organizes, protects, and realizes it. Preserving this essence, perfecting its functions, and constantly expanding democracy are decisive conditions for the socialist state to serve as a pillar in building and defending the nation.
 `,
         },
         excerpt: {
             vietnamese:
-                'Khẳng định lý do hình thành nhà nước xã hội chủ nghĩa như một kiểu nhà nước mới của giai cấp công nhân.',
+                'Tổng hợp toàn bộ nội dung chương 4.2 về nhà nước xã hội chủ nghĩa, từ tiền đề ra đời, bản chất, chức năng đến mối quan hệ với dân chủ xã hội chủ nghĩa.',
             english:
-                'Explains why the socialist state emerges as a new form of power for the working class.',
+                'Comprehensive synthesis of Chapter 4.2 on the socialist state—from its origins and essence to its functions and relationship with socialist democracy.',
         },
         author: 'Admin',
         date: '2024-05-20',
         readTime: {
-            vietnamese: '8 phút',
-            english: '8 minutes',
+            vietnamese: '40 phút',
+            english: '40 minutes',
         },
         image: '/placeholder.svg?height=200&width=400',
         originalLanguage: 'vietnamese' as const,
@@ -593,83 +687,6 @@ Throughout human history, the state has been a socio-political phenomenon rooted
                     ],
                     correct: 2,
                 },
-            ],
-            english: [
-                {
-                    question:
-                        'According to the text, what makes the socialist state a “completely new form” compared with earlier exploitative states?',
-                    options: [
-                        'Maintaining private ownership of the means of production',
-                        'Power remaining in the hands of a minority over the majority',
-                        'Serving as the instrument of the working class and laboring people to organize society and build a new democracy',
-                        'Dispensing with any apparatus of power',
-                    ],
-                    correct: 2,
-                },
-            ],
-        },
-    },
-    4: {
-        id: 4,
-        section: '4.2.2' as SectionId,
-        title: {
-            vietnamese: 'Sự ra đời của nhà nước xã hội chủ nghĩa',
-            english: 'The Emergence of the Socialist State',
-        },
-        content: {
-            vietnamese: `
-# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
-
-## II. Nhà nước xã hội chủ nghĩa
-
-### 2. Sự ra đời của nhà nước xã hội chủ nghĩa
-
-#### 2.1. Tiền đề lý luận và lịch sử
-Khát vọng về công bằng, bình đẳng và tự do vốn đã xuất hiện từ lâu trong lịch sử, nhưng chỉ đến khi chủ nghĩa tư bản phát triển, mâu thuẫn giữa lực lượng sản xuất mang tính xã hội hóa cao với quan hệ sản xuất dựa trên chế độ tư hữu ngày càng gay gắt thì giai cấp vô sản mới trở thành lực lượng xã hội có khả năng lãnh đạo cách mạng. Được trang bị vũ khí lý luận là chủ nghĩa Mác – Lênin, giai cấp công nhân thành lập Đảng Cộng sản để tổ chức và lãnh đạo phong trào cách mạng.
-
-#### 2.2. Kết quả của cách mạng vô sản
-Nhà nước xã hội chủ nghĩa ra đời là kết quả tất yếu của cuộc cách mạng do giai cấp vô sản và nhân dân lao động tiến hành dưới sự lãnh đạo của Đảng Cộng sản. Tùy vào điều kiện lịch sử, kinh tế, văn hóa và đặc điểm dân tộc, hình thức chính quyền sau cách mạng có thể khác nhau, nhưng bản chất chung là:
-
-- Tổ chức thực hiện quyền lực nhân dân;
-- Đại diện cho ý chí của nhân dân lao động;
-- Công cụ để quản lý kinh tế, văn hóa, xã hội;
-- Đặt dưới sự lãnh đạo của Đảng Cộng sản.
-`,
-            english: `
-# Chapter 4: Socialist Democracy and the Socialist State
-
-## II. The Socialist State
-
-### 2. The Emergence of the Socialist State
-
-#### 2.1. Theoretical and Historical Preconditions
-Yearnings for justice, equality, and freedom have existed throughout history, but only when capitalism matured—and the contradiction between highly socialized productive forces and private property relations intensified—did the proletariat become a social force capable of leading revolution. Armed with the theoretical weapon of Marxism–Leninism, the working class founded the Communist Party to organize and guide the revolutionary movement.
-
-#### 2.2. Outcome of the Proletarian Revolution
-The socialist state emerges as the inevitable result of revolutions carried out by the proletariat and working people under the leadership of the Communist Party. Depending on historical, economic, cultural, and national conditions, the post-revolutionary form of government may differ, but its common essence is:
-
-- Organizing and exercising the people’s power;
-- Representing the will of the working masses;
-- Serving as the instrument for managing the economy, culture, and society;
-- Operating under the leadership of the Communist Party.
-`,
-        },
-        excerpt: {
-            vietnamese:
-                'Phân tích tiền đề và kết quả cách mạng dẫn tới sự hình thành nhà nước xã hội chủ nghĩa dưới sự lãnh đạo của Đảng Cộng sản.',
-            english:
-                'Outlines the preconditions and revolutionary outcome that brought the socialist state into being under Communist Party leadership.',
-        },
-        author: 'Admin',
-        date: '2024-05-20',
-        readTime: {
-            vietnamese: '12 phút',
-            english: '12 minutes',
-        },
-        image: '/placeholder.svg?height=200&width=400',
-        originalLanguage: 'vietnamese' as const,
-        quiz: {
-            vietnamese: [
                 {
                     question: 'Tiền đề quyết định để giai cấp vô sản có khả năng lãnh đạo cách mạng là gì?',
                     options: [
@@ -690,88 +707,6 @@ The socialist state emerges as the inevitable result of revolutions carried out 
                     ],
                     correct: 2,
                 },
-            ],
-            english: [
-                {
-                    question: 'What decisive precondition enables the proletariat to lead the revolution?',
-                    options: [
-                        'The inevitable weakening of feudalism',
-                        'The contradiction between highly socialized productive forces and private-property relations',
-                        'The expansion of peasant uprisings',
-                        'Support from the national bourgeoisie',
-                    ],
-                    correct: 1,
-                },
-                {
-                    question: 'How is the Communist Party’s role in the emergence of the socialist state described?',
-                    options: [
-                        'Replacing the entire existing state apparatus',
-                        'Acting only as a temporary tool of repression',
-                        'Organizing and leading the revolutionary movement of the working class and working people',
-                        'Handling foreign affairs exclusively',
-                    ],
-                    correct: 2,
-                },
-            ],
-        },
-    },
-    5: {
-        id: 5,
-        section: '4.2.3' as SectionId,
-        title: {
-            vietnamese: 'Bản chất của nhà nước xã hội chủ nghĩa',
-            english: 'Essence of the Socialist State',
-        },
-        content: {
-            vietnamese: `
-# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
-
-## II. Nhà nước xã hội chủ nghĩa
-
-### 3. Bản chất của nhà nước xã hội chủ nghĩa
-
-#### 3.1. Bản chất chính trị
-Nhà nước xã hội chủ nghĩa mang bản chất giai cấp công nhân – giai cấp có lợi ích thống nhất với lợi ích cơ bản của quần chúng lao động. Khác với sự thống trị chính trị của giai cấp bóc lột vốn là sự áp đặt của thiểu số lên đa số, sự thống trị của giai cấp công nhân là sự thống trị của đa số đối với thiểu số, nhằm giải phóng chính mình và toàn thể nhân loại bị áp bức. Vì vậy, nhà nước xã hội chủ nghĩa thực chất là nhà nước của nhân dân, do nhân dân, vì nhân dân.
-
-#### 3.2. Bản chất kinh tế
-Cơ sở kinh tế của nhà nước xã hội chủ nghĩa là chế độ công hữu về tư liệu sản xuất chủ yếu. Trên nền tảng đó, quan hệ sản xuất bóc lột bị thủ tiêu, lợi ích kinh tế của nhân dân được bảo đảm. Nhà nước không còn là công cụ thuần túy của giai cấp thống trị để đàn áp mà vừa thực hiện chức năng quản lý kinh tế – xã hội, vừa đóng vai trò “nửa nhà nước” trên con đường tiến tới tiêu vong.
-
-#### 3.3. Bản chất văn hóa – xã hội
-Nhà nước xã hội chủ nghĩa được xây dựng trên nền tảng lý luận của chủ nghĩa Mác – Lênin, đồng thời kế thừa giá trị văn hóa tiến bộ của nhân loại và bản sắc dân tộc. Nhà nước hướng tới thu hẹp dần khoảng cách giai cấp, bảo đảm công bằng xã hội, tạo điều kiện cho mọi công dân phát triển toàn diện.
-`,
-            english: `
-# Chapter 4: Socialist Democracy and the Socialist State
-
-## II. The Socialist State
-
-### 3. Essence of the Socialist State
-
-#### 3.1. Political Essence
-The socialist state bears the class nature of the working class, whose interests align with those of the laboring masses. Unlike exploitative rule—where a minority dominates the majority—the leadership of the working class represents the majority over the minority in order to liberate itself and all oppressed humanity. Consequently, the socialist state is genuinely a state of the people, by the people, and for the people.
-
-#### 3.2. Economic Essence
-Its economic foundation is public ownership of the principal means of production. On this basis, exploitative relations of production are abolished and the people’s economic interests are secured. The state is no longer merely an instrument of class repression; it both manages socio-economic life and functions as a “semi-state” on the path toward its eventual withering away.
-
-#### 3.3. Cultural and Social Essence
-The socialist state is built upon Marxism–Leninism while inheriting progressive human values and national cultural identity. It strives to narrow class divisions, ensure social justice, and create conditions for every citizen to develop comprehensively.
-`,
-        },
-        excerpt: {
-            vietnamese:
-                'Làm rõ bản chất chính trị, kinh tế, văn hóa – xã hội của nhà nước xã hội chủ nghĩa gắn với lợi ích đại đa số nhân dân.',
-            english:
-                'Clarifies the political, economic, and socio-cultural essence of the socialist state as aligned with the majority’s interests.',
-        },
-        author: 'Admin',
-        date: '2024-05-20',
-        readTime: {
-            vietnamese: '15 phút',
-            english: '15 minutes',
-        },
-        image: '/placeholder.svg?height=200&width=400',
-        originalLanguage: 'vietnamese' as const,
-        quiz: {
-            vietnamese: [
                 {
                     question: 'Bản chất chính trị của nhà nước XHCN là gì?',
                     options: [
@@ -802,110 +737,6 @@ The socialist state is built upon Marxism–Leninism while inheriting progressiv
                     ],
                     correct: 2,
                 },
-            ],
-            english: [
-                {
-                    question: 'What is identified as the political essence of the socialist state?',
-                    options: [
-                        'Minority domination over the majority',
-                        'A class-neutral state',
-                        'A state of the people, by the people, and for the people grounded in the working class',
-                        'A reformed bourgeois state',
-                    ],
-                    correct: 2,
-                },
-                {
-                    question: 'According to the text, what forms the economic foundation of the socialist state?',
-                    options: [
-                        'Private ownership of the means of production',
-                        'A dispersed smallholder economy',
-                        'Public ownership of the principal means of production',
-                        'Private shareholding as the dominant form',
-                    ],
-                    correct: 2,
-                },
-                {
-                    question: 'Regarding cultural and social essence, what does the socialist state aim to achieve?',
-                    options: [
-                        'Maintaining class divisions',
-                        'Rejecting all past cultural values',
-                        'Inheriting progressive human and national values, ensuring justice, and enabling citizens’ all-round development',
-                        'Focusing solely on economic growth',
-                    ],
-                    correct: 2,
-                },
-            ],
-        },
-    },
-    6: {
-        id: 6,
-        section: '4.2.4' as SectionId,
-        title: {
-            vietnamese: 'Chức năng của nhà nước xã hội chủ nghĩa',
-            english: 'Functions of the Socialist State',
-        },
-        content: {
-            vietnamese: `
-# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
-
-## II. Nhà nước xã hội chủ nghĩa
-
-### 4. Chức năng của nhà nước xã hội chủ nghĩa
-
-#### 4.1. Theo phạm vi tác động
-- Đối nội: tổ chức quản lý xã hội, phát triển kinh tế, giữ gìn trật tự, bảo đảm an ninh chính trị, bảo vệ quyền và lợi ích nhân dân.
-- Đối ngoại: mở rộng quan hệ hợp tác, bảo vệ độc lập dân tộc, chống lại mọi sự xâm lược và can thiệp từ bên ngoài.
-
-#### 4.2. Theo lĩnh vực tác động
-- Chính trị: duy trì sự lãnh đạo của giai cấp công nhân thông qua Đảng Cộng sản, bảo vệ thành quả cách mạng.
-- Kinh tế: tổ chức sản xuất, phân phối, quản lý kinh tế quốc dân theo định hướng xã hội chủ nghĩa.
-- Văn hóa – xã hội: chăm lo đời sống vật chất và tinh thần của nhân dân, xây dựng nền văn hóa tiên tiến, đậm đà bản sắc dân tộc.
-
-#### 4.3. Theo tính chất quyền lực
-- Chức năng giai cấp (trấn áp): trấn áp giai cấp bóc lột đã bị lật đổ và các phần tử chống phá cách mạng.
-- Chức năng xã hội (xây dựng): quản lý và tổ chức xã hội, cải tạo xã hội cũ, xây dựng xã hội mới.
-
-> V.I. Lênin nhấn mạnh: “Nhà nước XHCN không phải chỉ là bạo lực đối với bọn bóc lột, mà cái quan trọng hơn là nó tạo ra năng suất lao động cao hơn chế độ cũ”.
-`,
-            english: `
-# Chapter 4: Socialist Democracy and the Socialist State
-
-## II. The Socialist State
-
-### 4. Functions of the Socialist State
-
-#### 4.1. By Scope of Impact
-- Domestic: organize social management, develop the economy, maintain order, safeguard political security, and protect the people’s rights and interests.
-- External: expand cooperative relations, defend national independence, and resist aggression or interference from abroad.
-
-#### 4.2. By Fields of Activity
-- Political: uphold the leadership of the working class through the Communist Party and defend revolutionary achievements.
-- Economic: organize production, distribution, and national economic management along socialist lines.
-- Cultural and social: care for the material and spiritual life of the people and build an advanced culture imbued with national identity.
-
-#### 4.3. By Nature of Power
-- Class function (suppression): suppress the overthrown exploiting classes and counter-revolutionary elements.
-- Social function (construction): manage and organize society, transform the old order, and build the new one.
-
-> V.I. Lenin emphasized: “The socialist state is not only violence against the exploiters; what matters even more is that it creates a higher labor productivity than the old regime.”
-`,
-        },
-        excerpt: {
-            vietnamese:
-                'Hệ thống hóa các chức năng đối nội, đối ngoại và xây dựng của nhà nước xã hội chủ nghĩa kèm luận điểm của V.I. Lênin.',
-            english:
-                'Systematizes the domestic, external, and constructive functions of the socialist state alongside Lenin’s emphasis on productivity.',
-        },
-        author: 'Admin',
-        date: '2024-05-20',
-        readTime: {
-            vietnamese: '14 phút',
-            english: '14 minutes',
-        },
-        image: '/placeholder.svg?height=200&width=400',
-        originalLanguage: 'vietnamese' as const,
-        quiz: {
-            vietnamese: [
                 {
                     question: 'Theo V.I. Lênin, điều gì “quan trọng hơn” đối với nhà nước XHCN?',
                     options: [
@@ -936,8 +767,79 @@ The socialist state is built upon Marxism–Leninism while inheriting progressiv
                     ],
                     correct: 2,
                 },
+                {
+                    question: 'Mối quan hệ giữa dân chủ XHCN và nhà nước XHCN được mô tả thế nào?',
+                    options: [
+                        'Dân chủ phụ thuộc hoàn toàn vào ý chí nhà nước',
+                        'Dân chủ là nền tảng, nhà nước là công cụ hiện thực hóa và bảo vệ dân chủ',
+                        'Dân chủ và nhà nước tách rời, không liên quan',
+                        'Hai yếu tố mâu thuẫn đối kháng',
+                    ],
+                    correct: 1,
+                },
             ],
             english: [
+                {
+                    question:
+                        'According to the text, what makes the socialist state a “completely new form” compared with earlier exploitative states?',
+                    options: [
+                        'Maintaining private ownership of the means of production',
+                        'Power remaining in the hands of a minority over the majority',
+                        'Serving as the instrument of the working class and laboring people to organize society and build a new democracy',
+                        'Dispensing with any apparatus of power',
+                    ],
+                    correct: 2,
+                },
+                {
+                    question: 'What decisive precondition enables the proletariat to lead the revolution?',
+                    options: [
+                        'The inevitable weakening of feudalism',
+                        'The contradiction between highly socialized productive forces and private-property relations',
+                        'The expansion of peasant uprisings',
+                        'Support from the national bourgeoisie',
+                    ],
+                    correct: 1,
+                },
+                {
+                    question: 'How is the Communist Party’s role in the emergence of the socialist state described?',
+                    options: [
+                        'Replacing the entire existing state apparatus',
+                        'Acting only as a temporary tool of repression',
+                        'Organizing and leading the revolutionary movement of the working class and working people',
+                        'Handling foreign affairs exclusively',
+                    ],
+                    correct: 2,
+                },
+                {
+                    question: 'What is identified as the political essence of the socialist state?',
+                    options: [
+                        'Minority domination over the majority',
+                        'A class-neutral state',
+                        'A state of the people, by the people, and for the people grounded in the working class',
+                        'A reformed bourgeois state',
+                    ],
+                    correct: 2,
+                },
+                {
+                    question: 'According to the text, what forms the economic foundation of the socialist state?',
+                    options: [
+                        'Private ownership of the means of production',
+                        'A dispersed smallholder economy',
+                        'Public ownership of the principal means of production',
+                        'Private shareholding as the dominant form',
+                    ],
+                    correct: 2,
+                },
+                {
+                    question: 'Regarding cultural and social essence, what does the socialist state aim to achieve?',
+                    options: [
+                        'Maintaining class divisions',
+                        'Rejecting all past cultural values',
+                        'Inheriting progressive human and national values, ensuring justice, and enabling citizens’ all-round development',
+                        'Focusing solely on economic growth',
+                    ],
+                    correct: 2,
+                },
                 {
                     question: 'According to V.I. Lenin, what is “more important” for the socialist state?',
                     options: [
@@ -968,72 +870,6 @@ The socialist state is built upon Marxism–Leninism while inheriting progressiv
                     ],
                     correct: 2,
                 },
-            ],
-        },
-    },
-    7: {
-        id: 7,
-        section: '4.2.5' as SectionId,
-        title: {
-            vietnamese: 'Quan hệ giữa dân chủ XHCN và nhà nước XHCN',
-            english: 'Relation Between Socialist Democracy and the Socialist State',
-        },
-        content: {
-            vietnamese: `
-# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
-
-## II. Nhà nước xã hội chủ nghĩa
-
-### 5. Mối quan hệ giữa dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
-
-#### 5.1. Dân chủ xã hội chủ nghĩa là nền tảng của nhà nước xã hội chủ nghĩa
-Chỉ trong nền dân chủ xã hội chủ nghĩa, nhân dân mới có đủ điều kiện để thực hiện ý chí và quyền làm chủ của mình thông qua bầu cử, tham gia quản lý nhà nước và giám sát quyền lực. Nếu các nguyên tắc dân chủ xã hội chủ nghĩa bị vi phạm, nhà nước sẽ tha hóa thành công cụ của một nhóm người, đánh mất bản chất.
-
-#### 5.2. Nhà nước xã hội chủ nghĩa là công cụ hiện thực hóa dân chủ
-Nhà nước xã hội chủ nghĩa thể chế hóa ý chí nhân dân thành pháp luật, bảo đảm công bằng, phân định quyền và nghĩa vụ của công dân. Đồng thời, nhà nước là công cụ bạo lực để bảo vệ nền dân chủ, ngăn chặn mọi hành vi xâm phạm quyền lợi nhân dân. Theo Lênin, sự phát triển của nhà nước xã hội chủ nghĩa gắn liền với việc hoàn thiện hình thức dân chủ và mở rộng sự tham gia của nhân dân vào quản lý xã hội.
-`,
-            english: `
-# Chapter 4: Socialist Democracy and the Socialist State
-
-## II. The Socialist State
-
-### 5. The Relationship Between Socialist Democracy and the Socialist State
-
-#### 5.1. Socialist Democracy as the Foundation of the Socialist State
-Only under socialist democracy do the people possess the conditions to realize their will and exercise mastery through elections, participation in state management, and oversight of power. If socialist-democratic principles are violated, the state degenerates into the tool of a clique and loses its essence.
-
-#### 5.2. The Socialist State as the Instrument for Realizing Democracy
-The socialist state institutionalizes the people’s will into law, ensures justice, and delineates citizens’ rights and obligations. At the same time, it wields coercive power to defend democracy and prevent violations of the people’s interests. Lenin argued that the development of the socialist state goes hand in hand with perfecting democratic forms and expanding popular participation in governance.
-`,
-        },
-        excerpt: {
-            vietnamese:
-                'Làm rõ tính biện chứng giữa dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa trong việc bảo đảm quyền làm chủ của nhân dân.',
-            english:
-                'Explains the dialectical relationship whereby socialist democracy grounds the socialist state, which in turn realizes and protects democracy.',
-        },
-        author: 'Admin',
-        date: '2024-05-20',
-        readTime: {
-            vietnamese: '10 phút',
-            english: '10 minutes',
-        },
-        image: '/placeholder.svg?height=200&width=400',
-        originalLanguage: 'vietnamese' as const,
-        quiz: {
-            vietnamese: [
-                {
-                    question: 'Mối quan hệ giữa dân chủ XHCN và nhà nước XHCN được mô tả thế nào?',
-                    options: [
-                        'Dân chủ phụ thuộc hoàn toàn vào ý chí nhà nước',
-                        'Dân chủ là nền tảng, nhà nước là công cụ hiện thực hóa và bảo vệ dân chủ',
-                        'Dân chủ và nhà nước tách rời, không liên quan',
-                        'Hai yếu tố mâu thuẫn đối kháng',
-                    ],
-                    correct: 1,
-                },
-            ],
-            english: [
                 {
                     question: 'How is the relationship between socialist democracy and the socialist state described?',
                     options: [
@@ -1047,50 +883,6 @@ The socialist state institutionalizes the people’s will into law, ensures just
             ],
         },
     },
-    8: {
-        id: 8,
-        section: '4.2.6' as SectionId,
-        title: {
-            vietnamese: 'Kết luận',
-            english: 'Conclusion',
-        },
-        content: {
-            vietnamese: `
-# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
-
-## II. Nhà nước xã hội chủ nghĩa
-
-### 6. Kết luận
-Nhà nước xã hội chủ nghĩa là kiểu nhà nước mới, khác biệt về bản chất so với các nhà nước bóc lột trong lịch sử. Nó ra đời từ thắng lợi của cách mạng vô sản, mang bản chất giai cấp công nhân và đại biểu cho lợi ích của đại đa số nhân dân lao động. Nhà nước xã hội chủ nghĩa vừa thực hiện chức năng trấn áp thiểu số bóc lột, vừa quan trọng hơn là tổ chức quản lý, xây dựng xã hội mới. Mối quan hệ giữa dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa mang tính biện chứng: dân chủ là nền tảng, còn nhà nước là công cụ tổ chức, bảo vệ và hiện thực hóa dân chủ. Giữ vững bản chất, hoàn thiện chức năng và không ngừng mở rộng dân chủ là điều kiện quyết định để nhà nước xã hội chủ nghĩa phát huy vai trò trụ cột trong sự nghiệp xây dựng và bảo vệ Tổ quốc.
-`,
-            english: `
-# Chapter 4: Socialist Democracy and the Socialist State
-
-## II. The Socialist State
-
-### 6. Conclusion
-The socialist state is a new type of state whose essence differs from every exploitative state in history. Born from the triumph of the proletarian revolution, it embodies the working class and represents the interests of the laboring majority. The socialist state not only suppresses the remnants of exploiters but, more importantly, organizes and builds the new society. The relationship between socialist democracy and the socialist state is dialectical: democracy is the foundation, while the state is the instrument that organizes, protects, and realizes it. Preserving this essence, perfecting its functions, and constantly expanding democracy are decisive conditions for the socialist state to serve as a pillar in building and defending the nation.
-`,
-        },
-        excerpt: {
-            vietnamese:
-                'Khẳng định vai trò then chốt của nhà nước xã hội chủ nghĩa trong sự nghiệp xây dựng và bảo vệ Tổ quốc.',
-            english:
-                'Affirms the decisive role of the socialist state in building and safeguarding the nation.',
-        },
-        author: 'Admin',
-        date: '2024-05-20',
-        readTime: {
-            vietnamese: '9 phút',
-            english: '9 minutes',
-        },
-        image: '/placeholder.svg?height=200&width=400',
-        originalLanguage: 'vietnamese' as const,
-        quiz: {
-            vietnamese: [],
-            english: [],
-        },
-    },
     9: {
         id: 9,
         section: '4.3.1' as SectionId,
@@ -1100,7 +892,7 @@ The socialist state is a new type of state whose essence differs from every expl
         },
         content: {
             vietnamese: `
-# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
+
 
 ## III. Dân chủ xã hội chủ nghĩa và Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam
 
@@ -1148,7 +940,7 @@ Trong thực tiễn đổi mới, nền dân chủ xã hội chủ nghĩa ở Vi
 Tuy nhiên, việc xây dựng dân chủ xã hội chủ nghĩa còn đối mặt với nhiều khó khăn: xuất phát điểm kinh tế thấp, hậu quả chiến tranh, tiêu cực xã hội, âm mưu “diễn biến hòa bình”, nguy cơ “tự diễn biến, tự chuyển hóa”. Dẫu vậy, bản chất ưu việt của nền dân chủ xã hội chủ nghĩa ngày càng thể hiện rõ giá trị “lấy dân làm gốc”: nhân dân trở thành chủ thể xây dựng, tổ chức và quản lý xã hội; quyền làm chủ được bảo đảm trên tất cả các lĩnh vực và khơi dậy sức sáng tạo trong sự nghiệp xây dựng, bảo vệ Tổ quốc xã hội chủ nghĩa.
 `,
             english: `
-# Chapter 4: Socialist Democracy and the Socialist State
+
 
 ## III. Socialist Democracy and the Socialist Rule-of-Law State in Vietnam
 
@@ -1306,7 +1098,7 @@ Nevertheless, building socialist democracy still faces challenges: low economic 
         },
         content: {
             vietnamese: `
-# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
+
 
 ## III. Dân chủ xã hội chủ nghĩa và Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam
 
@@ -1334,7 +1126,7 @@ Từ thực tiễn xây dựng trong thời kỳ đổi mới, nhà nước phá
 Những đặc điểm này thể hiện đầy đủ tinh thần chung của nhà nước pháp quyền, đồng thời nhấn mạnh bản sắc của nhà nước pháp quyền xã hội chủ nghĩa Việt Nam: mang bản chất giai cấp công nhân, phục vụ nhân dân và là công cụ để Đảng lãnh đạo sự nghiệp xây dựng chủ nghĩa xã hội.
 `,
             english: `
-# Chapter 4: Socialist Democracy and the Socialist State
+
 
 ## III. Socialist Democracy and the Socialist Rule-of-Law State in Vietnam
 
@@ -1432,7 +1224,7 @@ These features embody the universal spirit of the rule-of-law state while underl
         },
         content: {
             vietnamese: `
-# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
+
 
 ## III. Dân chủ xã hội chủ nghĩa và Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam
 
@@ -1459,7 +1251,7 @@ These features embody the universal spirit of the rule-of-law state while underl
 4. **Đấu tranh phòng, chống tham nhũng, lãng phí, thực hành tiết kiệm**: hoàn thiện thể chế, cải cách hành chính phục vụ phòng chống tham nhũng; khuyến khích, bảo vệ người đấu tranh; xử lý nghiêm tổ chức, cá nhân vi phạm; động viên toàn xã hội thực hành tiết kiệm.
 `,
             english: `
-# Chapter 4: Socialist Democracy and the Socialist State
+
 
 ## III. Socialist Democracy and the Socialist Rule-of-Law State in Vietnam
 
@@ -1536,7 +1328,7 @@ These features embody the universal spirit of the rule-of-law state while underl
         },
         content: {
             vietnamese: `
-# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
+
 
 ## III. Dân chủ xã hội chủ nghĩa và Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam
 
@@ -1564,7 +1356,7 @@ Nguyên nhân chủ quan bao gồm: hạn chế trong tổ chức và hoạt đ�
 - **Đạo đức**: trái ngược đạo đức cách mạng, phản bội lý tưởng phục vụ nhân dân.
 `,
             english: `
-# Chapter 4: Socialist Democracy and the Socialist State
+
 
 ## III. Socialist Democracy and the Socialist Rule-of-Law State in Vietnam
 
@@ -1662,7 +1454,7 @@ Subjective causes include shortcomings in political institutions; incomplete mec
         },
         content: {
             vietnamese: `
-# Chương 4: Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
+
 
 ## III. Dân chủ xã hội chủ nghĩa và Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam
 
@@ -1687,7 +1479,7 @@ Khi phát hiện “lỗ hổng pháp luật” dễ bị lợi dụng, công d�
 Công dân có thể tham gia thông qua hội nghị, diễn đàn, tổ chức chính trị – xã hội; phân tích, đánh giá quy định pháp luật, dự báo tình hình để góp ý; giúp pháp luật thiết thực, khả thi và hiệu quả.
 `,
             english: `
-# Chapter 4: Socialist Democracy and the Socialist State
+
 
 ## III. Socialist Democracy and the Socialist Rule-of-Law State in Vietnam
 

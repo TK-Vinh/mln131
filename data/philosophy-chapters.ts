@@ -13,7 +13,7 @@ export const philosophyBlogs = {
       vietnamese: 'Nhà nước xã hội chủ nghĩa',
       english: 'The Socialist State',
     },
-    sections: ['4.2.1','4.2.2','4.2.3','4.2.4','4.2.5','4.2.6'],
+    sections: ['4.2'],
   },
   '4.3': {
     title: {
