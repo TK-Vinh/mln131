@@ -172,7 +172,16 @@ Among them, socialist democracy represents the highest form of democracy, profou
             vietnamese: '20 phút',
             english: '20 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.1.1-thumbnail.png',
+        contentImages: [
+            {
+                src: '/assets/blog-images/4.1.1.png',
+                alt: {
+                    vietnamese: 'Minh họa nội dung mục 4.1.1',
+                    english: 'Illustration for section 4.1.1',
+                },
+            },
+        ],
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -452,7 +461,16 @@ According to Marxist–Leninist philosophy, socialist democracy is a higher form
             vietnamese: '25 phút',
             english: '25 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.1.2-thumbnail.png',
+        contentImages: [
+            {
+                src: '/assets/blog-images/4.1.2.png',
+                alt: {
+                    vietnamese: 'Minh họa nội dung mục 4.1.2',
+                    english: 'Illustration for section 4.1.2',
+                },
+            },
+        ],
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -672,7 +690,16 @@ The socialist state is a new type of state whose essence differs from every expl
             vietnamese: '40 phút',
             english: '40 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.2-thumbnail.png',
+        contentImages: [
+            {
+                src: '/assets/blog-images/4.2.png',
+                alt: {
+                    vietnamese: 'Minh họa nội dung mục 4.2',
+                    english: 'Illustration for section 4.2',
+                },
+            },
+        ],
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1000,7 +1027,16 @@ Nevertheless, building socialist democracy still faces challenges: low economic 
             vietnamese: '28 phút',
             english: '28 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.3.1-thumbnail.png',
+        contentImages: [
+            {
+                src: '/assets/blog-images/4.3.1.png',
+                alt: {
+                    vietnamese: 'Minh họa nội dung mục 4.3.1',
+                    english: 'Illustration for section 4.3.1',
+                },
+            },
+        ],
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1166,7 +1202,16 @@ These features embody the universal spirit of the rule-of-law state while underl
             vietnamese: '20 phút',
             english: '20 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.3.2-thumbnail.png',
+        contentImages: [
+            {
+                src: '/assets/blog-images/4.3.2.png',
+                alt: {
+                    vietnamese: 'Minh họa nội dung mục 4.3.2',
+                    english: 'Illustration for section 4.3.2',
+                },
+            },
+        ],
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1290,7 +1335,16 @@ These features embody the universal spirit of the rule-of-law state while underl
             vietnamese: '24 phút',
             english: '24 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.3.3-thumbnail.png',
+        contentImages: [
+            {
+                src: '/assets/blog-images/4.3.3.png',
+                alt: {
+                    vietnamese: 'Minh họa nội dung mục 4.3.3',
+                    english: 'Illustration for section 4.3.3',
+                },
+            },
+        ],
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1396,7 +1450,16 @@ Subjective causes include shortcomings in political institutions; incomplete mec
             vietnamese: '18 phút',
             english: '18 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.3.4-thumbnail.png',
+        contentImages: [
+            {
+                src: '/assets/blog-images/4.3.4.png',
+                alt: {
+                    vietnamese: 'Minh họa nội dung mục 4.3.4',
+                    english: 'Illustration for section 4.3.4',
+                },
+            },
+        ],
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1516,7 +1579,16 @@ Participation can occur through conferences, forums, and socio-political organiz
             vietnamese: '12 phút',
             english: '12 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.3.5-thumbnail.png',
+        contentImages: [
+            {
+                src: '/assets/blog-images/4.3.5.png',
+                alt: {
+                    vietnamese: 'Minh họa nội dung mục 4.3.5',
+                    english: 'Illustration for section 4.3.5',
+                },
+            },
+        ],
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [

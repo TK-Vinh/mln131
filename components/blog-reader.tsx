@@ -14,6 +14,7 @@ import { useLanguage } from '@/contexts/language-context'
 import type { BlogData, BlogId, Language } from '@/data/blog-data'
 import { useToast } from '@/hooks/use-toast'
 import { Calendar, Clock, Pause, Play, User, Volume2 } from 'lucide-react'
+import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
@@ -373,6 +374,33 @@ export function BlogReader({ blog }: BlogReaderProps) {
 
                     {/* Main Content Area */}
                     <div className="prose dark:prose-invert prose-base sm:prose-lg lg:prose-xl mx-auto md:mx-0 py-2 scroll-smooth">
+                        {blog.contentImages?.length ? (
+                            <div className="space-y-6 mb-10 not-prose">
+                                {blog.contentImages.map((image, index) => {
+                                    const localizedAlt = getLocalizedContent(image.alt)
+                                    return (
+                                        <figure
+                                            key={`${image.src}-${index}`}
+                                            className="rounded-2xl overflow-hidden border border-border shadow-lg bg-card"
+                                        >
+                                            <div className="relative w-full aspect-video">
+                                                <Image
+                                                    src={image.src}
+                                                    alt={localizedAlt}
+                                                    fill
+                                                    className="object-cover"
+                                                    sizes="(min-width: 1024px) 800px, 100vw"
+                                                    priority={index === 0}
+                                                />
+                                            </div>
+                                            <figcaption className="text-sm text-muted-foreground px-4 py-3 bg-muted">
+                                                {localizedAlt}
+                                            </figcaption>
+                                        </figure>
+                                    )
+                                })}
+                            </div>
+                        ) : null}
                         <ReactMarkdown
                             remarkPlugins={[remarkGfm]}
                             components={{
