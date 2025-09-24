@@ -13,7 +13,7 @@ export const philosophyBlogs = {
       vietnamese: 'Nhà nước xã hội chủ nghĩa',
       english: 'The Socialist State',
     },
-    sections: ['4.2.1','4.2.2','4.2.3','4.2.4','4.2.5','4.2.6'],
+    sections: ['4.2'],
   },
   '4.3': {
     title: {
@@ -44,45 +44,10 @@ export const philosophySections = {
   },
 
   // Chương II
-  '4.2.1': {
+  '4.2': {
     title: {
-      vietnamese: 'Mở đầu',
-      english: 'Introduction',
-    },
-    blog: '4.2',
-  },
-  '4.2.2': {
-    title: {
-      vietnamese: 'Sự ra đời của nhà nước xã hội chủ nghĩa',
-      english: 'The Emergence of the Socialist State',
-    },
-    blog: '4.2',
-  },
-  '4.2.3': {
-    title: {
-      vietnamese: 'Bản chất của nhà nước xã hội chủ nghĩa',
-      english: 'Essence of the Socialist State',
-    },
-    blog: '4.2',
-  },
-  '4.2.4': {
-    title: {
-      vietnamese: 'Chức năng của nhà nước xã hội chủ nghĩa',
-      english: 'Functions of the Socialist State',
-    },
-    blog: '4.2',
-  },
-  '4.2.5': {
-    title: {
-      vietnamese: 'Quan hệ giữa dân chủ XHCN và nhà nước XHCN',
-      english: 'Relation: Socialist Democracy & the Socialist State',
-    },
-    blog: '4.2',
-  },
-  '4.2.6': {
-    title: {
-      vietnamese: 'Kết luận',
-      english: 'Conclusion',
+      vietnamese: 'Nhà nước xã hội chủ nghĩa',
+      english: 'The Socialist State',
     },
     blog: '4.2',
   },
