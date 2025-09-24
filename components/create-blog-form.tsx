@@ -77,7 +77,6 @@ export function CreateBlogForm() {
               <SelectContent>
                 <SelectItem value="vietnamese">{t('language.vietnamese')}</SelectItem>
                 <SelectItem value="english">{t('language.english')}</SelectItem>
-                <SelectItem value="japanese">{t('language.japanese')}</SelectItem>
               </SelectContent>
             </Select>
           </div>

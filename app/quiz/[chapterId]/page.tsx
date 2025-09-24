@@ -67,7 +67,7 @@ export default function QuizChapterPage({ params }: QuizPageProps) {
             <h1 className="text-3xl font-bold mb-8 text-center">
                 {`${t('quiz.quizForChapter')} ${chapterId} – ${chapterTitleLocalized}`}
             </h1>
-            <Quiz questions={combinedQuizQuestions} />
+            <Quiz questions={combinedQuizQuestions} storageKey={chapterId} />
         </div>
     )
 }

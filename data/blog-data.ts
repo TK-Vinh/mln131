@@ -7,7 +7,6 @@ export const blogData = {
         title: {
             vietnamese: 'Dân chủ và sự ra đời, phát triển của dân chủ',
             english: 'Democracy: Emergence and Development',
-            japanese: '民主主義の成立と発展',
         },
         content: {
             vietnamese: `
@@ -160,23 +159,18 @@ From a Marxist–Leninist philosophical perspective, democracy is a historical-p
 
 Among them, socialist democracy represents the highest form of democracy, profoundly embodying the people’s nature and expressing the comprehensive mastery of the working majority. It is both the goal and the driving force for building a new society—one that is equitable, democratic, and civilized.
 `,
-            japanese: `# コンテンツ準備中
-
-この記事の日本語版は現在更新中です。`,
         },
         excerpt: {
             vietnamese:
                 'Giải thích khái niệm, quá trình hình thành và ý nghĩa của dân chủ xã hội chủ nghĩa từ quan điểm Mác – Lênin và Hồ Chí Minh.',
             english:
                 'Explains the concept, historical formation, and significance of socialist democracy from Marxist-Leninist and Hồ Chí Minh perspectives.',
-            japanese: '社会主義民主主義の概念と意義を解説する記事です（日本語版準備中）。',
         },
         author: 'Admin',
         date: '2024-05-15',
         readTime: {
             vietnamese: '20 phút',
             english: '20 minutes',
-            japanese: '20分',
         },
         image: '/placeholder.svg?height=200&width=400',
         originalLanguage: 'vietnamese' as const,
@@ -305,7 +299,6 @@ Among them, socialist democracy represents the highest form of democracy, profou
                     correct: 3,
                 },
             ],
-            japanese: [],
         },
     },
     2: {
@@ -314,7 +307,6 @@ Among them, socialist democracy represents the highest form of democracy, profou
         title: {
             vietnamese: 'Dân chủ xã hội chủ nghĩa',
             english: 'Socialist Democracy',
-            japanese: '社会主義民主主義',
         },
         content: {
             vietnamese: `
@@ -447,23 +439,18 @@ The socialist rule-of-law state is the vehicle for practicing democracy; law bot
 ## 2.6. Conclusion
 According to Marxist–Leninist philosophy, socialist democracy is a higher form of democracy than its bourgeois counterpart because it aims at the mastery of the working majority, rests on social ownership of the means of production, and governs society through a socialist rule-of-law state under Communist Party leadership. Building this democracy depends on economic conditions, civic literacy, legal institutions, and the international environment. Further perfecting rule-of-law mechanisms, enhancing public participation, and renewing leadership methods are decisive factors for deepening and sustaining socialist democracy in practice.
 `,
-            japanese: `# コンテンツ準備中
-
-このセクションの日本語版は現在更新中です。`,
         },
         excerpt: {
             vietnamese:
                 'Phân tích bản chất, điều kiện thực hiện và định hướng hoàn thiện dân chủ xã hội chủ nghĩa trên các phương diện chính trị, kinh tế và pháp quyền.',
             english:
                 'Analyzes the nature, implementation conditions, and improvement directions of socialist democracy across political, economic, and legal dimensions.',
-            japanese: '社会主義民主主義の特質と課題を概説します（日本語版準備中）。',
         },
         author: 'Admin',
         date: '2024-05-15',
         readTime: {
             vietnamese: '25 phút',
             english: '25 minutes',
-            japanese: '25分',
         },
         image: '/placeholder.svg?height=200&width=400',
         originalLanguage: 'vietnamese' as const,
@@ -552,7 +539,6 @@ According to Marxist–Leninist philosophy, socialist democracy is a higher form
                     correct: 1,
                 },
             ],
-            japanese: [],
         },
     },
     3: {
@@ -561,7 +547,6 @@ According to Marxist–Leninist philosophy, socialist democracy is a higher form
         title: {
             vietnamese: 'Mở đầu',
             english: 'Introduction',
-            japanese: '序章',
         },
         content: {
             vietnamese: `
@@ -580,23 +565,18 @@ Trong lịch sử nhân loại, nhà nước là một hiện tượng xã hội
 ### 1. Introduction
 Throughout human history, the state has been a socio-political phenomenon rooted in the objective necessity that accompanied class stratification. Yet every exploitative state—slave-owning, feudal, and bourgeois—expressed the political power of a minority imposed upon the laboring majority. Only when the proletarian revolution triumphed did the state emerge in an entirely new form: the socialist state. It is the instrument through which the working class and working people organize and manage society, build a new democracy, strive to abolish all oppression and injustice, and advance toward a communist society.
 `,
-            japanese: `# コンテンツ準備中
-
-このセクションの日本語版は現在更新中です。`,
         },
         excerpt: {
             vietnamese:
                 'Khẳng định lý do hình thành nhà nước xã hội chủ nghĩa như một kiểu nhà nước mới của giai cấp công nhân.',
             english:
                 'Explains why the socialist state emerges as a new form of power for the working class.',
-            japanese: '社会主義国家誕生の背景を概説する記事です（日本語版準備中）。',
         },
         author: 'Admin',
         date: '2024-05-20',
         readTime: {
             vietnamese: '8 phút',
             english: '8 minutes',
-            japanese: '8分',
         },
         image: '/placeholder.svg?height=200&width=400',
         originalLanguage: 'vietnamese' as const,
@@ -627,7 +607,6 @@ Throughout human history, the state has been a socio-political phenomenon rooted
                     correct: 2,
                 },
             ],
-            japanese: [],
         },
     },
     4: {
@@ -636,7 +615,6 @@ Throughout human history, the state has been a socio-political phenomenon rooted
         title: {
             vietnamese: 'Sự ra đời của nhà nước xã hội chủ nghĩa',
             english: 'The Emergence of the Socialist State',
-            japanese: '社会主義国家の成立',
         },
         content: {
             vietnamese: `
@@ -675,23 +653,18 @@ The socialist state emerges as the inevitable result of revolutions carried out 
 - Serving as the instrument for managing the economy, culture, and society;
 - Operating under the leadership of the Communist Party.
 `,
-            japanese: `# コンテンツ準備中
-
-このセクションの日本語版は現在更新中です。`,
         },
         excerpt: {
             vietnamese:
                 'Phân tích tiền đề và kết quả cách mạng dẫn tới sự hình thành nhà nước xã hội chủ nghĩa dưới sự lãnh đạo của Đảng Cộng sản.',
             english:
                 'Outlines the preconditions and revolutionary outcome that brought the socialist state into being under Communist Party leadership.',
-            japanese: '社会主義国家成立の前提と革命的成果を解説します（日本語版準備中）。',
         },
         author: 'Admin',
         date: '2024-05-20',
         readTime: {
             vietnamese: '12 phút',
             english: '12 minutes',
-            japanese: '12分',
         },
         image: '/placeholder.svg?height=200&width=400',
         originalLanguage: 'vietnamese' as const,
@@ -740,7 +713,6 @@ The socialist state emerges as the inevitable result of revolutions carried out 
                     correct: 2,
                 },
             ],
-            japanese: [],
         },
     },
     5: {
@@ -749,7 +721,6 @@ The socialist state emerges as the inevitable result of revolutions carried out 
         title: {
             vietnamese: 'Bản chất của nhà nước xã hội chủ nghĩa',
             english: 'Essence of the Socialist State',
-            japanese: '社会主義国家の本質',
         },
         content: {
             vietnamese: `
@@ -784,23 +755,18 @@ Its economic foundation is public ownership of the principal means of production
 #### 3.3. Cultural and Social Essence
 The socialist state is built upon Marxism–Leninism while inheriting progressive human values and national cultural identity. It strives to narrow class divisions, ensure social justice, and create conditions for every citizen to develop comprehensively.
 `,
-            japanese: `# コンテンツ準備中
-
-このセクションの日本語版は現在更新中です。`,
         },
         excerpt: {
             vietnamese:
                 'Làm rõ bản chất chính trị, kinh tế, văn hóa – xã hội của nhà nước xã hội chủ nghĩa gắn với lợi ích đại đa số nhân dân.',
             english:
                 'Clarifies the political, economic, and socio-cultural essence of the socialist state as aligned with the majority’s interests.',
-            japanese: '社会主義国家の政治・経済・文化的本質を整理します（日本語版準備中）。',
         },
         author: 'Admin',
         date: '2024-05-20',
         readTime: {
             vietnamese: '15 phút',
             english: '15 minutes',
-            japanese: '15分',
         },
         image: '/placeholder.svg?height=200&width=400',
         originalLanguage: 'vietnamese' as const,
@@ -869,7 +835,6 @@ The socialist state is built upon Marxism–Leninism while inheriting progressiv
                     correct: 2,
                 },
             ],
-            japanese: [],
         },
     },
     6: {
@@ -878,7 +843,6 @@ The socialist state is built upon Marxism–Leninism while inheriting progressiv
         title: {
             vietnamese: 'Chức năng của nhà nước xã hội chủ nghĩa',
             english: 'Functions of the Socialist State',
-            japanese: '社会主義国家の機能',
         },
         content: {
             vietnamese: `
@@ -925,23 +889,18 @@ The socialist state is built upon Marxism–Leninism while inheriting progressiv
 
 > V.I. Lenin emphasized: “The socialist state is not only violence against the exploiters; what matters even more is that it creates a higher labor productivity than the old regime.”
 `,
-            japanese: `# コンテンツ準備中
-
-このセクションの日本語版は現在更新中です。`,
         },
         excerpt: {
             vietnamese:
                 'Hệ thống hóa các chức năng đối nội, đối ngoại và xây dựng của nhà nước xã hội chủ nghĩa kèm luận điểm của V.I. Lênin.',
             english:
                 'Systematizes the domestic, external, and constructive functions of the socialist state alongside Lenin’s emphasis on productivity.',
-            japanese: '社会主義国家の機能とレーニンの指摘を整理します（日本語版準備中）。',
         },
         author: 'Admin',
         date: '2024-05-20',
         readTime: {
             vietnamese: '14 phút',
             english: '14 minutes',
-            japanese: '14分',
         },
         image: '/placeholder.svg?height=200&width=400',
         originalLanguage: 'vietnamese' as const,
@@ -1010,7 +969,6 @@ The socialist state is built upon Marxism–Leninism while inheriting progressiv
                     correct: 2,
                 },
             ],
-            japanese: [],
         },
     },
     7: {
@@ -1019,7 +977,6 @@ The socialist state is built upon Marxism–Leninism while inheriting progressiv
         title: {
             vietnamese: 'Quan hệ giữa dân chủ XHCN và nhà nước XHCN',
             english: 'Relation Between Socialist Democracy and the Socialist State',
-            japanese: '社会主義民主主義と社会主義国家の関係',
         },
         content: {
             vietnamese: `
@@ -1048,23 +1005,18 @@ Only under socialist democracy do the people possess the conditions to realize t
 #### 5.2. The Socialist State as the Instrument for Realizing Democracy
 The socialist state institutionalizes the people’s will into law, ensures justice, and delineates citizens’ rights and obligations. At the same time, it wields coercive power to defend democracy and prevent violations of the people’s interests. Lenin argued that the development of the socialist state goes hand in hand with perfecting democratic forms and expanding popular participation in governance.
 `,
-            japanese: `# コンテンツ準備中
-
-このセクションの日本語版は現在更新中です。`,
         },
         excerpt: {
             vietnamese:
                 'Làm rõ tính biện chứng giữa dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa trong việc bảo đảm quyền làm chủ của nhân dân.',
             english:
                 'Explains the dialectical relationship whereby socialist democracy grounds the socialist state, which in turn realizes and protects democracy.',
-            japanese: '社会主義民主主義と国家の相互関係を解説します（日本語版準備中）。',
         },
         author: 'Admin',
         date: '2024-05-20',
         readTime: {
             vietnamese: '10 phút',
             english: '10 minutes',
-            japanese: '10分',
         },
         image: '/placeholder.svg?height=200&width=400',
         originalLanguage: 'vietnamese' as const,
@@ -1093,7 +1045,6 @@ The socialist state institutionalizes the people’s will into law, ensures just
                     correct: 1,
                 },
             ],
-            japanese: [],
         },
     },
     8: {
@@ -1102,7 +1053,6 @@ The socialist state institutionalizes the people’s will into law, ensures just
         title: {
             vietnamese: 'Kết luận',
             english: 'Conclusion',
-            japanese: '結論',
         },
         content: {
             vietnamese: `
@@ -1121,30 +1071,24 @@ Nhà nước xã hội chủ nghĩa là kiểu nhà nước mới, khác biệt 
 ### 6. Conclusion
 The socialist state is a new type of state whose essence differs from every exploitative state in history. Born from the triumph of the proletarian revolution, it embodies the working class and represents the interests of the laboring majority. The socialist state not only suppresses the remnants of exploiters but, more importantly, organizes and builds the new society. The relationship between socialist democracy and the socialist state is dialectical: democracy is the foundation, while the state is the instrument that organizes, protects, and realizes it. Preserving this essence, perfecting its functions, and constantly expanding democracy are decisive conditions for the socialist state to serve as a pillar in building and defending the nation.
 `,
-            japanese: `# コンテンツ準備中
-
-このセクションの日本語版は現在更新中です。`,
         },
         excerpt: {
             vietnamese:
                 'Khẳng định vai trò then chốt của nhà nước xã hội chủ nghĩa trong sự nghiệp xây dựng và bảo vệ Tổ quốc.',
             english:
                 'Affirms the decisive role of the socialist state in building and safeguarding the nation.',
-            japanese: '社会主義国家の役割を総括します（日本語版準備中）。',
         },
         author: 'Admin',
         date: '2024-05-20',
         readTime: {
             vietnamese: '9 phút',
             english: '9 minutes',
-            japanese: '9分',
         },
         image: '/placeholder.svg?height=200&width=400',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [],
             english: [],
-            japanese: [],
         },
     },
     9: {
@@ -1153,7 +1097,6 @@ The socialist state is a new type of state whose essence differs from every expl
         title: {
             vietnamese: 'Dân chủ xã hội chủ nghĩa ở Việt Nam',
             english: 'Socialist Democracy in Vietnam',
-            japanese: 'ベトナムの社会主義民主主義',
         },
         content: {
             vietnamese: `
@@ -1252,23 +1195,18 @@ The Party affirms: “All Party lines and State policies and laws serve the peop
 
 Nevertheless, building socialist democracy still faces challenges: low economic starting points, war legacies, social problems, hostile schemes of “peaceful evolution,” and the risks of “self-evolution” and “self-transformation.” Even so, the superior nature of socialist democracy increasingly shines through the principle of “the people as the root,” enabling citizens to build, organize, and manage society, ensure their rights in all fields, and unleash creativity in building and defending the socialist Fatherland.
 `,
-            japanese: `# コンテンツ準備中
-
-このセクションの日本語版は現在更新中です。`,
         },
         excerpt: {
             vietnamese:
                 'Trình bày tiến trình hình thành, bản chất và hình thức thực hiện dân chủ xã hội chủ nghĩa ở Việt Nam thời kỳ đổi mới.',
             english:
                 'Outlines the emergence, nature, and implementation of socialist democracy in Vietnam during the renovation era.',
-            japanese: 'ベトナムにおける社会主義民主主義の形成と特質を概説します（日本語版準備中）。',
         },
         author: 'Admin',
         date: '2024-05-25',
         readTime: {
             vietnamese: '28 phút',
             english: '28 minutes',
-            japanese: '28分',
         },
         image: '/placeholder.svg?height=200&width=400',
         originalLanguage: 'vietnamese' as const,
@@ -1357,7 +1295,6 @@ Nevertheless, building socialist democracy still faces challenges: low economic 
                     correct: 2,
                 },
             ],
-            japanese: [],
         },
     },
     10: {
@@ -1366,7 +1303,6 @@ Nevertheless, building socialist democracy still faces challenges: low economic 
         title: {
             vietnamese: 'Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam',
             english: 'The Socialist Rule-of-Law State in Vietnam',
-            japanese: 'ベトナムの社会主義法治国家',
         },
         content: {
             vietnamese: `
@@ -1425,23 +1361,18 @@ Experience from the renovation era reveals several core traits of Vietnam’s so
 
 These features embody the universal spirit of the rule-of-law state while underlining Vietnam’s specificity: a socialist rule-of-law state that carries the working-class nature, serves the people, and functions as the primary instrument for the Communist Party to steer the path toward socialism.
 `,
-            japanese: `# コンテンツ準備中
-
-このセクションの日本語版は現在更新中です。`,
         },
         excerpt: {
             vietnamese:
                 'Làm rõ quan niệm và đặc điểm của Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam trong tiến trình đổi mới.',
             english:
                 'Explains the concept and defining traits of Vietnam’s socialist rule-of-law state throughout the renovation period.',
-            japanese: 'ベトナムの社会主義法治国家の概念と特徴を整理します（日本語版準備中）。',
         },
         author: 'Admin',
         date: '2024-05-25',
         readTime: {
             vietnamese: '20 phút',
             english: '20 minutes',
-            japanese: '20分',
         },
         image: '/placeholder.svg?height=200&width=400',
         originalLanguage: 'vietnamese' as const,
@@ -1490,7 +1421,6 @@ These features embody the universal spirit of the rule-of-law state while underl
                     correct: 0,
                 },
             ],
-            japanese: [],
         },
     },
     11: {
@@ -1499,7 +1429,6 @@ These features embody the universal spirit of the rule-of-law state while underl
         title: {
             vietnamese: 'Phát huy dân chủ, xây dựng Nhà nước pháp quyền XHCN hiện nay',
             english: 'Promoting Democracy & Building Today’s Socialist Rule-of-Law State',
-            japanese: '現代の社会主義法治国家を構築するための民主主義の発揮',
         },
         content: {
             vietnamese: `
@@ -1556,23 +1485,18 @@ These features embody the universal spirit of the rule-of-law state while underl
 
 4. **Combat corruption and waste while promoting thrift** by perfecting institutions, advancing administrative reform, protecting whistle-blowers, enforcing strict sanctions, and mobilizing society-wide thrift practices.
 `,
-            japanese: `# コンテンツ準備中
-
-このセクションの日本語版は現在更新中です。`,
         },
         excerpt: {
             vietnamese:
                 'Đề xuất các giải pháp phát huy dân chủ và hoàn thiện Nhà nước pháp quyền xã hội chủ nghĩa trong giai đoạn hiện nay.',
             english:
                 'Presents measures to advance socialist democracy and perfect Vietnam’s socialist rule-of-law state today.',
-            japanese: '社会主義的民主主義を発揮し法治国家を強化する方策を示します（日本語版準備中）。',
         },
         author: 'Admin',
         date: '2024-05-25',
         readTime: {
             vietnamese: '24 phút',
             english: '24 minutes',
-            japanese: '24分',
         },
         image: '/placeholder.svg?height=200&width=400',
         originalLanguage: 'vietnamese' as const,
@@ -1601,7 +1525,6 @@ These features embody the universal spirit of the rule-of-law state while underl
                     correct: 1,
                 },
             ],
-            japanese: [],
         },
     },
     12: {
@@ -1610,7 +1533,6 @@ These features embody the universal spirit of the rule-of-law state while underl
         title: {
             vietnamese: 'Phòng, chống tham nhũng góp phần bảo vệ chế độ, xây dựng Nhà nước pháp quyền',
             english: 'Anti-Corruption to Safeguard the Regime and Build the Rule-of-Law State',
-            japanese: '体制を守り法治国家を築くための腐敗防止',
         },
         content: {
             vietnamese: `
@@ -1669,23 +1591,18 @@ Subjective causes include shortcomings in political institutions; incomplete mec
 - **Cultural:** erodes cultural values and hinders judicial reform and the building of the rule-of-law state.
 - **Ethical:** betrays revolutionary ethics by placing personal gain above service to the people.
 `,
-            japanese: `# コンテンツ準備中
-
-このセクションの日本語版は現在更新中です。`,
         },
         excerpt: {
             vietnamese:
                 'Phân tích khái niệm, nguyên nhân và tác hại của tham nhũng, nhấn mạnh vai trò của phòng, chống tham nhũng.',
             english:
                 'Analyzes the nature, causes, and harm of corruption while underscoring the importance of anti-corruption efforts.',
-            japanese: '腐敗の本質と原因、影響を整理し対策の重要性を指摘します（日本語版準備中）。',
         },
         author: 'Admin',
         date: '2024-05-25',
         readTime: {
             vietnamese: '18 phút',
             english: '18 minutes',
-            japanese: '18分',
         },
         image: '/placeholder.svg?height=200&width=400',
         originalLanguage: 'vietnamese' as const,
@@ -1734,7 +1651,6 @@ Subjective causes include shortcomings in political institutions; incomplete mec
                     correct: 1,
                 },
             ],
-            japanese: [],
         },
     },
     13: {
@@ -1743,7 +1659,6 @@ Subjective causes include shortcomings in political institutions; incomplete mec
         title: {
             vietnamese: 'Trách nhiệm của công dân trong phòng, chống tham nhũng',
             english: 'Citizen Responsibilities in Combating Corruption',
-            japanese: '腐敗防止における市民の責任',
         },
         content: {
             vietnamese: `
@@ -1796,23 +1711,18 @@ When legal loopholes that may be exploited for corruption are identified, citize
 #### 5.6. Contribute to Lawmaking on Anti-Corruption
 Participation can occur through conferences, forums, and socio-political organizations. Citizens analyze regulations, assess their practicality, and forecast trends to offer feedback that makes laws more realistic, feasible, and effective.
 `,
-            japanese: `# コンテンツ準備中
-
-このセクションの日本語版は現在更新中です。`,
         },
         excerpt: {
             vietnamese:
                 'Nhấn mạnh vai trò, quyền và nghĩa vụ của công dân trong việc phát hiện, tố cáo và phòng, chống tham nhũng.',
             english:
                 'Emphasizes citizens’ roles, rights, and duties in detecting, reporting, and preventing corruption.',
-            japanese: '腐敗防止における市民の役割と責務を解説します（日本語版準備中）。',
         },
         author: 'Admin',
         date: '2024-05-25',
         readTime: {
             vietnamese: '12 phút',
             english: '12 minutes',
-            japanese: '12分',
         },
         image: '/placeholder.svg?height=200&width=400',
         originalLanguage: 'vietnamese' as const,
@@ -1841,7 +1751,6 @@ Participation can occur through conferences, forums, and socio-political organiz
                     correct: 2,
                 },
             ],
-            japanese: [],
         },
     },
 
@@ -1849,4 +1758,4 @@ Participation can occur through conferences, forums, and socio-political organiz
 
 export type BlogData = typeof blogData
 export type BlogId = keyof BlogData
-export type Language = 'vietnamese' | 'english' | 'japanese'
+export type Language = 'vietnamese' | 'english'

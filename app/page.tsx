@@ -110,7 +110,7 @@ export default function HomePage() {
                         </div>
                         <div className="flex items-center group cursor-pointer">
                             <div className="w-3 h-3 bg-gradient-to-r from-blue-400 to-cyan-500 rounded-full mr-2 group-hover:scale-125 transition-transform"></div>
-                            <span className="group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">3 {t('home.languagesSupported')}</span>
+                            <span className="group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">2 {t('home.languagesSupported')}</span>
                         </div>
                         <div className="flex items-center group cursor-pointer">
                             <div className="w-3 h-3 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full mr-2 group-hover:scale-125 transition-transform"></div>

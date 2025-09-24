@@ -59,7 +59,6 @@ const knowledgeBase: KnowledgeEntry[] = Object.values(blogData).map((entry) => {
   const combinedForTokens = [
     entry.title?.vietnamese ?? '',
     entry.title?.english ?? '',
-    entry.title?.japanese ?? '',
     vietnameseContent,
     englishContent,
   ].join(' ');
