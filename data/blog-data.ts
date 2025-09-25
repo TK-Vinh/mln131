@@ -1,5 +1,7 @@
 import type { SectionId } from './philosophy-chapters'
 
+export type Language = 'vietnamese' | 'english'
+
 export const blogData = {
     1: {
         id: 1,
@@ -12,18 +14,16 @@ export const blogData = {
             vietnamese: `
 
 
-## I. Dân chủ và dân chủ xã hội chủ nghĩa
+# 1. Dân chủ và sự ra đời, phát triển của dân chủ
 
-### 1. Dân chủ và sự ra đời, phát triển của dân chủ
+## 1.1. Quan niệm về dân chủ
 
-#### 1.1. Quan niệm về dân chủ
-
-##### 1.1.1. Dân chủ trong lịch sử nhân loại
+### 1.1.1. Dân chủ trong lịch sử nhân loại
 Thuật ngữ dân chủ (demokratos) xuất hiện từ thế kỷ VII – VI TCN ở Hy Lạp cổ đại, trong đó *demos* nghĩa là nhân dân và *kratos* nghĩa là cai trị. Như vậy, dân chủ được hiểu là “nhân dân cai trị”, hay “quyền lực thuộc về nhân dân”. Tuy nhiên, giữa dân chủ cổ đại và dân chủ hiện đại có sự khác biệt căn bản: ở thời cổ đại, dân chủ mang tính trực tiếp, gắn với phạm vi hẹp và khái niệm “nhân dân” chỉ bao gồm một bộ phận giai cấp tự do, trong khi nô lệ – chiếm đa số – không có quyền làm chủ.
 
 Từ góc nhìn lịch sử, dân chủ luôn gắn với sự hình thành, tồn tại và phát triển của nhà nước. Nó vừa là hình thức tổ chức quyền lực công cộng, vừa là giá trị xã hội phản ánh khát vọng tự do, bình đẳng của con người.
 
-##### 1.1.2. Quan niệm dân chủ trong triết học Mác – Lênin
+### 1.1.2. Quan niệm dân chủ trong triết học Mác – Lênin
 Các nhà sáng lập chủ nghĩa Mác – Lênin khẳng định:
 
 - Dân chủ là sản phẩm của đấu tranh giai cấp cho những giá trị tiến bộ.
@@ -38,7 +38,7 @@ Từ đó, dân chủ theo quan điểm Mác – Lênin có ba nội dung cơ b�
 
 Chủ nghĩa Mác – Lênin coi dân chủ vừa là mục tiêu, vừa là phương tiện để đi đến tự do, giải phóng con người và giải phóng xã hội. Với tư cách là một hình thái chính trị – nhà nước, dân chủ mang tính lịch sử, ra đời cùng nhà nước và sẽ mất đi khi nhà nước tiêu vong. Nhưng với tư cách là một giá trị xã hội, dân chủ có tính vĩnh viễn, tồn tại cùng với sự phát triển của loài người.
 
-##### 1.1.3. Tư tưởng Hồ Chí Minh về dân chủ
+### 1.1.3. Tư tưởng Hồ Chí Minh về dân chủ
 Trên nền tảng Mác – Lênin, Hồ Chí Minh phát triển tư tưởng dân chủ theo hướng:
 
 - Dân chủ là giá trị nhân loại chung: “Dân chủ là dân là chủ và dân làm chủ”.
@@ -47,18 +47,18 @@ Trên nền tảng Mác – Lênin, Hồ Chí Minh phát triển tư tưởng d�
 
 Đảng Cộng sản Việt Nam, kế thừa và phát triển tư tưởng Hồ Chí Minh, xác định xây dựng chế độ dân chủ xã hội chủ nghĩa, phát huy quyền làm chủ của nhân dân, gắn dân chủ với công bằng xã hội, kỷ luật và pháp luật.
 
-#### 1.2. Sự ra đời và phát triển của dân chủ
+## 1.2. Sự ra đời và phát triển của dân chủ
 
-##### 1.2.1. Dân chủ nguyên thủy
+### 1.2.1. Dân chủ nguyên thủy
 Trong xã hội cộng sản nguyên thủy, các hình thức dân chủ sơ khai xuất hiện dưới dạng “dân chủ quân sự”. Thông qua “Đại hội nhân dân”, cộng đồng bầu ra thủ lĩnh quân sự, mọi người có quyền phát biểu và biểu quyết. Tuy nhiên, dân chủ thời kỳ này gắn liền với trình độ sản xuất thấp và còn rất hạn chế.
 
-##### 1.2.2. Dân chủ chủ nô
+### 1.2.2. Dân chủ chủ nô
 Khi chế độ chiếm hữu nô lệ hình thành, dân chủ nguyên thủy tan rã, nhường chỗ cho nền dân chủ chủ nô. Mặc dù có hình thức nhân dân tham gia bầu cử và quyết định công việc nhà nước, nhưng “nhân dân” chỉ bao gồm giai cấp chủ nô và một số công dân tự do. Đại đa số là nô lệ không có quyền. Bản chất của nền dân chủ này là dân chủ cho thiểu số.
 
-##### 1.2.3. Dân chủ tư sản
+### 1.2.3. Dân chủ tư sản
 Từ cuối thế kỷ XIV – XV, cùng với sự suy tàn của chế độ phong kiến và sự vươn lên của giai cấp tư sản, những mầm mống của dân chủ tư sản đã xuất hiện. Đến thế kỷ XVII – XVIII, thông qua các cuộc cách mạng tư sản, dân chủ tư sản chính thức hình thành và phát triển, mở ra bước tiến mới với những giá trị tiến bộ về tự do, bình đẳng và dân chủ. Tuy nhiên, do được xây dựng trên cơ sở chế độ tư hữu tư liệu sản xuất, dân chủ tư sản trên thực tế vẫn chỉ là dân chủ của giai cấp tư sản, nhằm bảo vệ lợi ích của những người sở hữu tư bản.
 
-##### 1.2.4. Dân chủ xã hội chủ nghĩa
+### 1.2.4. Dân chủ xã hội chủ nghĩa
 Cách mạng Tháng Mười Nga năm 1917 mở ra một thời đại mới: nhân dân lao động giành được quyền lực, xây dựng nhà nước công – nông, thiết lập nền dân chủ vô sản – tức dân chủ xã hội chủ nghĩa. Đây là nền dân chủ của đại đa số nhân dân, nhằm bảo vệ lợi ích của người lao động, thực hiện quyền làm chủ toàn diện của nhân dân.
 
 Đặc trưng của dân chủ xã hội chủ nghĩa bao gồm:
@@ -67,19 +67,19 @@ Cách mạng Tháng Mười Nga năm 1917 mở ra một thời đại mới: nh�
 - Thực hiện dân chủ toàn diện trên tất cả các lĩnh vực: chính trị, kinh tế, văn hóa, xã hội.
 - Dân chủ gắn với kỷ luật, pháp luật và công bằng xã hội.
 
-#### 1.3. Bản chất và ý nghĩa của dân chủ xã hội chủ nghĩa
+## 1.3. Bản chất và ý nghĩa của dân chủ xã hội chủ nghĩa
 
-##### 1.3.1. Bản chất
+### 1.3.1. Bản chất
 - Là nền dân chủ của đại đa số nhân dân lao động.
 - Bảo đảm sự thống nhất giữa quyền con người, quyền công dân với lợi ích chung của xã hội.
 - Gắn liền với nguyên tắc tập trung dân chủ trong tổ chức và quản lý xã hội.
 
-##### 1.3.2. Ý nghĩa
+### 1.3.2. Ý nghĩa
 - Tạo ra cơ sở chính trị – xã hội để bảo đảm quyền lực thực sự thuộc về nhân dân.
 - Thúc đẩy sự phát triển toàn diện của xã hội gắn với tự do, công bằng, bình đẳng.
 - Là công cụ để bảo vệ quyền lợi nhân dân, đồng thời là mục tiêu để xây dựng xã hội xã hội chủ nghĩa.
 
-#### 1.4. Kết luận
+## 1.4. Kết luận
 Dân chủ, xét từ góc độ triết học Mác – Lênin, là một phạm trù lịch sử – chính trị gắn liền với sự hình thành và phát triển của các nhà nước trong lịch sử nhân loại. Qua các giai đoạn, dân chủ biến đổi từ dân chủ nguyên thủy, dân chủ chủ nô, dân chủ tư sản cho đến dân chủ xã hội chủ nghĩa.
 
 Trong đó, dân chủ xã hội chủ nghĩa là hình thức dân chủ cao nhất, mang bản chất nhân dân sâu sắc, thể hiện quyền làm chủ toàn diện của đại đa số người lao động. Đó vừa là mục tiêu, vừa là động lực để xây dựng xã hội mới – xã hội công bằng, dân chủ, văn minh.
@@ -87,18 +87,18 @@ Trong đó, dân chủ xã hội chủ nghĩa là hình thức dân chủ cao nh
             english: `
 
 
-## I. Democracy and Socialist Democracy
 
-### 1. Democracy and Its Emergence and Development
 
-#### 1.1. Understanding Democracy
+# 1. Democracy and Its Emergence and Development
 
-##### 1.1.1. Democracy in Human History
+## 1.1. Understanding Democracy
+
+### 1.1.1. Democracy in Human History
 The term democracy (*demokratos*) appeared in the 7th–6th centuries BCE in ancient Greece, where *demos* means the people and *kratos* means rule. Democracy therefore means “rule by the people” or “power belongs to the people.” Yet ancient democracy and modern democracy differ fundamentally: in antiquity it was direct, confined to a narrow scope, and the concept of “the people” only covered a portion of the free classes, while the enslaved majority had no political rights.
 
 From a historical perspective, democracy is inseparable from the formation, existence, and development of the state. It is both a form of organizing public power and a social value that reflects humanity’s aspiration for freedom and equality.
 
-##### 1.1.2. Democracy in Marxism–Leninism
+### 1.1.2. Democracy in Marxism–Leninism
 The founders of Marxism–Leninism affirmed that:
 
 - Democracy is the product of class struggle for progressive values.
@@ -113,7 +113,7 @@ Accordingly, Marxism–Leninism highlights three key aspects of democracy:
 
 Marxism–Leninism treats democracy as both goal and means for achieving freedom and the liberation of human beings and society. As a political–state form, democracy is historical: it arose with the state and will disappear when the state withers away. As a social value, however, democracy has a lasting character that accompanies the development of humankind.
 
-##### 1.1.3. Hồ Chí Minh’s Conception of Democracy
+### 1.1.3. Hồ Chí Minh’s Conception of Democracy
 On the basis of Marxism–Leninism, Hồ Chí Minh developed the concept of democracy in the following directions:
 
 - Democracy is a universal human value: “Democracy means the people are the masters and the people exercise mastery.”
@@ -122,18 +122,18 @@ On the basis of Marxism–Leninism, Hồ Chí Minh developed the concept of demo
 
 The Communist Party of Vietnam inherits and advances Hồ Chí Minh’s thought by building socialist democracy, promoting the people’s mastery, and linking democracy with social justice, discipline, and the rule of law.
 
-#### 1.2. The Emergence and Development of Democracy
+## 1.2. The Emergence and Development of Democracy
 
-##### 1.2.1. Primitive Democracy
+### 1.2.1. Primitive Democracy
 In primitive communal society, rudimentary democratic forms appeared as “military democracy.” Through people’s assemblies, communities elected military leaders and everyone could speak and vote. Nonetheless, democracy in this period was limited by low productive forces and remained quite restricted.
 
-##### 1.2.2. Slave-Owning Democracy
+### 1.2.2. Slave-Owning Democracy
 When the slave-owning system emerged, primitive democracy disintegrated and was replaced by slave-owning democracy. Although citizens could vote and decide on public affairs, “the people” referred only to slave owners and certain free citizens. The vast majority—slaves—had no rights, so this democracy was essentially for a minority.
 
-##### 1.2.3. Bourgeois Democracy
+### 1.2.3. Bourgeois Democracy
 From the late 14th–15th centuries, as feudalism declined and the bourgeoisie rose, the seeds of bourgeois democracy appeared. By the 17th–18th centuries, bourgeois revolutions established and developed bourgeois democracy, ushering in advances in freedom, equality, and democratic rights. Yet because it rests on private ownership of the means of production, bourgeois democracy in practice remains the democracy of the bourgeoisie, protecting the interests of capital owners.
 
-##### 1.2.4. Socialist Democracy
+### 1.2.4. Socialist Democracy
 The Russian October Revolution of 1917 opened a new era in which working people seized power, built a workers’ and peasants’ state, and established proletarian democracy—socialist democracy. This is democracy for the vast majority, safeguarding workers’ interests and enabling them to exercise comprehensive mastery.
 
 Key features of socialist democracy include:
@@ -142,19 +142,19 @@ Key features of socialist democracy include:
 - Democracy is practiced comprehensively in politics, economics, culture, and society.
 - Democracy goes hand in hand with discipline, law, and social justice.
 
-#### 1.3. Nature and Significance of Socialist Democracy
+## 1.3. Nature and Significance of Socialist Democracy
 
-##### 1.3.1. Nature
+### 1.3.1. Nature
 - It is democracy for the overwhelming majority of working people.
 - It ensures unity between human rights, citizens’ rights, and the common interests of society.
 - It is bound to the principle of democratic centralism in social organization and management.
 
-##### 1.3.2. Significance
+### 1.3.2. Significance
 - It creates the political and social foundation that guarantees power truly belongs to the people.
 - It drives comprehensive social development in conjunction with freedom, justice, and equality.
 - It is both an instrument for protecting the people’s interests and a goal in building a socialist society.
 
-#### 1.4. Conclusion
+## 1.4. Conclusion
 From a Marxist–Leninist philosophical perspective, democracy is a historical-political category linked to the formation and development of states throughout human history. Democracy has evolved through the stages of primitive, slave-owning, bourgeois, and socialist democracy.
 
 Among them, socialist democracy represents the highest form of democracy, profoundly embodying the people’s nature and expressing the comprehensive mastery of the working majority. It is both the goal and the driving force for building a new society—one that is equitable, democratic, and civilized.
@@ -172,7 +172,20 @@ Among them, socialist democracy represents the highest form of democracy, profou
             vietnamese: '20 phút',
             english: '20 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.1.1-thumbnail.png',
+        contentImages: [
+            {
+                src: '/assets/blog-images/4.1.1.png',
+                alt: {
+                    vietnamese: 'Minh họa nội dung mục 4.1.1',
+                    english: 'Illustration for section 4.1.1',
+                },
+                insertAfterHeading: {
+                    vietnamese: '1.2.4. Dân chủ xã hội chủ nghĩa',
+                    english: '1.2.4. Socialist Democracy',
+                },
+            },
+        ],
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -452,7 +465,16 @@ According to Marxist–Leninist philosophy, socialist democracy is a higher form
             vietnamese: '25 phút',
             english: '25 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.1.2-thumbnail.png',
+        contentImages: [
+            {
+                src: '/assets/blog-images/4.1.2.png',
+                alt: {
+                    vietnamese: 'Minh họa nội dung mục 4.1.2',
+                    english: 'Illustration for section 4.1.2',
+                },
+            },
+        ],
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -672,7 +694,16 @@ The socialist state is a new type of state whose essence differs from every expl
             vietnamese: '40 phút',
             english: '40 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.2-thumbnail.png',
+        contentImages: [
+            {
+                src: '/assets/blog-images/4.2.png',
+                alt: {
+                    vietnamese: 'Minh họa nội dung mục 4.2',
+                    english: 'Illustration for section 4.2',
+                },
+            },
+        ],
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1000,7 +1031,16 @@ Nevertheless, building socialist democracy still faces challenges: low economic 
             vietnamese: '28 phút',
             english: '28 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.3.1-thumbnail.png',
+        contentImages: [
+            {
+                src: '/assets/blog-images/4.3.1.png',
+                alt: {
+                    vietnamese: 'Minh họa nội dung mục 4.3.1',
+                    english: 'Illustration for section 4.3.1',
+                },
+            },
+        ],
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1166,7 +1206,16 @@ These features embody the universal spirit of the rule-of-law state while underl
             vietnamese: '20 phút',
             english: '20 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.3.2-thumbnail.png',
+        contentImages: [
+            {
+                src: '/assets/blog-images/4.3.2.png',
+                alt: {
+                    vietnamese: 'Minh họa nội dung mục 4.3.2',
+                    english: 'Illustration for section 4.3.2',
+                },
+            },
+        ],
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1290,7 +1339,16 @@ These features embody the universal spirit of the rule-of-law state while underl
             vietnamese: '24 phút',
             english: '24 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.3.3-thumbnail.png',
+        contentImages: [
+            {
+                src: '/assets/blog-images/4.3.3.png',
+                alt: {
+                    vietnamese: 'Minh họa nội dung mục 4.3.3',
+                    english: 'Illustration for section 4.3.3',
+                },
+            },
+        ],
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1396,7 +1454,16 @@ Subjective causes include shortcomings in political institutions; incomplete mec
             vietnamese: '18 phút',
             english: '18 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.3.4-thumbnail.png',
+        contentImages: [
+            {
+                src: '/assets/blog-images/4.3.4.png',
+                alt: {
+                    vietnamese: 'Minh họa nội dung mục 4.3.4',
+                    english: 'Illustration for section 4.3.4',
+                },
+            },
+        ],
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1516,7 +1583,16 @@ Participation can occur through conferences, forums, and socio-political organiz
             vietnamese: '12 phút',
             english: '12 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.3.5-thumbnail.png',
+        contentImages: [
+            {
+                src: '/assets/blog-images/4.3.5.png',
+                alt: {
+                    vietnamese: 'Minh họa nội dung mục 4.3.5',
+                    english: 'Illustration for section 4.3.5',
+                },
+            },
+        ],
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1550,4 +1626,3 @@ Participation can occur through conferences, forums, and socio-political organiz
 
 export type BlogData = typeof blogData
 export type BlogId = keyof BlogData
-export type Language = 'vietnamese' | 'english'
