@@ -2,7 +2,7 @@ export const translations = {
   nav: {
     home: { vietnamese: 'Trang chủ', english: 'Home' },
     blog: { vietnamese: 'Chương', english: 'Chapters' },
-    videos: { vietnamese: 'Video', english: 'Videos' },
+    quiz: { vietnamese: 'Quiz', english: 'Quiz' },
     feedback: { vietnamese: 'Phản hồi', english: 'Feedback' },
     theme: { vietnamese: 'Giao diện', english: 'Theme' },
   },
@@ -12,7 +12,7 @@ export const translations = {
       vietnamese: 'Khám phá các chương triết học',
       english: 'Explore philosophy chapters',
     },
-    title: { vietnamese: 'Triết Talk', english: 'Triết Talk' },
+    title: { vietnamese: 'E-Learning', english: 'E-Learning' },
     subtitle: {
       vietnamese: 'Khám phá thế giới triết học qua những bài viết sâu sắc và tương tác',
       english: 'Explore the world of philosophy through in-depth and interactive articles',
@@ -22,8 +22,7 @@ export const translations = {
       english: 'Marxist philosophy learning platform with an AI assistant, interactive quizzes, and bilingual content',
     },
     readBlog: { vietnamese: 'Nội dung', english: 'Contents' },
-    watchVideos: { vietnamese: 'Xem video', english: 'Watch videos' },
-    exploreNow: { vietnamese: 'Ôn bài ngay', english: 'Revise now' },
+    takeQuiz: { vietnamese: 'Làm quiz', english: 'Take quiz' },
     articlesCount: { vietnamese: 'Bài viết triết học', english: 'Philosophy articles' },
     languagesSupported: { vietnamese: 'Ngôn ngữ hỗ trợ', english: 'Languages supported' },
     quizQuestions: { vietnamese: 'Câu hỏi quiz', english: 'Quiz questions' },
@@ -36,29 +35,29 @@ export const translations = {
     weeklyUpdates: { vietnamese: 'Được cập nhật hàng tuần', english: 'Updated weekly' },
     languageSupport: { vietnamese: 'Vi, En', english: 'Vi, En' },
     interactiveQuiz: { vietnamese: 'Quiz tương tác', english: 'Interactive quiz' },
-    blog2Title: {
-      vietnamese: 'Chương 2: Hàng hóa & Thị trường',
-      english: 'Chapter 2: Commodities & Markets',
+    chapter41Title: {
+      vietnamese: 'Chương 4.1: Dân chủ và dân chủ xã hội chủ nghĩa',
+      english: 'Chapter 4.1: Democracy & Socialist Democracy',
     },
-    blog2Description: {
-      vietnamese: 'Khám phá hàng hóa, lao động sản xuất và kinh tế thị trường trong tư tưởng Marx',
-      english: 'Explore commodities, productive labour, and the market economy in Marxist thought',
+    chapter41Description: {
+      vietnamese: 'Tìm hiểu nguồn gốc, bản chất và giá trị của nền dân chủ xã hội chủ nghĩa.',
+      english: 'Discover the origins, nature, and values of socialist democracy.',
     },
-    blog3Title: {
-      vietnamese: 'Chương 3: Tư bản & Giá trị thặng dư',
-      english: 'Chapter 3: Capital & Surplus Value',
+    chapter42Title: {
+      vietnamese: 'Chương 4.2: Nhà nước xã hội chủ nghĩa',
+      english: 'Chapter 4.2: The Socialist State',
     },
-    blog3Description: {
-      vietnamese: 'Tìm hiểu về tư bản, quá trình sản xuất và phân phối giá trị thặng dư',
-      english: 'Learn about capital, the production process, and surplus value distribution',
+    chapter42Description: {
+      vietnamese: 'Khám phá cấu trúc, chức năng và vai trò lịch sử của nhà nước xã hội chủ nghĩa.',
+      english: 'Explore the structure, functions, and historical role of the socialist state.',
     },
-    blog4Title: {
-      vietnamese: 'Chương 4: Dân chủ & Nhà nước XHCN',
-      english: 'Chapter 4: Socialist Democracy & State',
+    chapter43Title: {
+      vietnamese: 'Chương 4.3: Dân chủ XHCN & Nhà nước pháp quyền ở Việt Nam',
+      english: 'Chapter 4.3: Socialist Democracy & Rule-of-Law State in Vietnam',
     },
-    blog4Description: {
-      vietnamese: 'Dân chủ XHCN, Nhà nước XHCN và thực tiễn ở Việt Nam',
-      english: 'Socialist democracy, the socialist state, and Vietnam’s practice',
+    chapter43Description: {
+      vietnamese: 'Liên hệ thực tiễn Việt Nam trong xây dựng dân chủ và nhà nước pháp quyền XHCN.',
+      english: 'Connect Vietnam’s practice in building socialist democracy and a rule-of-law state.',
     },
     explore: { vietnamese: 'Khám phá', english: 'Explore' },
     articles: { vietnamese: 'bài viết', english: 'articles' },
@@ -326,13 +325,11 @@ export const translations = {
 
   footer: {
     description: {
-      vietnamese: 'Khám phá triết học qua các bài viết sâu sắc, quiz tương tác và trợ lý AI thông minh.',
-      english: 'Explore philosophy through thoughtful articles, interactive quizzes, and a smart AI assistant.',
+      vietnamese: 'Nền tảng E-Learning triết học với bài viết song ngữ, quiz tương tác và trợ lý AI thông minh.',
+      english: 'A philosophy E-Learning hub with bilingual articles, interactive quizzes, and an intelligent AI assistant.',
     },
     quickLinks: { vietnamese: 'Liên kết nhanh', english: 'Quick links' },
     blogs: { vietnamese: 'Các chương', english: 'Chapters' },
-    blog2: { vietnamese: 'Chương 2: Hàng hóa & Thị trường', english: 'Chapter 2: Commodities & Markets' },
-    blog3: { vietnamese: 'Chương 3: Tư bản & Giá trị thặng dư', english: 'Chapter 3: Capital & Surplus Value' },
     allArticles: { vietnamese: 'Toàn bộ bài viết', english: 'All articles' },
     practiceQuiz: { vietnamese: 'Luyện quiz', english: 'Practice quizzes' },
     resourcesTools: { vietnamese: 'Tài nguyên & công cụ', english: 'Resources & tools' },

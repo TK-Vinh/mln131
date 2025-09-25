@@ -37,7 +37,7 @@ export function ChatBubble() {
   // Khởi tạo tin nhắn chào mừng khi mở chat
   useEffect(() => {
     if (isOpen && messages.length === 0) {
-      const welcomeMessageText = "Triết Talk xin chào! Bạn muốn thảo luận về chủ đề triết học nào?";
+      const welcomeMessageText = "E-Learning xin chào! Bạn muốn thảo luận về chủ đề triết học nào?";
       geminiApiClient.resetChatHistory();
       setMessages([
         {
@@ -136,7 +136,7 @@ const handleSendMessage = async () => {
           <Card className="w-full max-w-2xl h-[70vh] flex flex-col">
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
               <CardTitle className="text-lg">
-                {t ? t('chat.title') : 'Triết Talk'}
+                {t ? t('chat.title') : 'E-Learning'}
               </CardTitle>
               <Button
                 variant="ghost"
@@ -186,7 +186,7 @@ const handleSendMessage = async () => {
                   value={inputValue}
                   onChange={(e) => setInputValue(e.target.value)}
                   onKeyPress={handleKeyPress}
-                  placeholder={t ? t('chat.placeholder') : 'Trò chuyện cùng Triết Talk...'}
+                  placeholder={t ? t('chat.placeholder') : 'Trò chuyện cùng E-Learning...'}
                   className="flex-1"
                   disabled={isBotReplying}
                 />

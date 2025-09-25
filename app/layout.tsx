@@ -14,9 +14,9 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 const metadata: Metadata = {
-    title: 'Triết Talk - Khám phá thế giới triết học',
+    title: 'E-Learning - Khám phá thế giới triết học',
     description:
-        'Blog triết học với nội dung đa ngôn ngữ, quiz tương tác và AI assistant',
+        'Nền tảng E-Learning triết học với bài viết song ngữ, quiz tương tác và AI assistant',
     generator: 'v0.dev',
 }
 

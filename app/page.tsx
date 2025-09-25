@@ -10,8 +10,6 @@ import {
     Brain,
     Globe,
     Sparkles,
-    TrendingUp,
-    Video,
 } from 'lucide-react'
 import Link from 'next/link'
 
@@ -32,6 +30,86 @@ const blogs = Object.values(blogData)
 
 export default function HomePage() {
     const { t } = useLanguage()
+
+    const chapterArticleCounts = Object.values(blogData).reduce<
+        Record<string, number>
+    >((acc, blog) => {
+        const segments = blog.section.split('.')
+        const chapterId = segments.slice(0, 2).join('.') || blog.section
+        acc[chapterId] = (acc[chapterId] || 0) + 1
+        return acc
+    }, {})
+
+    const chapterCards = [
+        {
+            id: '4.1',
+            href: '/blogs?blog=4.1',
+            title: t('home.chapter41Title'),
+            description: t('home.chapter41Description'),
+            icon: BookOpen,
+            gradient:
+                'from-purple-50 via-blue-50 to-indigo-50 dark:from-purple-900/20 dark:via-blue-900/20 dark:to-indigo-900/20',
+            border: 'border-purple-200/50 dark:border-purple-700/50',
+            floatingTop: 'from-purple-500/20 to-blue-500/20',
+            floatingBottom: 'from-indigo-500/15 to-purple-500/15',
+            iconGradient: 'from-purple-500 to-blue-600',
+            statsBg: 'bg-purple-100 dark:bg-purple-900/50',
+            statsText: 'text-purple-700 dark:text-purple-300',
+            titleHover:
+                'group-hover:text-purple-600 dark:group-hover:text-purple-400',
+            buttonHover:
+                'group-hover:bg-gradient-to-r group-hover:from-purple-500 group-hover:to-blue-600 group-hover:text-white group-hover:border-transparent',
+            buttonClasses:
+                'border-2 border-purple-200 text-purple-700 hover:text-white dark:border-purple-500 dark:text-purple-300',
+            shadow:
+                'hover:shadow-purple-500/25 dark:hover:shadow-purple-400/25',
+        },
+        {
+            id: '4.2',
+            href: '/blogs?blog=4.2',
+            title: t('home.chapter42Title'),
+            description: t('home.chapter42Description'),
+            icon: Globe,
+            gradient:
+                'from-emerald-50 via-green-50 to-teal-50 dark:from-emerald-900/20 dark:via-green-900/20 dark:to-teal-900/20',
+            border: 'border-emerald-200/50 dark:border-emerald-700/50',
+            floatingTop: 'from-emerald-500/20 to-teal-500/20',
+            floatingBottom: 'from-green-500/15 to-emerald-500/15',
+            iconGradient: 'from-emerald-500 to-teal-600',
+            statsBg: 'bg-emerald-100 dark:bg-emerald-900/50',
+            statsText: 'text-emerald-700 dark:text-emerald-300',
+            titleHover:
+                'group-hover:text-emerald-600 dark:group-hover:text-emerald-400',
+            buttonHover:
+                'group-hover:bg-gradient-to-r group-hover:from-emerald-500 group-hover:to-teal-600 group-hover:text-white group-hover:border-transparent',
+            buttonClasses:
+                'border-2 border-emerald-200 text-emerald-700 hover:text-white dark:border-emerald-500 dark:text-emerald-300',
+            shadow:
+                'hover:shadow-emerald-500/25 dark:hover:shadow-emerald-400/25',
+        },
+        {
+            id: '4.3',
+            href: '/blogs?blog=4.3',
+            title: t('home.chapter43Title'),
+            description: t('home.chapter43Description'),
+            icon: Sparkles,
+            gradient:
+                'from-rose-50 via-orange-50 to-yellow-50 dark:from-rose-900/20 dark:via-orange-900/20 dark:to-yellow-900/20',
+            border: 'border-rose-200/50 dark:border-rose-700/50',
+            floatingTop: 'from-rose-500/20 to-orange-500/20',
+            floatingBottom: 'from-yellow-500/15 to-rose-500/15',
+            iconGradient: 'from-rose-500 to-orange-500',
+            statsBg: 'bg-rose-100 dark:bg-rose-900/50',
+            statsText: 'text-rose-700 dark:text-rose-300',
+            titleHover:
+                'group-hover:text-rose-600 dark:group-hover:text-rose-400',
+            buttonHover:
+                'group-hover:bg-gradient-to-r group-hover:from-rose-500 group-hover:to-orange-500 group-hover:text-white group-hover:border-transparent',
+            buttonClasses:
+                'border-2 border-rose-200 text-rose-700 hover:text-white dark:border-rose-500 dark:text-rose-300',
+            shadow: 'hover:shadow-rose-500/25 dark:hover:shadow-rose-400/25',
+        },
+    ] as const
 
     return (
         <div className="container mx-auto px-4 py-8">
@@ -84,20 +162,9 @@ export default function HomePage() {
                             className="text-lg px-8 py-3 border-2 border-emerald-500 text-emerald-600 hover:bg-emerald-500 hover:text-white dark:border-emerald-400 dark:text-emerald-400 dark:hover:bg-emerald-400 dark:hover:text-gray-900 transform hover:scale-105 transition-all duration-300"
                             asChild
                         >
-                            <Link href="/videos">
-                                <Video className="mr-2 h-5 w-5" />
-                                {t('home.watchVideos')}
-                            </Link>
-                        </Button>
-                        <Button
-                            variant="secondary"
-                            size="lg"
-                            className="text-lg px-8 py-3 bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white dark:from-pink-400 dark:to-rose-400 dark:hover:from-pink-500 dark:hover:to-rose-500 transform hover:scale-105 transition-all duration-300"
-                            asChild
-                        >
                             <Link href="/quiz">
-                                <Sparkles className="mr-2 h-5 w-5" />
-                                {t('home.exploreNow')}
+                                <Brain className="mr-2 h-5 w-5" />
+                                {t('home.takeQuiz')}
                             </Link>
                         </Button>
                     </div>
@@ -128,76 +195,57 @@ export default function HomePage() {
                     </h2>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    {/* Enhanced Blog 2 Card */}
-                    <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 dark:from-purple-900/20 dark:via-blue-900/20 dark:to-indigo-900/20 p-8 border border-purple-200/50 dark:border-purple-700/50 hover:shadow-2xl hover:shadow-purple-500/25 dark:hover:shadow-purple-400/25 transition-all duration-500 hover:-translate-y-2 animate-fade-in-left">
-                        <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-purple-500/20 to-blue-500/20 rounded-full -translate-y-20 translate-x-20 group-hover:scale-150 group-hover:rotate-45 transition-all duration-700"></div>
-                        <div className="absolute bottom-0 left-0 w-32 h-32 bg-gradient-to-tr from-indigo-500/15 to-purple-500/15 rounded-full translate-y-16 -translate-x-16 group-hover:scale-125 group-hover:-rotate-45 transition-all duration-700"></div>
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+                    {chapterCards.map((card, index) => {
+                        const Icon = card.icon
+                        const articleCount = chapterArticleCounts[card.id] || 0
 
-                        <div className="relative z-10">
-                            <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 shadow-lg">
-                                <BookOpen className="h-8 w-8 text-white" />
-                            </div>
-                            <h3 className="text-2xl font-bold mb-3 text-gray-900 dark:text-gray-100 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors duration-300">
-                                {t('home.blog2Title')}
-                            </h3>
-                            <p className="text-muted-foreground mb-6 leading-relaxed">
-                                {t('home.blog2Description')}
-                            </p>
-                            <div className="flex items-center justify-between">
-                                <Button
-                                    asChild
-                                    variant="outline"
-                                    className="group-hover:bg-gradient-to-r group-hover:from-purple-500 group-hover:to-blue-600 group-hover:text-white group-hover:border-transparent transition-all duration-300 hover:scale-105"
-                                >
-                                    <Link href="/blogs?blog=2.1">
-                                        {t('home.explore')}{' '}
-                                        <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
-                                    </Link>
-                                </Button>
-                                <div className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 rounded-full">
-                                    <span className="text-sm font-medium text-purple-700 dark:text-purple-300">
-                                        6 {t('home.articles')}
-                                    </span>
+                        return (
+                            <div
+                                key={card.id}
+                                className={`group relative overflow-hidden rounded-3xl bg-gradient-to-br ${card.gradient} p-8 border ${card.border} ${card.shadow} transition-all duration-500 hover:-translate-y-2 animate-fade-in-up`}
+                                style={{ animationDelay: `${index * 150}ms` }}
+                            >
+                                <div
+                                    className={`absolute top-0 right-0 w-40 h-40 bg-gradient-to-br ${card.floatingTop} rounded-full -translate-y-20 translate-x-20 group-hover:scale-150 group-hover:rotate-45 transition-all duration-700`}
+                                ></div>
+                                <div
+                                    className={`absolute bottom-0 left-0 w-32 h-32 bg-gradient-to-tr ${card.floatingBottom} rounded-full translate-y-16 -translate-x-16 group-hover:scale-125 group-hover:-rotate-45 transition-all duration-700`}
+                                ></div>
+
+                                <div className="relative z-10">
+                                    <div className={`w-16 h-16 bg-gradient-to-br ${card.iconGradient} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 shadow-lg`}>
+                                        <Icon className="h-8 w-8 text-white" />
+                                    </div>
+                                    <h3
+                                        className={`text-2xl font-bold mb-3 text-gray-900 dark:text-gray-100 transition-colors duration-300 ${card.titleHover}`}
+                                    >
+                                        {card.title}
+                                    </h3>
+                                    <p className="text-muted-foreground mb-6 leading-relaxed">
+                                        {card.description}
+                                    </p>
+                                    <div className="flex items-center justify-between">
+                                        <Button
+                                            asChild
+                                            variant="outline"
+                                            className={`${card.buttonHover} ${card.buttonClasses} transition-all duration-300 hover:scale-105`}
+                                        >
+                                            <Link href={card.href}>
+                                                {t('home.explore')}{' '}
+                                                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
+                                            </Link>
+                                        </Button>
+                                        <div className={`px-3 py-1 rounded-full ${card.statsBg}`}>
+                                            <span className={`text-sm font-medium ${card.statsText}`}>
+                                                {articleCount} {t('home.articles')}
+                                            </span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
-                    {/* Enhanced Blog 3 Card */}
-                    <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-50 via-green-50 to-teal-50 dark:from-emerald-900/20 dark:via-green-900/20 dark:to-teal-900/20 p-8 border border-emerald-200/50 dark:border-emerald-700/50 hover:shadow-2xl hover:shadow-emerald-500/25 dark:hover:shadow-emerald-400/25 transition-all duration-500 hover:-translate-y-2 animate-fade-in-right">
-                        <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-emerald-500/20 to-teal-500/20 rounded-full -translate-y-20 translate-x-20 group-hover:scale-150 group-hover:rotate-45 transition-all duration-700"></div>
-                        <div className="absolute bottom-0 left-0 w-32 h-32 bg-gradient-to-tr from-green-500/15 to-emerald-500/15 rounded-full translate-y-16 -translate-x-16 group-hover:scale-125 group-hover:-rotate-45 transition-all duration-700"></div>
-
-                        <div className="relative z-10">
-                            <div className="w-16 h-16 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 shadow-lg">
-                                <TrendingUp className="h-8 w-8 text-white" />
-                            </div>
-                            <h3 className="text-2xl font-bold mb-3 text-gray-900 dark:text-gray-100 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors duration-300">
-                                {t('home.blog3Title')}
-                            </h3>
-                            <p className="text-muted-foreground mb-6 leading-relaxed">
-                                {t('home.blog3Description')}
-                            </p>
-                            <div className="flex items-center justify-between">
-                                <Button
-                                    asChild
-                                    variant="outline"
-                                    className="group-hover:bg-gradient-to-r group-hover:from-emerald-500 group-hover:to-teal-600 group-hover:text-white group-hover:border-transparent transition-all duration-300 hover:scale-105"
-                                >
-                                    <Link href="/blogs?blog=3.1">
-                                        {t('home.explore')}{' '}
-                                        <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
-                                    </Link>
-                                </Button>
-                                <div className="px-3 py-1 bg-emerald-100 dark:bg-emerald-900/50 rounded-full">
-                                    <span className="text-sm font-medium text-emerald-700 dark:text-emerald-300">
-                                        6 {t('home.articles')}
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        )
+                    })}
                 </div>
             </section>
 
