@@ -106,7 +106,7 @@ export default function HomePage() {
                     <div className="flex justify-center space-x-8 text-sm text-muted-foreground animate-fade-in-up delay-800">
                         <div className="flex items-center group cursor-pointer">
                             <div className="w-3 h-3 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full mr-2 group-hover:scale-125 transition-transform"></div>
-                            <span className="group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">50+ {t('home.articlesCount')}</span>
+                            <span className="group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">5+ {t('home.articlesCount')}</span>
                         </div>
                         <div className="flex items-center group cursor-pointer">
                             <div className="w-3 h-3 bg-gradient-to-r from-blue-400 to-cyan-500 rounded-full mr-2 group-hover:scale-125 transition-transform"></div>
@@ -270,7 +270,7 @@ export default function HomePage() {
                                 <BookOpen className="h-12 w-12 text-purple-600 dark:text-purple-400 group-hover:scale-110 transition-transform duration-300" />
                             </div>
                             <h3 className="text-5xl font-bold bg-gradient-to-r from-purple-600 to-purple-800 dark:from-purple-400 dark:to-purple-600 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300">
-                                20+
+                                5+
                             </h3>
                             <p className="text-muted-foreground text-lg font-medium">
                                 {t('home.articlesCount')}
@@ -285,7 +285,7 @@ export default function HomePage() {
                                 <Globe className="h-12 w-12 text-blue-600 dark:text-blue-400 group-hover:scale-110 transition-transform duration-300" />
                             </div>
                             <h3 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-cyan-800 dark:from-blue-400 dark:to-cyan-600 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300">
-                                3
+                                2
                             </h3>
                             <p className="text-muted-foreground text-lg font-medium">
                                 {t('home.languagesSupported')}
