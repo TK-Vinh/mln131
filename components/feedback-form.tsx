@@ -10,10 +10,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { CheckCircle, Send } from "lucide-react"
 
 // --- Thay info của mày ở đây ---
-const EMAILJS_SERVICE_ID = "service_eq3w35l"
-const EMAILJS_TEMPLATE_ID = "template_h3jbcbr"
-const EMAILJS_PUBLIC_KEY = "od5MXMazz5qwE9WQC"
-const ADMIN_NAME = "Ka" // Tên người nhận góp ý (to_name)
+const EMAILJS_SERVICE_ID = "service_t5uxgqc"
+const EMAILJS_TEMPLATE_ID = "template_9r5hza7"
+const EMAILJS_PUBLIC_KEY = "jDLXDlrmmaCwOBcIO"
+const ADMIN_NAME = "Vinh" // Tên người nhận góp ý (to_name)
 // -------------------------------
 
 export function FeedbackForm() {
