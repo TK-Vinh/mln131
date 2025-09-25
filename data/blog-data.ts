@@ -67,6 +67,8 @@ Cách mạng Tháng Mười Nga năm 1917 mở ra một thời đại mới: nh�
 - Thực hiện dân chủ toàn diện trên tất cả các lĩnh vực: chính trị, kinh tế, văn hóa, xã hội.
 - Dân chủ gắn với kỷ luật, pháp luật và công bằng xã hội.
 
+![Minh họa dân chủ xã hội chủ nghĩa](/assets/blog-images/4.1.1.png)
+
 #### 1.3. Bản chất và ý nghĩa của dân chủ xã hội chủ nghĩa
 
 ##### 1.3.1. Bản chất
@@ -142,6 +144,8 @@ Key features of socialist democracy include:
 - Democracy is practiced comprehensively in politics, economics, culture, and society.
 - Democracy goes hand in hand with discipline, law, and social justice.
 
+![Illustration of socialist democracy](/assets/blog-images/4.1.1.png)
+
 #### 1.3. Nature and Significance of Socialist Democracy
 
 ##### 1.3.1. Nature
@@ -172,7 +176,7 @@ Among them, socialist democracy represents the highest form of democracy, profou
             vietnamese: '20 phút',
             english: '20 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.1.1-thumbnail.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -321,6 +325,10 @@ Từ góc độ lịch sử, các nhà sáng lập Mác – Lênin nhận xét r
 ### 2.1.2. Tiền đề thực tiễn: từ Công xã Pari đến Cách mạng Tháng Mười
 Ý tưởng về dân chủ vô sản đã phôi thai từ các phong trào và thực tiễn đấu tranh giai cấp – tiêu biểu là Công xã Pari (1871). Song chỉ khi Cách mạng Tháng Mười (1917) thành công, với việc thành lập Nhà nước Xô viết – nhà nước xã hội chủ nghĩa đầu tiên – thì nền dân chủ xã hội chủ nghĩa mới chính thức được xác lập trên quy mô chính quyền và thể chế. Sự ra đời này đánh dấu bước chuyển đổi về chất trong lịch sử dân chủ: từ quyền lực của thiểu số sang quyền lực thực sự hướng tới đại đa số lao động.
 
+![Từ Công xã Pari đến Cách mạng Tháng Mười](/assets/blog-images/4.1.2-1.png)
+
+![Thiết lập nhà nước Xô viết đầu tiên](/assets/blog-images/4.1.2-2.png)
+
 ### 2.1.3. Tiến trình phát triển
 Triết học Mác – Lênin nhấn mạnh rằng nền dân chủ xã hội chủ nghĩa phát triển từ thấp tới cao, từ chưa hoàn thiện tới hoàn thiện, đồng thời kế thừa có chọn lọc các giá trị tích cực của nền dân chủ trước đó. Quá trình hoàn thiện dân chủ xã hội chủ nghĩa bao gồm mở rộng quyền làm chủ của quần chúng, nâng cao tính tự giác và sự tham gia quản lý của nhân dân. Khi dân chủ được mở rộng đến mức rộng rãi và sâu sắc, tính “chính trị” của nhà nước (vốn là công cụ của giai cấp) dần mất đi – nghĩa là nhà nước với tư cách công cụ giai cấp sẽ “tiêu vong” trên đường tới xã hội cộng sản.
 
@@ -385,6 +393,10 @@ From a historical viewpoint, the founders of Marxism–Leninism emphasized that 
 
 ### 2.1.2. Practical Preconditions: From the Paris Commune to the October Revolution
 The idea of proletarian democracy germinated through class struggles, exemplified by the Paris Commune (1871). Only after the success of the October Revolution (1917) and the establishment of the Soviet state—the first socialist state—was socialist democracy institutionalized at the level of government. This milestone marked a qualitative leap in the history of democracy: power shifted from the minority to the real empowerment of the working majority.
+
+![From the Paris Commune to the October Revolution](/assets/blog-images/4.1.2-1.png)
+
+![Founding the first Soviet state](/assets/blog-images/4.1.2-2.png)
 
 ### 2.1.3. Developmental Trajectory
 Marxist–Leninist philosophy stresses that socialist democracy develops from lower to higher levels, from incomplete to more complete forms, while selectively inheriting the positive values of previous democracies. Perfecting socialist democracy involves expanding people’s mastery, enhancing civic consciousness, and broadening participation in governance. When democracy is extended widely and deeply, the “political” character of the state—as an instrument of class rule—gradually fades, foreshadowing the eventual withering away of the state on the path to communist society.
@@ -452,7 +464,7 @@ According to Marxist–Leninist philosophy, socialist democracy is a higher form
             vietnamese: '25 phút',
             english: '25 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.1.2-thumbnail.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -568,6 +580,8 @@ Nhà nước xã hội chủ nghĩa ra đời là kết quả tất yếu của 
 - Công cụ để quản lý kinh tế, văn hóa, xã hội;
 - Đặt dưới sự lãnh đạo của Đảng Cộng sản.
 
+![Sự ra đời của nhà nước xã hội chủ nghĩa](/assets/blog-images/4.2-1.png)
+
 ### 3. Bản chất của nhà nước xã hội chủ nghĩa
 #### 3.1. Bản chất chính trị
 Nhà nước xã hội chủ nghĩa mang bản chất giai cấp công nhân – giai cấp có lợi ích thống nhất với lợi ích cơ bản của quần chúng lao động. Khác với sự thống trị chính trị của giai cấp bóc lột vốn là sự áp đặt của thiểu số lên đa số, sự thống trị của giai cấp công nhân là sự thống trị của đa số đối với thiểu số, nhằm giải phóng chính mình và toàn thể nhân loại bị áp bức. Vì vậy, nhà nước xã hội chủ nghĩa thực chất là nhà nước của nhân dân, do nhân dân, vì nhân dân.
@@ -577,6 +591,8 @@ Cơ sở kinh tế của nhà nước xã hội chủ nghĩa là chế độ cô
 
 #### 3.3. Bản chất văn hóa – xã hội
 Nhà nước xã hội chủ nghĩa được xây dựng trên nền tảng lý luận của chủ nghĩa Mác – Lênin, đồng thời kế thừa giá trị văn hóa tiến bộ của nhân loại và bản sắc dân tộc. Nhà nước hướng tới thu hẹp dần khoảng cách giai cấp, bảo đảm công bằng xã hội, tạo điều kiện cho mọi công dân phát triển toàn diện.
+
+![Bản chất của nhà nước xã hội chủ nghĩa](/assets/blog-images/4.2-2.png)
 
 ### 4. Chức năng của nhà nước xã hội chủ nghĩa
 #### 4.1. Theo phạm vi tác động
@@ -594,12 +610,16 @@ Nhà nước xã hội chủ nghĩa được xây dựng trên nền tảng lý 
 
 > V.I. Lênin nhấn mạnh: “Nhà nước XHCN không phải chỉ là bạo lực đối với bọn bóc lột, mà cái quan trọng hơn là nó tạo ra năng suất lao động cao hơn chế độ cũ”.
 
+![Chức năng của nhà nước xã hội chủ nghĩa](/assets/blog-images/4.2-3.png)
+
 ### 5. Mối quan hệ giữa dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa
 #### 5.1. Dân chủ xã hội chủ nghĩa là nền tảng của nhà nước xã hội chủ nghĩa
 Chỉ trong nền dân chủ xã hội chủ nghĩa, nhân dân mới có đủ điều kiện để thực hiện ý chí và quyền làm chủ của mình thông qua bầu cử, tham gia quản lý nhà nước và giám sát quyền lực. Nếu các nguyên tắc dân chủ xã hội chủ nghĩa bị vi phạm, nhà nước sẽ tha hóa thành công cụ của một nhóm người, đánh mất bản chất.
 
 #### 5.2. Nhà nước xã hội chủ nghĩa là công cụ hiện thực hóa dân chủ
 Nhà nước xã hội chủ nghĩa thể chế hóa ý chí nhân dân thành pháp luật, bảo đảm công bằng, phân định quyền và nghĩa vụ của công dân. Đồng thời, nhà nước là công cụ bạo lực để bảo vệ nền dân chủ, ngăn chặn mọi hành vi xâm phạm quyền lợi nhân dân. Theo Lênin, sự phát triển của nhà nước xã hội chủ nghĩa gắn liền với việc hoàn thiện hình thức dân chủ và mở rộng sự tham gia của nhân dân vào quản lý xã hội.
+
+![Mối quan hệ giữa dân chủ và nhà nước xã hội chủ nghĩa](/assets/blog-images/4.2-4.png)
 
 ### 6. Kết luận
 Nhà nước xã hội chủ nghĩa là kiểu nhà nước mới, khác biệt về bản chất so với các nhà nước bóc lột trong lịch sử. Nó ra đời từ thắng lợi của cách mạng vô sản, mang bản chất giai cấp công nhân và đại biểu cho lợi ích của đại đa số nhân dân lao động. Nhà nước xã hội chủ nghĩa vừa thực hiện chức năng trấn áp thiểu số bóc lột, vừa quan trọng hơn là tổ chức quản lý, xây dựng xã hội mới. Mối quan hệ giữa dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa mang tính biện chứng: dân chủ là nền tảng, còn nhà nước là công cụ tổ chức, bảo vệ và hiện thực hóa dân chủ. Giữ vững bản chất, hoàn thiện chức năng và không ngừng mở rộng dân chủ là điều kiện quyết định để nhà nước xã hội chủ nghĩa phát huy vai trò trụ cột trong sự nghiệp xây dựng và bảo vệ Tổ quốc.
@@ -623,6 +643,8 @@ The socialist state emerges as the inevitable result of revolutions carried out 
 - Serving as the instrument for managing the economy, culture, and society;
 - Operating under the leadership of the Communist Party.
 
+![Emergence of the socialist state](/assets/blog-images/4.2-1.png)
+
 ### 3. Essence of the Socialist State
 #### 3.1. Political Essence
 The socialist state bears the class nature of the working class, whose interests align with those of the laboring masses. Unlike exploitative rule—where a minority dominates the majority—the leadership of the working class represents the majority over the minority in order to liberate itself and all oppressed humanity. Consequently, the socialist state is genuinely a state of the people, by the people, and for the people.
@@ -632,6 +654,8 @@ Its economic foundation is public ownership of the principal means of production
 
 #### 3.3. Cultural and Social Essence
 The socialist state is built upon Marxism–Leninism while inheriting progressive human values and national cultural identity. It strives to narrow class divisions, ensure social justice, and create conditions for every citizen to develop comprehensively.
+
+![Essence of the socialist state](/assets/blog-images/4.2-2.png)
 
 ### 4. Functions of the Socialist State
 #### 4.1. By Scope of Impact
@@ -649,12 +673,16 @@ The socialist state is built upon Marxism–Leninism while inheriting progressiv
 
 > V.I. Lenin emphasized: “The socialist state is not only violence against the exploiters; what matters even more is that it creates a higher labor productivity than the old regime.”
 
+![Functions of the socialist state](/assets/blog-images/4.2-3.png)
+
 ### 5. The Relationship Between Socialist Democracy and the Socialist State
 #### 5.1. Socialist Democracy as the Foundation of the Socialist State
 Only under socialist democracy do the people possess the conditions to realize their will and exercise mastery through elections, participation in state management, and oversight of power. If socialist-democratic principles are violated, the state degenerates into the tool of a clique and loses its essence.
 
 #### 5.2. The Socialist State as the Instrument for Realizing Democracy
 The socialist state institutionalizes the people’s will into law, ensures justice, and delineates citizens’ rights and obligations. At the same time, it wields coercive power to defend democracy and prevent violations of the people’s interests. Lenin argued that the development of the socialist state goes hand in hand with perfecting democratic forms and expanding popular participation in governance.
+
+![Relationship between socialist democracy and the socialist state](/assets/blog-images/4.2-4.png)
 
 ### 6. Conclusion
 The socialist state is a new type of state whose essence differs from every exploitative state in history. Born from the triumph of the proletarian revolution, it embodies the working class and represents the interests of the laboring majority. The socialist state not only suppresses the remnants of exploiters but, more importantly, organizes and builds the new society. The relationship between socialist democracy and the socialist state is dialectical: democracy is the foundation, while the state is the instrument that organizes, protects, and realizes it. Preserving this essence, perfecting its functions, and constantly expanding democracy are decisive conditions for the socialist state to serve as a pillar in building and defending the nation.
@@ -672,7 +700,7 @@ The socialist state is a new type of state whose essence differs from every expl
             vietnamese: '40 phút',
             english: '40 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.2-thumbnail.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -909,6 +937,8 @@ Nhiều lĩnh vực gắn bó mật thiết với dân chủ xã hội chủ ngh
 
 Sau hơn 30 năm đổi mới, nhận thức về dân chủ xã hội chủ nghĩa ở nước ta đã có bước tiến quan trọng. Qua mỗi kỳ đại hội, dân chủ ngày càng được hiểu đúng và vận dụng phù hợp với điều kiện cụ thể của Việt Nam. Đảng xác định một trong những đặc trưng của chủ nghĩa xã hội Việt Nam là **do nhân dân làm chủ**, đưa dân chủ vào mục tiêu tổng quát “dân giàu, nước mạnh, dân chủ, công bằng, văn minh”. Đồng thời, Đảng khẳng định: “Dân chủ xã hội chủ nghĩa là bản chất của chế độ ta, vừa là mục tiêu, vừa là động lực phát triển đất nước. Xây dựng và từng bước hoàn thiện nền dân chủ xã hội chủ nghĩa, bảo đảm dân chủ được thực hiện trong thực tế cuộc sống ở mỗi cấp, trên tất cả các lĩnh vực. Dân chủ gắn liền với kỷ luật, kỷ cương và phải được thể chế hóa bằng pháp luật, được pháp luật bảo đảm…”.
 
+![Dân chủ xã hội chủ nghĩa ở Việt Nam](/assets/blog-images/4.3.1.png)
+
 #### 1.2. Bản chất của nền dân chủ xã hội chủ nghĩa ở Việt Nam
 Cũng như nền dân chủ xã hội chủ nghĩa nói chung, bản chất dân chủ ở Việt Nam dựa trên **Nhà nước xã hội chủ nghĩa** và sự ủng hộ, tham gia của nhân dân. Đây là nền dân chủ lấy con người làm trung tâm trong tư cách công dân – chủ thể làm chủ xã hội, với quyền lực thuộc trọn vẹn về nhân dân.
 
@@ -957,6 +987,8 @@ The Party’s 6th National Congress in 1986 launched comprehensive renovation, s
 
 More than three decades of renovation have deepened Vietnam’s understanding of socialist democracy. Each Party congress has refined democratic thinking to suit the country’s realities. The Party identifies people’s mastery as a defining feature of Vietnamese socialism, embedding democracy in the overarching goal of “a prosperous people, a strong nation, democracy, justice, and civilization.” It also states: “Socialist democracy is the essence of our regime, both the goal and the driving force of national development. We must build and gradually perfect socialist democracy, ensuring it is practiced in real life at every level and across all fields. Democracy must be linked with discipline and order, institutionalized by law, and guaranteed by law….”
 
+![Socialist democracy in Vietnam](/assets/blog-images/4.3.1.png)
+
 #### 1.2. Nature of Socialist Democracy in Vietnam
 Like socialist democracy in general, Vietnam’s democracy rests on the **socialist state** and the people’s support and participation. It places citizens at the center as masters of society, with power belonging entirely to the people.
 
@@ -1000,7 +1032,7 @@ Nevertheless, building socialist democracy still faces challenges: low economic 
             vietnamese: '28 phút',
             english: '28 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.3.1-thumbnail.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1123,6 +1155,8 @@ Từ thực tiễn xây dựng trong thời kỳ đổi mới, nhà nước phá
 5. **Tôn trọng quyền con người**, xem con người là chủ thể và trung tâm phát triển; nhân dân có quyền bầu, bãi miễn đại biểu không xứng đáng; pháp luật được thực thi nghiêm minh.
 6. **Tổ chức bộ máy theo nguyên tắc tập trung dân chủ**, có phân công, phân cấp, phối hợp và kiểm soát lẫn nhau, bảo đảm sự chỉ đạo thống nhất của Trung ương.
 
+![Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam](/assets/blog-images/4.3.2.png)
+
 Những đặc điểm này thể hiện đầy đủ tinh thần chung của nhà nước pháp quyền, đồng thời nhấn mạnh bản sắc của nhà nước pháp quyền xã hội chủ nghĩa Việt Nam: mang bản chất giai cấp công nhân, phục vụ nhân dân và là công cụ để Đảng lãnh đạo sự nghiệp xây dựng chủ nghĩa xã hội.
 `,
             english: `
@@ -1151,6 +1185,8 @@ Experience from the renovation era reveals several core traits of Vietnam’s so
 5. **Respect for human rights**, placing human beings at the center of development; citizens can elect and recall unworthy representatives while the law is rigorously enforced.
 6. **Organization based on democratic centralism**, incorporating division, decentralization, coordination, and mutual control while safeguarding the unified leadership of the central government.
 
+![Vietnam’s socialist rule-of-law state](/assets/blog-images/4.3.2.png)
+
 These features embody the universal spirit of the rule-of-law state while underlining Vietnam’s specificity: a socialist rule-of-law state that carries the working-class nature, serves the people, and functions as the primary instrument for the Communist Party to steer the path toward socialism.
 `,
         },
@@ -1166,7 +1202,7 @@ These features embody the universal spirit of the rule-of-law state while underl
             vietnamese: '20 phút',
             english: '20 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.3.2-thumbnail.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1241,6 +1277,8 @@ These features embody the universal spirit of the rule-of-law state while underl
 
 5. **Hoàn thiện hệ thống giám sát, phản biện xã hội** nhằm phát huy quyền làm chủ của nhân dân. Cần công khai, minh bạch thông tin; cụ thể hóa cơ chế lắng nghe ý kiến nhân dân; nâng cao dân trí, văn hóa pháp luật; tạo điều kiện để nhân dân tham gia góp ý, giám sát đối với chủ trương, chính sách.
 
+![Phát huy dân chủ xã hội chủ nghĩa](/assets/blog-images/4.3.3.png)
+
 #### 3.2. Tiếp tục xây dựng và hoàn thiện Nhà nước pháp quyền xã hội chủ nghĩa
 1. **Xây dựng Nhà nước pháp quyền dưới sự lãnh đạo của Đảng** với bản chất giai cấp công nhân, gắn bó với dân tộc và nhân dân; bảo đảm quyền lực nhà nước thống nhất, có phân công và phối hợp giữa lập pháp, hành pháp, tư pháp.
 
@@ -1268,6 +1306,8 @@ These features embody the universal spirit of the rule-of-law state while underl
 
 5. **Improve systems of social oversight and feedback** so the people can exercise mastery. Information and policies must be transparent; mechanisms for listening to citizens institutionalized; civic education and legal awareness enhanced; and favorable conditions created for public input on national development issues.
 
+![Promoting socialist democracy](/assets/blog-images/4.3.3.png)
+
 #### 3.2. Continuing to Build and Perfect the Socialist Rule-of-Law State
 1. **Build the rule-of-law state under Party leadership**, maintaining its working-class nature, close ties to the nation and people, and unified state power with coordinated legislative, executive, and judicial functions.
 
@@ -1290,7 +1330,7 @@ These features embody the universal spirit of the rule-of-law state while underl
             vietnamese: '24 phút',
             english: '24 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.3.3-thumbnail.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1345,6 +1385,8 @@ Tham nhũng là hành vi của người có chức vụ, quyền hạn lợi d�
 #### 4.3. Các hành vi tham nhũng phổ biến
 Tham ô tài sản; nhận hối lộ; lạm dụng chức vụ chiếm đoạt tài sản; lợi dụng chức vụ khi thi hành nhiệm vụ vì vụ lợi; lạm quyền vì vụ lợi; lợi dụng chức vụ gây ảnh hưởng để trục lợi; giả mạo trong công tác; đưa, môi giới hối lộ; sử dụng trái phép tài sản công vì vụ lợi; nhũng nhiễu; không thực hiện hoặc thực hiện không đúng nhiệm vụ vì vụ lợi; bao che vi phạm hoặc cản trở giám sát, thanh tra, điều tra, truy tố, xét xử, thi hành án vì vụ lợi.
 
+![Phòng, chống tham nhũng](/assets/blog-images/4.3.4.png)
+
 #### 4.4. Nguyên nhân của tham nhũng
 Nguyên nhân chủ quan bao gồm: hạn chế trong tổ chức và hoạt động của hệ thống chính trị; cơ chế, chính sách, pháp luật chưa hoàn thiện; nhận thức của người đứng đầu còn yếu; nhiệm vụ của cơ quan phòng chống tham nhũng chưa phân định rõ; pháp luật chưa đủ mạnh; tuyên truyền còn hình thức. Ngoài ra còn có tác động của mặt trái kinh tế thị trường và toàn cầu hóa; hệ thống chính sách thiếu đồng bộ; quản lý nhà nước lỏng lẻo; quản lý cán bộ còn hạn chế; một số nơi chưa đề cao trách nhiệm người đứng đầu; sự suy thoái đạo đức, lối sống của một bộ phận cán bộ, đảng viên.
 
@@ -1373,6 +1415,8 @@ Corruption is the act of a person holding a position or power who exploits that 
 #### 4.3. Common Corrupt Acts
 Embezzlement; taking bribes; abusing office to appropriate property; misusing authority while performing duties for profit; exceeding authority for profit; leveraging influence for private gain; falsifying official documents; giving or brokering bribes to resolve institutional matters; misappropriating public assets; extortion; neglecting or improperly performing duties for profit; covering up violations or obstructing oversight, inspection, investigation, prosecution, adjudication, and enforcement for profit.
 
+![Combating corruption](/assets/blog-images/4.3.4.png)
+
 #### 4.4. Causes of Corruption
 Subjective causes include shortcomings in political institutions; incomplete mechanisms, policies, and laws; limited awareness among leaders; unclear mandates for anti-corruption agencies; insufficient legal deterrence; and superficial propaganda. Additional factors involve the adverse impacts of the market economy and globalization; inconsistent policies; weak state management; inadequate personnel oversight; insufficient accountability of some leaders; and moral degradation among a segment of officials and party members.
 
@@ -1396,7 +1440,7 @@ Subjective causes include shortcomings in political institutions; incomplete mec
             vietnamese: '18 phút',
             english: '18 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.3.4-thumbnail.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
@@ -1463,6 +1507,8 @@ Subjective causes include shortcomings in political institutions; incomplete mec
 #### 5.1. Chấp hành nghiêm chỉnh pháp luật về phòng, chống tham nhũng
 Mỗi công dân – nhất là người có chức vụ, quyền hạn – phải “giữ mình”, không lợi dụng quyền lực để tham nhũng; đồng thời giáo dục, vận động người thân tuân thủ pháp luật. Ý thức chấp hành là nền tảng để lên án, tố giác, đấu tranh với tham nhũng.
 
+![Trách nhiệm công dân trong phòng, chống tham nhũng](/assets/blog-images/4.3.5.png)
+
 #### 5.2. Lên án, đấu tranh với hành vi tham nhũng
 Chủ động phê phán, nhắc nhở và lên án hành vi sai trái, tạo dư luận xã hội mạnh mẽ nhằm răn đe tham nhũng; thể hiện thái độ không dung thứ.
 
@@ -1487,6 +1533,8 @@ Công dân có thể tham gia thông qua hội nghị, diễn đàn, tổ chức
 
 #### 5.1. Comply Strictly with Anti-Corruption Laws
 Every citizen—especially those holding office—must remain upright, avoid abusing power for private gain, and encourage relatives to obey the law. Legal compliance forms the basis for denouncing and fighting corruption.
+
+![Citizen responsibilities in combating corruption](/assets/blog-images/4.3.5.png)
 
 #### 5.2. Denounce and Oppose Corrupt Acts
 Citizens should actively criticize, admonish, and condemn wrongdoing, thereby shaping strong public opinion against corruption and showing zero tolerance for it.
@@ -1516,7 +1564,7 @@ Participation can occur through conferences, forums, and socio-political organiz
             vietnamese: '12 phút',
             english: '12 minutes',
         },
-        image: '/placeholder.svg?height=200&width=400',
+        image: '/assets/blog-images/4.3.5-thumbnail.png',
         originalLanguage: 'vietnamese' as const,
         quiz: {
             vietnamese: [
