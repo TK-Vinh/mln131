@@ -6,7 +6,7 @@ import { ThemeToggle } from '@/components/theme-toggle'
 import { Button } from '@/components/ui/button'
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
 import { useLanguage } from '@/contexts/language-context'
-import { BookOpen, Home, Menu, MessageSquare, Video } from 'lucide-react'
+import { BookOpen, Brain, Home, Menu, MessageSquare } from 'lucide-react'
 import Link from 'next/link'
 import { useState } from 'react'
 
@@ -17,7 +17,7 @@ export function Navigation() {
     const navItems = [
         { href: '/', label: t('nav.home'), icon: Home },
         { href: '/blogs', label: t('nav.blog'), icon: BookOpen },
-        { href: '/videos', label: t('nav.videos'), icon: Video },
+        { href: '/quiz', label: t('nav.quiz'), icon: Brain },
         { href: '/feedback', label: t('nav.feedback'), icon: MessageSquare },
     ]
 
