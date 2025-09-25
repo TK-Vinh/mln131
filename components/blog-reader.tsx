@@ -14,8 +14,17 @@ import { useLanguage } from '@/contexts/language-context'
 import type { BlogData, BlogId, Language } from '@/data/blog-data'
 import { useToast } from '@/hooks/use-toast'
 import { Calendar, Clock, Pause, Play, User, Volume2 } from 'lucide-react'
+import Image from 'next/image'
 import { useRouter } from 'next/navigation'
-import { useCallback, useEffect, useRef, useState } from 'react'
+import {
+    isValidElement,
+    type ReactNode,
+    useCallback,
+    useEffect,
+    useMemo,
+    useRef,
+    useState,
+} from 'react'
 import ReactMarkdown from 'react-markdown'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { materialDark } from 'react-syntax-highlighter/dist/esm/styles/prism'
@@ -43,6 +52,25 @@ const stripMarkdown = (markdownText: string): string => {
     return cleanedText
 }
 
+const normalizeHeading = (heading: string) =>
+    heading.replace(/\s+/g, ' ').trim().toLowerCase()
+
+const extractTextFromNode = (children: ReactNode): string => {
+    if (typeof children === 'string' || typeof children === 'number') {
+        return String(children)
+    }
+
+    if (Array.isArray(children)) {
+        return children.map(extractTextFromNode).join('')
+    }
+
+    if (isValidElement(children)) {
+        return extractTextFromNode(children.props.children)
+    }
+
+    return ''
+}
+
 export function BlogReader({ blog }: BlogReaderProps) {
     const [isPlaying, setIsPlaying] = useState(false)
     const [audioLanguage, setAudioLanguage] = useState<Language>(
@@ -55,6 +83,78 @@ export function BlogReader({ blog }: BlogReaderProps) {
     const [progress, setProgress] = useState(0)
     const [currentUtterance, setCurrentUtterance] =
         useState<SpeechSynthesisUtterance | null>(null)
+
+    type ContentImage = {
+        src: string
+        alt: Record<Language, string>
+        insertAfterHeading?: Partial<Record<Language, string>>
+    }
+
+    const contentImages = blog.contentImages as ContentImage[] | undefined
+
+    const { galleryImages, headingImageMap } = useMemo(() => {
+        const map = new Map<string, ContentImage[]>()
+        const gallery: ContentImage[] = []
+
+        contentImages?.forEach((image) => {
+            const headingPlacement =
+                image.insertAfterHeading?.[currentLanguage] ??
+                image.insertAfterHeading?.vietnamese ??
+                image.insertAfterHeading?.english
+
+            if (headingPlacement) {
+                const normalizedHeading = normalizeHeading(headingPlacement)
+                if (!map.has(normalizedHeading)) {
+                    map.set(normalizedHeading, [])
+                }
+                map.get(normalizedHeading)!.push(image)
+            } else {
+                gallery.push(image)
+            }
+        })
+
+        return { galleryImages: gallery, headingImageMap: map }
+    }, [contentImages, currentLanguage])
+
+    const renderContentFigure = (
+        image: ContentImage,
+        key: string,
+        { prioritize = false }: { prioritize?: boolean } = {}
+    ) => {
+        const localizedAlt = getLocalizedContent(image.alt)
+
+        return (
+            <figure
+                key={key}
+                className="not-prose rounded-2xl overflow-hidden border border-border shadow-lg bg-card"
+            >
+                <div className="relative w-full aspect-video">
+                    <Image
+                        src={image.src}
+                        alt={localizedAlt}
+                        fill
+                        className="object-cover"
+                        sizes="(min-width: 1024px) 800px, 100vw"
+                        priority={prioritize}
+                    />
+                </div>
+                <figcaption className="text-sm text-muted-foreground px-4 py-3 bg-muted">
+                    {localizedAlt}
+                </figcaption>
+            </figure>
+        )
+    }
+
+    const renderHeadingImages = (headingText: string) => {
+        if (!headingText) return null
+
+        const images = headingImageMap.get(normalizeHeading(headingText))
+        if (!images?.length) return null
+
+        return images.map((image, index) =>
+            renderContentFigure(image, `${image.src}-${index}`)
+        )
+    }
 
     const handleScroll = useCallback(() => {
         if (articleRef.current) {
@@ -373,26 +473,50 @@ export function BlogReader({ blog }: BlogReaderProps) {
 
                     {/* Main Content Area */}
                     <div className="prose dark:prose-invert prose-base sm:prose-lg lg:prose-xl mx-auto md:mx-0 py-2 scroll-smooth">
+                        {galleryImages.length ? (
+                            <div className="space-y-6 mb-10 not-prose">
+                                {galleryImages.map((image, index) =>
+                                    renderContentFigure(image, `${image.src}-${index}`, {
+                                        prioritize: index === 0,
+                                    })
+                                )}
+                            </div>
+                        ) : null}
                         <ReactMarkdown
                             remarkPlugins={[remarkGfm]}
                             components={{
                                 h1: ({ node, ...props }) => (
-                                    <h1
-                                        className="text-4xl md:text-5xl font-extrabold text-primary pt-8 pb-4 border-b border-primary/20 mb-8 hover:scale-[1.01] transition-transform duration-200"
-                                        {...props}
-                                    />
+                                    <>
+                                        <h1
+                                            className="text-4xl md:text-5xl font-extrabold text-primary pt-8 pb-4 border-b border-primary/20 mb-8 hover:scale-[1.01] transition-transform duration-200"
+                                            {...props}
+                                        />
+                                        {renderHeadingImages(
+                                            extractTextFromNode(props.children)
+                                        )}
+                                    </>
                                 ),
                                 h2: ({ node, ...props }) => (
-                                    <h2
-                                        className="text-3xl md:text-4xl font-bold text-secondary-foreground pt-6 pb-3 border-b border-secondary-foreground/10 mb-6 hover:scale-[1.005] transition-transform duration-200"
-                                        {...props}
-                                    />
+                                    <>
+                                        <h2
+                                            className="text-3xl md:text-4xl font-bold text-secondary-foreground pt-6 pb-3 border-b border-secondary-foreground/10 mb-6 hover:scale-[1.005] transition-transform duration-200"
+                                            {...props}
+                                        />
+                                        {renderHeadingImages(
+                                            extractTextFromNode(props.children)
+                                        )}
+                                    </>
                                 ),
                                 h3: ({ node, ...props }) => (
-                                    <h3
-                                        className="text-2xl md:text-3xl font-semibold text-tertiary-foreground pt-4 pb-2 mb-4"
-                                        {...props}
-                                    />
+                                    <>
+                                        <h3
+                                            className="text-2xl md:text-3xl font-semibold text-tertiary-foreground pt-4 pb-2 mb-4"
+                                            {...props}
+                                        />
+                                        {renderHeadingImages(
+                                            extractTextFromNode(props.children)
+                                        )}
+                                    </>
                                 ),
                                 p: ({ node, ...props }) => {
                                     const isPseudoHeading =
