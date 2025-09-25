@@ -325,13 +325,13 @@ Từ góc độ lịch sử, các nhà sáng lập Mác – Lênin nhận xét r
 ### 2.1.2. Tiền đề thực tiễn: từ Công xã Pari đến Cách mạng Tháng Mười
 Ý tưởng về dân chủ vô sản đã phôi thai từ các phong trào và thực tiễn đấu tranh giai cấp – tiêu biểu là Công xã Pari (1871). Song chỉ khi Cách mạng Tháng Mười (1917) thành công, với việc thành lập Nhà nước Xô viết – nhà nước xã hội chủ nghĩa đầu tiên – thì nền dân chủ xã hội chủ nghĩa mới chính thức được xác lập trên quy mô chính quyền và thể chế. Sự ra đời này đánh dấu bước chuyển đổi về chất trong lịch sử dân chủ: từ quyền lực của thiểu số sang quyền lực thực sự hướng tới đại đa số lao động.
 
-![Từ Công xã Pari đến Cách mạng Tháng Mười](/assets/blog-images/4.1.2-1.png)
+
 
 ![Thiết lập nhà nước Xô viết đầu tiên](/assets/blog-images/4.1.2-2.png)
 
 ### 2.1.3. Tiến trình phát triển
 Triết học Mác – Lênin nhấn mạnh rằng nền dân chủ xã hội chủ nghĩa phát triển từ thấp tới cao, từ chưa hoàn thiện tới hoàn thiện, đồng thời kế thừa có chọn lọc các giá trị tích cực của nền dân chủ trước đó. Quá trình hoàn thiện dân chủ xã hội chủ nghĩa bao gồm mở rộng quyền làm chủ của quần chúng, nâng cao tính tự giác và sự tham gia quản lý của nhân dân. Khi dân chủ được mở rộng đến mức rộng rãi và sâu sắc, tính “chính trị” của nhà nước (vốn là công cụ của giai cấp) dần mất đi – nghĩa là nhà nước với tư cách công cụ giai cấp sẽ “tiêu vong” trên đường tới xã hội cộng sản.
-
+![Từ Công xã Pari đến Cách mạng Tháng Mười](/assets/blog-images/4.1.2-1.png)
 ## 2.2. Bản chất của nền dân chủ xã hội chủ nghĩa
 Dân chủ xã hội chủ nghĩa có bản chất đa diện, được phân tích ở các bình diện chính trị, kinh tế, tư tưởng – văn hóa – xã hội và pháp quyền.
 
@@ -937,7 +937,7 @@ Nhiều lĩnh vực gắn bó mật thiết với dân chủ xã hội chủ ngh
 
 Sau hơn 30 năm đổi mới, nhận thức về dân chủ xã hội chủ nghĩa ở nước ta đã có bước tiến quan trọng. Qua mỗi kỳ đại hội, dân chủ ngày càng được hiểu đúng và vận dụng phù hợp với điều kiện cụ thể của Việt Nam. Đảng xác định một trong những đặc trưng của chủ nghĩa xã hội Việt Nam là **do nhân dân làm chủ**, đưa dân chủ vào mục tiêu tổng quát “dân giàu, nước mạnh, dân chủ, công bằng, văn minh”. Đồng thời, Đảng khẳng định: “Dân chủ xã hội chủ nghĩa là bản chất của chế độ ta, vừa là mục tiêu, vừa là động lực phát triển đất nước. Xây dựng và từng bước hoàn thiện nền dân chủ xã hội chủ nghĩa, bảo đảm dân chủ được thực hiện trong thực tế cuộc sống ở mỗi cấp, trên tất cả các lĩnh vực. Dân chủ gắn liền với kỷ luật, kỷ cương và phải được thể chế hóa bằng pháp luật, được pháp luật bảo đảm…”.
 
-![Dân chủ xã hội chủ nghĩa ở Việt Nam](/assets/blog-images/4.3.1.png)
+
 
 #### 1.2. Bản chất của nền dân chủ xã hội chủ nghĩa ở Việt Nam
 Cũng như nền dân chủ xã hội chủ nghĩa nói chung, bản chất dân chủ ở Việt Nam dựa trên **Nhà nước xã hội chủ nghĩa** và sự ủng hộ, tham gia của nhân dân. Đây là nền dân chủ lấy con người làm trung tâm trong tư cách công dân – chủ thể làm chủ xã hội, với quyền lực thuộc trọn vẹn về nhân dân.
@@ -987,7 +987,7 @@ The Party’s 6th National Congress in 1986 launched comprehensive renovation, s
 
 More than three decades of renovation have deepened Vietnam’s understanding of socialist democracy. Each Party congress has refined democratic thinking to suit the country’s realities. The Party identifies people’s mastery as a defining feature of Vietnamese socialism, embedding democracy in the overarching goal of “a prosperous people, a strong nation, democracy, justice, and civilization.” It also states: “Socialist democracy is the essence of our regime, both the goal and the driving force of national development. We must build and gradually perfect socialist democracy, ensuring it is practiced in real life at every level and across all fields. Democracy must be linked with discipline and order, institutionalized by law, and guaranteed by law….”
 
-![Socialist democracy in Vietnam](/assets/blog-images/4.3.1.png)
+
 
 #### 1.2. Nature of Socialist Democracy in Vietnam
 Like socialist democracy in general, Vietnam’s democracy rests on the **socialist state** and the people’s support and participation. It places citizens at the center as masters of society, with power belonging entirely to the people.
@@ -1155,7 +1155,6 @@ Từ thực tiễn xây dựng trong thời kỳ đổi mới, nhà nước phá
 5. **Tôn trọng quyền con người**, xem con người là chủ thể và trung tâm phát triển; nhân dân có quyền bầu, bãi miễn đại biểu không xứng đáng; pháp luật được thực thi nghiêm minh.
 6. **Tổ chức bộ máy theo nguyên tắc tập trung dân chủ**, có phân công, phân cấp, phối hợp và kiểm soát lẫn nhau, bảo đảm sự chỉ đạo thống nhất của Trung ương.
 
-![Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam](/assets/blog-images/4.3.2.png)
 
 Những đặc điểm này thể hiện đầy đủ tinh thần chung của nhà nước pháp quyền, đồng thời nhấn mạnh bản sắc của nhà nước pháp quyền xã hội chủ nghĩa Việt Nam: mang bản chất giai cấp công nhân, phục vụ nhân dân và là công cụ để Đảng lãnh đạo sự nghiệp xây dựng chủ nghĩa xã hội.
 `,
@@ -1185,7 +1184,7 @@ Experience from the renovation era reveals several core traits of Vietnam’s so
 5. **Respect for human rights**, placing human beings at the center of development; citizens can elect and recall unworthy representatives while the law is rigorously enforced.
 6. **Organization based on democratic centralism**, incorporating division, decentralization, coordination, and mutual control while safeguarding the unified leadership of the central government.
 
-![Vietnam’s socialist rule-of-law state](/assets/blog-images/4.3.2.png)
+
 
 These features embody the universal spirit of the rule-of-law state while underlining Vietnam’s specificity: a socialist rule-of-law state that carries the working-class nature, serves the people, and functions as the primary instrument for the Communist Party to steer the path toward socialism.
 `,
@@ -1277,7 +1276,7 @@ These features embody the universal spirit of the rule-of-law state while underl
 
 5. **Hoàn thiện hệ thống giám sát, phản biện xã hội** nhằm phát huy quyền làm chủ của nhân dân. Cần công khai, minh bạch thông tin; cụ thể hóa cơ chế lắng nghe ý kiến nhân dân; nâng cao dân trí, văn hóa pháp luật; tạo điều kiện để nhân dân tham gia góp ý, giám sát đối với chủ trương, chính sách.
 
-![Phát huy dân chủ xã hội chủ nghĩa](/assets/blog-images/4.3.3.png)
+
 
 #### 3.2. Tiếp tục xây dựng và hoàn thiện Nhà nước pháp quyền xã hội chủ nghĩa
 1. **Xây dựng Nhà nước pháp quyền dưới sự lãnh đạo của Đảng** với bản chất giai cấp công nhân, gắn bó với dân tộc và nhân dân; bảo đảm quyền lực nhà nước thống nhất, có phân công và phối hợp giữa lập pháp, hành pháp, tư pháp.
@@ -1306,7 +1305,7 @@ These features embody the universal spirit of the rule-of-law state while underl
 
 5. **Improve systems of social oversight and feedback** so the people can exercise mastery. Information and policies must be transparent; mechanisms for listening to citizens institutionalized; civic education and legal awareness enhanced; and favorable conditions created for public input on national development issues.
 
-![Promoting socialist democracy](/assets/blog-images/4.3.3.png)
+
 
 #### 3.2. Continuing to Build and Perfect the Socialist Rule-of-Law State
 1. **Build the rule-of-law state under Party leadership**, maintaining its working-class nature, close ties to the nation and people, and unified state power with coordinated legislative, executive, and judicial functions.
@@ -1385,7 +1384,6 @@ Tham nhũng là hành vi của người có chức vụ, quyền hạn lợi d�
 #### 4.3. Các hành vi tham nhũng phổ biến
 Tham ô tài sản; nhận hối lộ; lạm dụng chức vụ chiếm đoạt tài sản; lợi dụng chức vụ khi thi hành nhiệm vụ vì vụ lợi; lạm quyền vì vụ lợi; lợi dụng chức vụ gây ảnh hưởng để trục lợi; giả mạo trong công tác; đưa, môi giới hối lộ; sử dụng trái phép tài sản công vì vụ lợi; nhũng nhiễu; không thực hiện hoặc thực hiện không đúng nhiệm vụ vì vụ lợi; bao che vi phạm hoặc cản trở giám sát, thanh tra, điều tra, truy tố, xét xử, thi hành án vì vụ lợi.
 
-![Phòng, chống tham nhũng](/assets/blog-images/4.3.4.png)
 
 #### 4.4. Nguyên nhân của tham nhũng
 Nguyên nhân chủ quan bao gồm: hạn chế trong tổ chức và hoạt động của hệ thống chính trị; cơ chế, chính sách, pháp luật chưa hoàn thiện; nhận thức của người đứng đầu còn yếu; nhiệm vụ của cơ quan phòng chống tham nhũng chưa phân định rõ; pháp luật chưa đủ mạnh; tuyên truyền còn hình thức. Ngoài ra còn có tác động của mặt trái kinh tế thị trường và toàn cầu hóa; hệ thống chính sách thiếu đồng bộ; quản lý nhà nước lỏng lẻo; quản lý cán bộ còn hạn chế; một số nơi chưa đề cao trách nhiệm người đứng đầu; sự suy thoái đạo đức, lối sống của một bộ phận cán bộ, đảng viên.
@@ -1415,7 +1413,7 @@ Corruption is the act of a person holding a position or power who exploits that 
 #### 4.3. Common Corrupt Acts
 Embezzlement; taking bribes; abusing office to appropriate property; misusing authority while performing duties for profit; exceeding authority for profit; leveraging influence for private gain; falsifying official documents; giving or brokering bribes to resolve institutional matters; misappropriating public assets; extortion; neglecting or improperly performing duties for profit; covering up violations or obstructing oversight, inspection, investigation, prosecution, adjudication, and enforcement for profit.
 
-![Combating corruption](/assets/blog-images/4.3.4.png)
+
 
 #### 4.4. Causes of Corruption
 Subjective causes include shortcomings in political institutions; incomplete mechanisms, policies, and laws; limited awareness among leaders; unclear mandates for anti-corruption agencies; insufficient legal deterrence; and superficial propaganda. Additional factors involve the adverse impacts of the market economy and globalization; inconsistent policies; weak state management; inadequate personnel oversight; insufficient accountability of some leaders; and moral degradation among a segment of officials and party members.
@@ -1507,7 +1505,7 @@ Subjective causes include shortcomings in political institutions; incomplete mec
 #### 5.1. Chấp hành nghiêm chỉnh pháp luật về phòng, chống tham nhũng
 Mỗi công dân – nhất là người có chức vụ, quyền hạn – phải “giữ mình”, không lợi dụng quyền lực để tham nhũng; đồng thời giáo dục, vận động người thân tuân thủ pháp luật. Ý thức chấp hành là nền tảng để lên án, tố giác, đấu tranh với tham nhũng.
 
-![Trách nhiệm công dân trong phòng, chống tham nhũng](/assets/blog-images/4.3.5.png)
+
 
 #### 5.2. Lên án, đấu tranh với hành vi tham nhũng
 Chủ động phê phán, nhắc nhở và lên án hành vi sai trái, tạo dư luận xã hội mạnh mẽ nhằm răn đe tham nhũng; thể hiện thái độ không dung thứ.
@@ -1534,7 +1532,7 @@ Công dân có thể tham gia thông qua hội nghị, diễn đàn, tổ chức
 #### 5.1. Comply Strictly with Anti-Corruption Laws
 Every citizen—especially those holding office—must remain upright, avoid abusing power for private gain, and encourage relatives to obey the law. Legal compliance forms the basis for denouncing and fighting corruption.
 
-![Citizen responsibilities in combating corruption](/assets/blog-images/4.3.5.png)
+
 
 #### 5.2. Denounce and Oppose Corrupt Acts
 Citizens should actively criticize, admonish, and condemn wrongdoing, thereby shaping strong public opinion against corruption and showing zero tolerance for it.
