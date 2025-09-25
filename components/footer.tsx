@@ -6,10 +6,10 @@ import { BookOpen, Github, Mail, Twitter } from 'lucide-react'
 import Link from 'next/link'
 
 export function Footer() {
-    const { t, currentLanguage, getLocalizedContent } = useLanguage()
+    const { t, getLocalizedContent } = useLanguage()
 
     // Get available blogs dynamically
-    const availableBlogs = Object.entries(philosophyBlogs).slice(0, 4) // Show first 4 blogs
+    const availableBlogs = Object.entries(philosophyBlogs)
 
     return (
         <footer className="bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 border-t mt-16">
@@ -63,12 +63,6 @@ export function Footer() {
                                 📚 {t('nav.blog')}
                             </Link>
                             <Link
-                                href="/videos"
-                                className="block text-muted-foreground hover:text-blue-600 dark:hover:text-blue-400 text-sm transition-colors duration-200 hover:translate-x-1 transform"
-                            >
-                                🎥 {t('nav.videos')}
-                            </Link>
-                            <Link
                                 href="/quiz"
                                 className="block text-muted-foreground hover:text-emerald-600 dark:hover:text-emerald-400 text-sm transition-colors duration-200 hover:translate-x-1 transform"
                             >
@@ -89,18 +83,18 @@ export function Footer() {
                             {t('footer.blogs')}
                         </h3>
                         <div className="space-y-3">
-                            <Link
-                                href="/blogs?blog=2.1"
-                                className="block text-muted-foreground hover:text-purple-600 dark:hover:text-purple-400 text-sm transition-colors duration-200 hover:translate-x-1 transform"
-                            >
-                                {t('footer.blog2')}
-                            </Link>
-                            <Link
-                                href="/blogs?blog=3.1"
-                                className="block text-muted-foreground hover:text-blue-600 dark:hover:text-blue-400 text-sm transition-colors duration-200 hover:translate-x-1 transform"
-                            >
-                                {t('footer.blog3')}
-                            </Link>
+                            {availableBlogs.map(([blogId, blog]) => {
+                                const blogTitle = getLocalizedContent(blog.title)
+                                return (
+                                    <Link
+                                        key={blogId}
+                                        href={`/blogs?blog=${blogId}`}
+                                        className="block text-muted-foreground hover:text-purple-600 dark:hover:text-purple-400 text-sm transition-colors duration-200 hover:translate-x-1 transform"
+                                    >
+                                        {blogTitle}
+                                    </Link>
+                                )
+                            })}
                             <Link
                                 href="/blogs"
                                 className="block text-muted-foreground hover:text-emerald-600 dark:hover:text-emerald-400 text-sm transition-colors duration-200 hover:translate-x-1 transform"
